@@ -1,0 +1,30 @@
+\\\ÆWICZENIA
+1. Uproœæ wyra¿enie:
+a) $\log_{2} 3^10$
+b) $\log_{2^9} 4^9$
+c) $\log_{5} 1000$
+
+2. Zamieñ podstawê logarytmu $\log_{5} 3600$ na 10 i uproœæ.
+
+\\\ROZWI¥ZANIA
+
+1.
+a) Wy³¹czamy po prostu przed logarytm wyk³adnik otrzymuj¹c $10\log_{2} 3$
+b) Zamieniaj¹c $4$ na $2^2$ dostajemy:
+$\log_{2^9} (2^2)^9 = \log_{2^9} (2^9)^2$, czyli tak naprawdê $\log_a a^2$ - co z definicji jest równe $2$ (do jakiej potêgi nale¿y podnieœæ $a$, aby otrzymaæ $a^2$?).
+c) Rozk³adaj¹c $1000$ na czynniki pierwsze dostajemy:
+$\log_{5} 1000 = \log_{5} 5^3*2^3$
+Teraz mo¿emy podzieliæ logarytm na dwie czêœci zamieniaj¹c mno¿enie na dodawanie:
+\log_{5} 5^3*2^3 = \log_{5} 5^3 + \log_{5} 2^3 = 3 + 3\log_{5} 2$.
+
+2.
+Tak jak w poprzednim zadaniu rozk³adamy $3600$ na czynniki - tyle, ¿e tym razem interesuje nas iloœæ 10 mieszcz¹cych siê w argumencie.
+
+$\log_{5} 3600 = \log_{5} 10^2 * 2^2*3^2$
+Teraz mo¿emy zamieniaæ podstawy logarytmu:
+
+$\log_5 3600 = \frac{\log_10 3600}{\log_10 5} = \frac{\log_10 10^2 * 2^2*3^2}{\log_10 5} = \frac{2(2\log_10 2 + \log_10 3 + \log_10 5)}{\log_10 5} = 2 + \frac{4\log_10 2}{\log_10 5} + \frac{2\log_10 3}{\log_10 5}$
+
+
+
+

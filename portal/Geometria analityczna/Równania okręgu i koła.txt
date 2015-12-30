@@ -1,0 +1,25 @@
+Okr¹g
+
+Maj¹c opanowan¹ teoriê prostych mo¿emy przejœæ do równan opisuj¹cych bardziej z³o¿one obiekty - okrêgi. Jak wiadomo okr¹g nie jest niczym innym, jak tylko wszystkimi punktami oddalonymi od œrodka dokladnie o d³ugoœæ promienia. Je¿eli œrodek okrêgu le¿a³by w punkcie $$(0,0)$$, to jego równanie przybra³oby po prostu postaæ $$x^2 + y^2 = r^2$$ (z twierdzenia Pitagorasa). 
+
+\\\RYSUNEK1 - okr¹g i pitagoras
+
+Dodaj¹c do równania wspó³czynniki $$a$$ i $$b$$ i zapisuj¹c je w postaci $$(x-a)^2 + (y-b)^2 = r^2$$ otrzymujemy równanie dowolnego okrêgu - jego œrodek le¿y w punkcie $$(a, b)$$. (Dlaczego tak jest? Odejmuj¹c od wspó³rzêdnych te wspó³czynniki przesuwamy ca³y obiekt w poziomie $$a$$ i pionie $$b$$. Mo¿na to zrozumieæ przypominaj¹c sobie, w jaki sposób przesuwa³o siê funkcjê kwadratow¹).
+
+
+Przyk³ad: okr¹g $$O_1$$ o promieniu $$r = 5$$ i œrodku w punkcie $$(2,3)$$ opisuje równanie $$(x-2)^2 + (y-3)^2 = 25$$. Mo¿emy te¿ zadaæ pytanie: czy dany punkt nale¿y do okrêgu? OdpowiedŸ weryfikuje siê podstawiaj¹c po prostu wspó³rzêdne rozwa¿anego punktu do równania.
+Je¿eli chcielibyœmy sprawdziæ, czy do okrêgu $$O_1$$ nale¿y punkt $$(-2, 0)$$, sprawdzilibyœmy, czy równanie $$(-2-2)^2 + (0-3)^2 = 25$$ jest prawdziwe. Obliczaj¹c: 
+$$ 4^2 + 3^2 = 16 + 9 = 25$$ przekonujemy siê, ¿e ten punkt rzeczywiœcie nale¿y do okrêgu.
+
+Ko³o
+
+Ko³o jest czymœ bardzo podobnym do okrêgu: z t¹ tylko ró¿nic¹, ¿e nie zawiera jedynie punktów odleg³ych o $$r$$ od œrodka, a wszystkie punkty, których odleg³oœæ jest mniejsza lub równa $$r$$. Wynika, ¿e równanie okrêgu zamienia siê w nierównoœæ ko³a:
+$$(x-a)^2 + (y-b)^2 <= r^2$$
+Sprawdzanie, czy dany punkt nale¿y do ko³a przebiega analogicznie jak w przypadku okrêgu: podstawiaj¹c pod $$x$$ i $$y$$ wspó³rzêdne punktu i porównuj¹c wartoœci po dwóch stronach nierównoœci.
+
+Przyk³ad: czy do ko³a opisanego nierównoœci¹ $$(x-1)^2 + (y-5)^2 <= 3^2$$ nale¿y punkt $$(1,1)$$?
+Podstawiaj¹c wspó³rzêdne otrzymujemy:
+$$(1-1)^2 + (1-5)^2 <= 9$$
+$$16 <= 9$$
+Nie jest to prawd¹, wiêc punkt nie nale¿y do ko³a.
+

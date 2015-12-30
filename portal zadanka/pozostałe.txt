@@ -1,0 +1,37 @@
+Zad 1
+Naszkicuj wykresy funkcji $$f(x) = 2^x$$ i $$g(x) = |f(x-3) - 4|$$. Podaj wartoœæ najmniejsz¹ i najwiêksz¹ w przedziale $$<3;6>$$.
+
+Rozwi¹zanie:
+//Obrazek1
+Wartoœæ najmniejsza to 0, wartoœæ najwiêksza to 4.
+
+Zad 5
+Naszkicuj wykres funkcji $$f(x) = \log_3 (3x + 3)$$. Dla jakich argumentów funkcja przyjmuje wartoœci mniejsze od 2?
+
+//Obrazek5
+Dla $$x<2$$.
+
+Zad 11
+Zaznacz w uk³adzie wspó³rzêdnych zbiór tych par $$(x,y)$$, które spe³niaj¹ równanie $$\log_2|y| = 2 - \log_2 x$$
+
+Rozwi¹zanie:
+//Obrazek11
+$$\log_2|y| = 2 - \log_2 x
+\log_2|y| = \log_2 4 - \log_2 x
+\log_2|y| = \log_2 \frac{4}{x}
+y = \frac{4}{x}
+y = -\frac{4}{x}
+$$
+
+Zad 18
+Na rysunku [//Obrazek18a] przedstawiono wykres funkcji wyk³adniczej $$f(x) = a^x$$.
+a) Oblicz $$a$$.
+b) Narysuj wykres funkcji $$(g)x) = |f(x) - 2| i podaj wszystkie wartoœci parametru $$m$$ dla którego równanie $$g(x) = m$$ ma dok³adnie jedno rozwi¹zanie.
+
+Rozwi¹zanie:
+a) Z rysunku widaæ, ¿e $$a^2 = 3$$, wiêc $$a = \sqrt{3}$$.
+b)
+//Obrazek18b
+Jedno rozwi¹zanie otrzymujemy dla $$m = 0$$ albo $$m > 2$$, poniewa¿ $$\lim_{\to -\infty} |\\sqrt{3}^x - 2|$$.
+
+

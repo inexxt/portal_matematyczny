@@ -1,0 +1,13 @@
+\textbf{Operacje na wyra¿eniach wymiernych}
+
+W poprzednim temacie poznaliœmy wyra¿enia wymierne: teraz nauczymy siê, jak mo¿na wykonywaæ na nich operacje dodawania, odejmowania, mno¿enia i dzielenia, a tak¿e co mo¿na z nimi - jako u³amkami - robiæ.
+
+Podstawowe operacje: dodawania, odejmowania i mno¿enia s¹ doœæ oczywiste. Mamy tak naprawdê dwa u³amki, a u³amki jak wiadomo dodaje siê i odejmuje sprowadzaj¹c je do wspólnego mianownika, a póŸniej dodaj¹c liczniki. Z tym nie powinno byæ ¿adnego problemu: dla pewnoœci poka¿ê to na przyk³adzie:
+
+$$\frac{x+2}{x+3} + \frac{x^2-5x-1}{x+2} = \frac{(x-1)(x-2)}{(x+3)(x-2)} + \frac{(x^2-5x-1)(x+3)}{(x+3)(x-2)} = \frac{(x^2-5x-1)(x+3) + (x+3)(x+2)}{(x+3)(x-2)} = \frac{{x^3 - x^2 - 11x + 3}{(x^2+x-6}$$
+
+Mno¿enie wykonujemy tak¿e standardowo, mno¿¹c po prostu licznik i mianownik, czyli odpowiednie wielomiany.
+
+Dzielenie jest takie samo, jak w przypadku normalnych u³amków (czyli mno¿ymy przez odwrotnoœæ), ale trzeba pamiêtaæ o tym, ¿e wynikowe wyra¿enie wymierne mo¿e mieæ ju¿ inn¹ dziedzinê: trzeba z niej wy³¹czyæ pierwiastki licznika u³amka, przez który dzielimy. Przyk³ad: $$\frac{x-2}{x-3} / \frac{x-1}{x+3} = \frac{(x-2)(x+3)}{(x-3)(x-1)}$$, a dziedzina to liczby rzeczywiste bez 3 i 1.
+
+Mo¿emy tak¿e \textbf{skracaæ} wyra¿enia wymierne. Polega to na tym samym, co w przypadku normalnych u³amków: po prostu dzielimy licznik i mianownik przez ten sam czynnik - ten sam wielomian. Choæ samo skracanie nie powinno nastrêczaæ trudnoœci, to nie wolno zapominaæ o tym, ¿e dziedzina wyra¿enia siê zachowuje! To bardzo czêsty b³¹d. Przyk³ad: skróæmy \frac{x^2-2x+1}{x^2-3x+2}. Z poprzedniego dzia³u wiemy ju¿, jak zwin¹æ sumy do iloczynów: pierwszy to po prostu wzór skróconego mno¿enia - $$(x-1)^2$$, w drugi natomiast rozbijamy $$-3x$$ na $$-x -2x$$, i dostrzegamy, ¿e mo¿emy wy³¹czyæ wspólny czynnik $$(x-1)$$; mianownik zamienia siê wiêc na $$(x-1)x + (x-1)2 = (x-1)(x-2)$$. Ca³y u³amek wygl¹da wiêc tak: $$\frac{(x-1)^2}{(x-1)(x-2)}. Mo¿emy wiêc skróciæ przez $$x-1$$, w wyniku otrzymuj¹c $$\frac{x-1}{x-3}$$. Ale trzeba pamiêtaæ o tym, ¿e nowe wyra¿enie, mimo ¿e samo w sobie ma w dziedzinie wszystkie liczby rzeczywiste bez 3, to przejœcie z poprzedniego zak³ada³o, ¿e $$(x-1)$$ jest ró¿ne od zera, czyli z dziedziny wyrzucamy tak¿e 1.

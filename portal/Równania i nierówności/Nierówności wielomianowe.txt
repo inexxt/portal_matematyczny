@@ -1,0 +1,38 @@
+Nierównoœci wielomianowe
+
+Rozwi¹zywanie nierównoœci wielomianowych to inaczej mówi¹c szukanie przedzia³ów, gdzie wielomian jest konkretnego znaku. Aby móc to zrobiæ musimy najpierw poznaæ pierwiastki wielomianu, parzystoœæ jego stopnia oraz znak przy najwy¿szej potêdze $$x$$-a. Gdy bêdziemy ju¿ to wiedzieli, mo¿liwe stanie siê narysowanie (schematycznego) wykresu wielomianu i odczytanie z niego odpowidnich informacji.
+
+Kroki, jakie musimy zrobiæ, prezentuj¹ siê wiêc nastêpuj¹co:
+1) Znajdujemy pierwiastki wielomianu
+2) Badamy znak przy najwy¿szej potêdze $$x$$-a
+3) Rysujemy schematyczny wykres
+4) Odczytujemy rozwi¹zanie nierównoœci z wykresu
+
+Wydaje siê to doœæ proste - tak naprawdê najwiêksz¹ trudnoœæ zawsze bêdzie sprawia³ punkt pierwszy.
+Zacznijmy od prostego przyk³adu:
+$$(x-2)(x-4)(x+10)(x+11) > 0$$
+Jak widaæ nie musimy wykonywaæ kroku pierwszego - widaæ, ¿e pierwiastkami wielomianu s¹ liczby $$2,4,-10,-11$$. Ponadto od razu mo¿emy stwierdziæ, ¿e przy najwy¿szej potêdze $$x$$-a jest znak dodatni oraz wielomian jest stopnia parzystego. Pozostaje wiêc tylko narysowaæ wykres:
+
+\\\RYSUNEK1 - wielomian
+
+Odczytanie z wykresu przedzia³ów, gdzie wielomian jest dodatni, nie powinno byæ ju¿ ¿adnym problemem. Nierównoœæ jest spe³niona na przedzia³ach $$(-\infty, -11), (-10, 2), (4, \infty)$$.
+
+Drugi przyk³ad bêdzie nieco trudniejszy:
+$$2x^3-9x^2+7x+6 < 0$$
+Aby go rozwi¹zaæ musimy najpierw poznaæ pierwiastki tego wielomianu, co robimy za pomoc¹ jednej z dwóch wymienionych w poprzednim rozdziale metod. Jako ¿e na pierwszy rzut oka nie widaæ, co mo¿na wy³¹czyæ przed nawias, skorzystamy z twierdzenia o pierwiastkach wymiernych. Niestety nie mo¿emy podzieliæ obustronnie przez 2, poniewa¿ niektóre ze wspó³czynników przesta³yby byæ ca³kowite. 
+
+$$W(x) = 2x^3-9x^2+7x+6$$
+Dzielniki 2: 1, 2, -1, -2
+Dzielniki 6: 1, 2, 3, -1, -2, -3
+SprawdŸmy po kolei:
+$$W(1) = 6 \neq 0$$ - jedynka nie jest pierwiastkiem
+$$W(-1) = -12 \neq 0$$ - minus jedynka te¿ nie
+$$W(2) = 0$$ - znaleŸliœmy pierwiastek. 
+Mo¿emy teraz podzieliæ wielomian przez dwumian $$(x-2)$$ korzystaj¹c ze schematu Hornera. Otrzymujemy
+$$W(x) = (x-2)(2x^2-5x-3)$$
+Drugi czynnik jest ju¿ równaniem kwadratowym, którego pierwiastki mo¿emy obliczyæ korzystaj¹c z delty: s¹ one równe $$3$$ oraz $$-\frac{1}{2}$$. 
+Znamy wiêc pierwiastki naszego wielomianu: $$-\frac{1}{2}, 2, 3$$. parzystoœæ jego stopnia (nieparzysty) oraz znak przy najwy¿szej potêdze $$x$$-a (dodatni). Mo¿emy zabraæ siê za rysowanie wykresu.
+
+\\\RYSUNEK2 - wykres wielomianu
+
+Odczytanie danych z wykresu nie jest ju¿ trudne: wielomian jest ujemny w przedzia³ach $$(-\infty, -\frac{1}{2})$$ oraz $$(2, 3)$$ i to w³aœnie s¹ rozwi¹zania naszej nierównoœci.

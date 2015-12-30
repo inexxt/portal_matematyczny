@@ -1,0 +1,25 @@
+Wzory skróconego mno¿enia
+W trakcie kursu podstawowego pozna³eœ ju¿ wzory skróconego mno¿enia zawieraj¹ce wyra¿enia kwadratowe. Teraz przyszed³ czas na wyra¿enia szeœcienne, czyli trzecie potêgi. Omówimy dwa wzory, z czego ka¿dy wystêpuje w dwóch odmianach: sumy oraz ró¿nicy.
+Wzór pierwszy:
+
+$$$$
+(a+b)^3 = a^3+3ab^2+3a^2b+b^3
+$$$$
+$$$$
+(a-b)^3 = a^3+3ab^2-3a^2b-b^3
+$$$$
+
+Jest on doœæ oczywisty, mo¿na po wyprowadziæ go po prostu wymna¿aj¹c wyra¿enie $$ (a+b)(a+b)(a+b) $$. Jak go zapamiêtaæ? Mo¿na o nim myœleæ w ten sposób: maj¹c te trzy nawiasy mo¿emy tylko na jeden sposób zbudowaæ $$ a^3 $$ i $$ b^3 $$, wiêc wspó³czynnik przy nich wynosi jeden. Za to $$3ab^2$$ zbudowaæ na trzy sposoby: z dwóch nawiasów bierzemy po prostu $$a$$, a z jednego $$b$$ - a ¿e nawiasy s¹ trzy, to mamy trzy mo¿liwoœci: $$abb bab bba$$. Wspó³czynnik przy tym wyra¿eniu musi byæ wiêc równy 3. Analogicznie w przypadku sk³adnika $$3a^2b$$.
+W przypadku ró¿nicy minus wystêpuje oczywiœcie tam, gdzie $$b$$ jest podniesione do nieparzystej potêgi.
+
+Wzór drugi:
+$$$$
+a^3 + b^3 = (a+b)(a^2-ab+b^2)
+$$$$
+$$$$
+a^3 - b^3 = (a-b)(a^2+ab+b^2)
+$$$$
+
+Ten te¿ jest doœæ prosty do udowodnienia: po wymno¿eniu prawej strony rzeczywiœcie otrzymujemy lew¹ (wszystko inne ni¿ $$a^3$$ i $$b^3$$ siê redukuje. Jak go zapamiêtaæ? Pierwszy nawias to po prostu suma/ró¿nica, znak jest taki sam jak znak znak lewej strony. Drugi czynnik jest ju¿ wtedy oczywisty, jeœli pamiêtamy o tym, ¿e ca³e wyra¿enie musi zawieraæ dok³adnie jeden plus: w przypadku ró¿nicy trzecich potêg minus mieliœmy ju¿ wczeœniej, w przypadku sumy $$ab$$ jest jedynym miejscem, gdzie mo¿emy go dopisaæ, bo inaczej otrzymalibyœmy ujemny sk³adnik $$a^3$$ lub $$b^3$$.
+
+

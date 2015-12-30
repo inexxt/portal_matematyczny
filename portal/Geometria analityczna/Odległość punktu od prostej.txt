@@ -1,0 +1,58 @@
+Odleg³oœæ punktu od prostej
+
+Odleg³oœæ punktu od prostej to d³ugoœæ odcinka prostopad³ego poprowadzonego z punktu do prostej.
+
+\\\RYSUNEK1 - odlegóœæ
+
+Wyliczenie tej odleg³oœci mo¿emy przeprowadziæ na dwa sposoby:
+1) Zapisujemy równanie prostej prostopad³ej przechodz¹cej przez dany nam punkt (patrz - wyznaczanie równania prostej).
+PóŸniej obliczamy odleg³osæ miêdzy danym punktem a punktem przeciêcia korzystaj¹c z twierdzenia pitagorasa
+
+\\\RYSUNEK2 - podejœcie pierwsze, zaznaczony na pomarañczowo trójk¹t
+
+2) Sposób drugi jest du¿o prostszy, ale wymaga znajomoœci pewnego wzoru.
+Aby policzyæ odleg³oœæ zapisujemy równanie prostej w postaci ogólnej: 
+$$Ax + By + C = 0$$. Zak³adaj¹c, ¿e punkt ma wspó³rzêdne $$(x_p, y_p)$$, odleg³oœæ miêdzy nim a prost¹ jest równa:
+$$d = \frac{|Ax_p + By_p + C|}{\sqrt{A^2 + B^2}}$$
+Wzór ten jest tak naprawdê w³aœnie metod¹, której u¿yliœmy poprzednio zapisan¹ w zwartej postaci. Warto pamiêtaæ, ¿e jest on dostêpny w tablicach maturalnych, ¿eby w trakcie egzaminu nie mêczyæ siê niepotrzebnie z pierwsz¹ metod¹.
+
+Dla przyk³adu obliczmy dwoma metodami odleg³oœæ punktu $$(2,1)$$ od prostej $$y = 3x - 2$$.
+I metoda:
+1) Rysujemy rysunek
+\\\RYSUNEK3
+2) Znajdujemy prost¹ prostopad³¹ do naszej prostej przechodz¹c¹ przez punkt $$(2,1)$$.
+$$a_2 = -\frac{1}{a}$$
+$$a_2 = -\frac{1}{3}$$
+$$y_2 = -\frac{1}{3}x + b$$
+$$1 = -\frac{1}{3}*2 + b$$
+$$1 + \frac{2}{3}) = b$$
+$$b = \frac{5}{3}$$
+Druga funkcja ma wiêc wzór:
+$$y_2 = -\frac{1}{3}x + \frac{5}{3}$$
+3) Teraz musimy obliczyæ wzpó³rzêdne punktu przeciêcia. Najpierw porównujemy oba wzory, aby uzyskaæ wspó³rzêdn¹ $$x$$:
+$$3x - 2 =  -\frac{1}{3}x + \frac{5}{3}$$
+$$3x + \frac{1}{3}x  = 2 + \frac{5}{3}$$
+$$x(3 + \frac{1}{3})  = \frac{11}{3}$$
+$$x = \frac{11}{3} * \frac{3}{10}$$
+$$x = \frac{11}{10}$$
+
+Maj¹c $$x$$ mo¿emy wstawiæ go do pierwszego równania i obliczyæ $$y$$:
+$$y = 3*\frac{11}{10} - 2$$
+$$y = \frac{13}{10}$$
+
+4) Czas na obliczenie d³ugoœci odcinka miêdzy punktem przeciêcia a danym punktem. Robimy to korzystaj¹c z tw. Pitagorasa:
+$$d^2 = ((2-\frac{11}{10})^2 + (1-\frac{13}{10})^2)^2$$
+$$d^2 = (\frac{81}{100} + \frac{9}{100})^2
+$$d = \sqrt{\frac{90}{100}}$$
+$$d = \frac{3}{\sqrt{10}}$$
+
+II metoda
+W tej metodzie najpierw musimy napisaæ równanie prostej w postaci ogólnej $$Ax + By + C = 0$$
+W naszym przypadku $$3x - y - 2 = 0$$ odpowiednie wspó³czynniki s¹ równe:
+$$A = 3$$
+$$B = -1$$
+$$C = -2$$
+Mo¿emy teraz skorzystaæ z poznanego wzoru uzyskuj¹c:
+$$d = \frac{|Ax_p + By_p + C|}{\sqrt{A^2 + B^2}} = \frac{|3*2 + (-1)*1 - 2|}{\sqrt{3^2 + (-1)^2}} = \frac{3}{\sqrt{10}}$$
+
+

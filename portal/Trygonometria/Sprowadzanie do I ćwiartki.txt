@@ -1,0 +1,56 @@
+Teraz, gdy ju¿ wprowadziliœmy miarê ³ukow¹, mo¿emy zaj¹æ siê wyznaczaniem wartoœci funkcji trygonometrycznych dowolnych k¹tów. 
+
+Po pierwsze warto przypomnieæ definicjê funkcji trygonometrycznych. Po kolei:
+
+$$sin \alpha = \frac{y}{R} $$
+$$cos \alpha = \frac{x}{R} $$
+$$tan \alpha = \frac{y}{x} $$
+$$ctg \alpha = \frac{x}{y} $$
+
+gdzie $$ R = \sqrt{x^2 + y^2}$$ (z tw. Pitagorasa)
+
+\\\RYSUNEK1 - funkcje
+
+Teraz mo¿emy wprowadziæ tzw. wzory redukcyjne: bardzo przydatne do obliczania k¹tów le¿¹cych w innych ni¿ I æwiartkach uk³adu. 
+Dla przyk³adu wyprowadzimy sobie wzory na 
+1) $$ sin (\frac{\pi}{2} - \alpha)$$ oraz 
+2) $$ cos (\frac{3}{2}*\pi + \alpha)$$.
+Pozwoli to zrozumieæ, dlaczego wzory te dzia³aj¹ akurat tak - i w przypadku zapomnienia ich bêdzie mo¿na po prostu przypomnieæ sobie tok rozumowania wyprowadzaj¹c wzór samodzielnie :).
+
+Zacznijmy od sinusa - pierwsze, co nale¿y zrobiæ, to po prostu narysowaæ sobie ca³¹ sytuacjê.
+
+\\\RYSUNEK2 sinusa
+
+Wystarczy teraz nanieœæ wszystkie wartoœci liczbowe, ¿eby zobaczyæ, ¿e $$sin (\frac{\pi}{2} + \alpha) $$, jest tutaj równy $$\frac{y}{R}$$. Przenosz¹c sytuacjê w pierwsz¹ æwiartkê (na rysunku): jest to po prostu $$cos \alpha $$ - poniwa¿ na osi x od³o¿yliœmy odcinek równy $$-y$$, a na osi y - odcinek $$x$$ i równanie przybra³o postaæ. 
+Ca³oœæ sporwadza siê wiêc do zrobienia odpowiedniego rysunku.
+
+Przechodz¹c do drugiego wzoru postêpujemy podobnie. 
+
+\\\RYSUNEK3 cosinusa
+
+Po narysowaniu i zaznaczeniu odpowiednich wartoœci mo¿na dostrzec, ¿e  $$ cos (\frac{3}{2}*\pi + \alpha)$$ = \frac{x}{R} to po prostu $$ -sin \alpha$$.
+
+W ogólnoœci
+
+\\\RYSUNEK4 wszystkich kombinacji
+
+¯eby u³atwiæ zapamiêtanie zobaczymy teraz ogólne regu³y, wedle których tworzy siê wzory redukcyjne i sprawdzimy kilka przyk³adów. 
+Wszystkich wzorów redukcyjnych jest po prostu zbyt du¿o do zapamiêtania(cztery funkcje razy cztery mo¿liwe k¹ty: $$\frac{\pi}{2}, \pi, $$\frac{3*\pi}{2}, 2*\pi$$ razy dwa mo¿liwe znaki (+/-) daj¹ w sumie 32 kombinacje.
+
+Popatrzmy wiêc na ogóln¹ postaæ wzoru redukcyjnego:
+
+$$f(K (+/-)\alpha) = g(\alpha)$$
+
+gdzie $$K$$ jest po prostu k¹tem i mo¿e przyjmowaæ wartoœci $$\frac{\pi}{2}, \pi, $$\frac{3*\pi}{2}, 2*\pi$$.
+
+Zasada I: Funkcje mog¹ przechodziæ tylko na siebie lub swoje kofunkcje. To znaczy, ¿e sin i cos musz¹ zawsze przejœæ na sin albo cos, zaœ tan i ctg na tan i ctg.
+Zasada II: Jeœli k¹t jest równy $$\frac{\pi}{2}$$ lub $$\frac{3\pi}{2}$$, czyli te, w których k¹t $$\pi$$ nie mieœci siê w ca³oœci, to funkcja przechodzi na kofunkcjê (tzn. sinus na cosinus, tanges na cotangens itd.). W innym przypadku funkcja zostaje taka jaka by³a.
+Zasada III: To, czy dodamy minus, czy nie, zale¿y od tego, w której æwiartce uk³adu le¿a³ wczeœniej k¹t. Nale¿y zapamiêtaæ poni¿sz¹ tabelkê:
+
+\\\TABELA1 w pierwszej æwiartce same plusy
+
+I jeœli przechodzimy z æwiartki "ujemnej" - zmieniamy znak. W teorii mo¿e brzmieæ skomplikowanie, ale wystarczy przeczytaæ przyk³ad, ¿eby zrozumieæ o co chodzi.
+WeŸmy funkcjê $$sin(\frac{3\pi}{2} - \alpha)$$. Analizuj¹c argument dochodzimy do wniosku, ¿e le¿y w trzeciej æwiartce, poniewa¿ od k¹ta \frac{3\pi}{2}, który rozgranicza æwiartki III i IV przesuwamy siê do ty³u, do III æwiartki. Zgodnie z tabelk¹ funcja sinus jest tam ujemny, wiêc musimy dodaæ minus.
+PóŸniej zastanawiamy siê nad tym, czy trzeba zmieniæ funkcjê: trzeba, poniewa¿ w naszym k¹cie $$\pi$$ nie mieœci siê w ca³oœci.
+
+Efektem jest wiêc $$sin(\frac{3\pi}{2} - \alpha) = -cos(\alpha)$$.

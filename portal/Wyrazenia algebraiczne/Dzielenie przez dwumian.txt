@@ -1,0 +1,34 @@
+\textbf{Dzielenie wielomianu przez dwumian}
+Dzielenie wielomianów to temat, który wielu osobom nastrêcza sporych trudnoœci. Wszystkie problemy bior¹ siê st¹d, ¿e traktuj¹ one wielomiany tak, jak "liczby" - wtedy rzeczywiœcie jest problem z wyobra¿eniem sobie podzia³u $$(x^3-7x+6)$$ przez $$(x-4)$$.
+
+Jak wiadomo, ka¿dy wielomian mo¿na zapisaæ jako iloczyn wielomianów pierwszego i drugiego stopnia ("Twierdzenie o rozk³adzie wielomianu"). Te wielomiany s¹ tak jakby "liczbami pierwszymi" - przek³adaj¹c na œwiat liczb ca³kowitych. Kiedy dzielimy wielomian przez wielomian - tak samo jak przy dzieleniu liczby przez liczbê - nie musi on podzieliæ siê ca³kowicie. Na przyk³ad: gdy dzielimy 13 przez 2, otrzymujemy 6 i resztê 1. Tak samo dzia³a to w przypadku wielomianów, tyle, ¿e reszta jest wielomianem. Warto te¿ zauwa¿yæ, ¿e tak jak przy normalnym dzieleniu reszta nie mo¿e byæ wiêksza od dzielnika, tak reszta wielomianowa musi byæ stopnia mniejszego ni¿ wielomian, przez który dzielimy - w przypadku dzielenia przez dwumian reszta bêdzie po prostu liczb¹.
+
+No dobrze, ale jak przeprowadziæ to dzielenie? Istniej¹ przynajmniej dwie metody. 
+
+1. Po pierwsze, mo¿na skorzystaæ ze \textbf{schematu Hornera}, który pozwala podzielic dowolny wielomian przez dwumian $$(x-a)$$. Metoda polega na tym, ¿eby zbudowaæ tabelkê o dwóch wierszach i $$n+1$$ kolumnach, gdzie $$n$$ to stopieñ wielomianu, który dzielimy. W pierwszym wierszu wpisujemy wspó³czynniki stoj¹ce przed kolejnymi potêgami zmiennej, w pierwszej kolumnie zapisujemy nasze $$a$$. Zobaczmy to na przyk³adzie podanym we wstêpie: $$(x^3-7x+6)$$ przez $$(x-4)$$.
+
+\\\RYSUNEK1
+W drugim wierszu kolumny wykonujemy algorytm. Proces wygl¹da tak: najpierw przepisujemy pierwszy wspó³czynnik na dó³: czyli w naszym przypadku jedynkê.
+\\\RYSUNEK2
+
+
+PoŸniej a¿ do "skoñczenia siê miejsca" robimy coœ takiego: bierzemy ostatni¹ zape³nion¹ komórkê w dolnym rzêdzie, mno¿ymy j¹ przez nasze $$a$$, dodajemy tê wartoœæ do nastêpnej górnej komórki i wpisujemy w nastêpn¹ woln¹ doln¹ komórkê. Opis mo¿e wydawaæ siê zawi³y, wiêc popatrzmy, co siê dzieje na naszym przyk³adzie.
+
+\\\RYSUNEK3
+Wpisaliœmy $$ 4 = 4*1 + 0 $$
+
+Kontynuujemy:
+\\\RYSUNEK4
+
+Wpisaliœmy $$ 9 = 4*4 - 7 $$
+\\\RYSUNEK5
+
+Wpisaliœmy $$ 42 = 4*9 +6 $$
+
+Dzia³a to w³aœnie tak, poniewa¿ wielomian mo¿na zapisaæ w postaci iloczynowej:
+$$a_n(x(x(..(x+a_(n-1))+a_(n-2))...)+a_1)+a_0$$
+Nasz wielomian wygl¹da³by w tym zapisie tak:
+$$(x(x(x+0)-7)+6$$
+
+Wynikiem jest w³aœnie "42" - jest to reszta z dzielenia tych dwóch wielomianów. 
+Jak w takim razie podzieliæ przez dwumian postaci $$ax+b$$? Mo¿emy po prostu zapisaæ go jako $$a(x + \fac{b}{a})$$ i podzieliæ najpierw przez pierwszy, a póŸniej przez drugi czynnik.

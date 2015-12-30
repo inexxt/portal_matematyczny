@@ -1,0 +1,46 @@
+Równania wielomianowe
+
+Dotychczas zajmowaliœmy siê jedynie równaniami liniowymi i kwadratowymi -nadszed³ czas na rozwiniêcie ich na wielomiany wy¿szego stopnia.
+Ogólna postaæ równania wielomianowego to
+$$a_nx^n + a_(n-1)x^(n-1) + ... + a_1x + a_0 = 0$$
+Rozwi¹zywanie takiego równania polega na niczym innym, jak znajdowaniu pierwiastków wielomianu. Oczywiœcie nie zawsze jest to wykonalne, jednak na maturze przyk³ady s¹ tak u³o¿one, aby da³o siê to zrobiæ poznanymi przez nas metodami:
+1) rozk³adaniem wyra¿enia na czynniki
+2) stosuj¹c twierdzenie o pierwiastkach wymiernych
+a tak¿e stosuj¹c now¹, której nauczymy siê w tym rozdziale
+3) poprzez podstawienie
+
+Zwykle naszym celem bêdzie doprowadzenie do równania kwadratowego, z którym potrafimy sobie poradziæ. WeŸmy na przyk³ad równanie
+$$3x^3+6x^2+3x+6 = 0$$ 
+
+1) Po pierwsze mo¿na zauwa¿yæ, ¿e po wy³¹czeniu odpowiednich czynników przed nawias
+$$3x^2(x + 2) + 3(x+2) = 0$$
+mo¿liwe staje siê roz³o¿enie wielomianu na czynniki
+$$3(x-2)(x^2 + 1) = 0$$
+Gdy mamy ju¿ postaæ iloczynow¹, sprawdzamy po prostu, gdzie zeruj¹ siê wszystkie nawiasy. W naszym przypadku pierwszy z nich ma pierwiastek w punkcie $$x=2$$, zaœ drugi nie ma go wcale (jest sum¹ kwadratu i liczby dodatniej). Jedynym rozwi¹zaniem naszego równania jest wiêc $$x=2$$
+2) Druga metoda opiera sie na wypisaniu dzielników pierwszego i ostatniego wspó³czynnika i sprawdzeniu wszystkich ich kombinacji. Jednak zanim to zrobimy warto podzieliæ obie strony przez równania przez 3 - uproœcimy sobie w ten sposób pracê.
+$$3x^3+6x^2+3x+6 = 0 /:3$$
+$$x^3+2x^2+x+2 = 0$$
+a) Dzielniki 1 to: 1, -1
+b) Dzielniki 2 to: 1, 2, -1, -2
+
+Próbuj¹c ró¿nych kombinacji odnajdujemy w koñcu pierwiastek równy $$-2$$, a po podzieleniu wielomianu przez dwumian $$x+2$$ korzystaj¹c ze schematu Hornera otrzymujemy $$(x+2)(x^2+1) = 0$$. Dalsza czêœæ jest analogiczna jak w przypadku poprzedniej metody
+
+Sposób drugi mo¿e wydawaæ siê bardziej skomplikowany i czasoch³onny, ale je¿eli nie dostrze¿emy, jak nale¿y rozk³adaæ wielomian - jest to nasza jedyna droga.
+
+Trzecia metoda - podstawienia - sprawdza siê, gdy mamy do czynienia na przyk³ad z równaniem dwukwadratowym. Jest to równanie postaci
+$$ax^(2n) + bx^n + c = 0$$
+Mimo, ¿e mamy tu do czynienia z wielomianem wysokiego stopnia, podstawiaj¹c $$x^n = t$$ otrzymujemy zwyk³e równanie kwadratowe:
+$$at^2 + bt + c = $$
+Rozwi¹zujemy wiêc to równanie: za³ó¿my, ¿e ma ono pierwiastki równe $$t_1$$ oraz $$t_2$$. Wracamy wtedy do podstawienia i otrzymujemy rozwi¹zania
+$$x_1 = t_1^n$$ oraz $$x_2 = t_2^n$$.
+
+Przyk³ad:
+Rozwi¹zaæ równanie $$x^8 - 5x^4 + 6 = 0$$.
+Pierwszy krok to podstawienie $$t = x^4$$. Zapisujemy równanie w nowej formie:
+$$t^2 - 5t + 6 = 0$$
+Obliczaj¹c deltê i standardowo wyliczaj¹c pierwiastki otrzymujemy
+$$t_1 = 2$$ oraz $$t_2 = 3$$. Wracaj¹c do podstawienia uzyskujemy wyniki $$x_1 = 2^4 = 16$$ oraz $$x_2 = 3^4 = 81$$. Nale¿y jeszcze pamiêtaæ o sprawdzeniu, czy wyniki rzeczywiœcie s¹ pierwiastkami równania wyjœciowego. Dlaczego? 
+Poniewa¿ jeœli pierwiastkami by³yby liczby ujemne, to po podniesieniu do parzystej potêgi sta³yby siê dodatnie i w oczywisty sposób nie spe³nia³yby równania.
+
+
+

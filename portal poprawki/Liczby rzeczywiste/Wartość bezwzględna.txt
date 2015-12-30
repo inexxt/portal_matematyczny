@@ -1,0 +1,59 @@
+\\\ODP: Æw. 1
+a) poniewa¿ $$-5 < 0$$, to wartoœæ bezwzglêdna zmienia znak: $$|-5| = -(-5) = 5%
+b) $$\frac{1}{2}$$ jest oczywiœcie wiêksze od zera, wiêc opuszczamy wartoœæ bezwzglêdn¹ nie zmieniaj¹c znaku: 
+$$|\frac{1}{2}| = \frac{1}{2}$$
+c) Kwadrat liczby rzeczywistej jest zawsze wiêkszy od zera, wiêc wartoœæ bezwzglêdna nie zmienia znaku: 
+$$|a^2| = a^2$$
+
+\\\ODP: Æw. 2
+\\\By³o ju¿ napisane
+
+\\\ODP: Æw. 3
+a) Rozbijamy to na dwa przypadki:
+I. $$x + 5 > 0$$
+wynika z tego, ¿e $$x > -5$$.
+
+Wartoœæ bezwzglêdna nie zmienia znaku:
+$$x + 5 = 7$$
+$$x = 2$$
+Otrzymaliœmy rozwi¹zanie, które spe³nia warunek $$x > -5$$.
+
+II. $$x + 5 =< 0$$
+wynika z tego, ¿e $$x =< -5$$.
+
+Wartoœæ bezwzglêdna zmienia znak:
+$$-x - 5 = 7$$
+$$x = -12$$
+Otrzymaliœmy rozwi¹zanie, które spe³nia warunek $$x =< -5$$.
+
+b) W tym przyk³adzie postêpujemy analogicznie jak w poprzednim.
+I. $$4x - 8 > 0$$, czyli $$x > 2$$
+Nie zmieniamy znaku:
+$$4x - 8 = 16$$
+$$4x = 24$$
+$$x = 6$$ - rozwi¹zanie spe³nia warunek.
+
+II. $$4x - 8 =< 0$$, czyli $$x =< 2$$
+Zmieniamy znak:
+$$-4x + 8 = 16$$
+$$4x = -8$$
+$$x = -2$$ - rozwi¹zanie spe³nia warunek.
+
+\\\ZMIENI£EM PRZYK£AD TROCHÊ
+c) Ponownie rozbijamy na dwa przypadki:
+I. $$x^2 -3x + 2 > 0$$, czyli $$(x-1)(x-2) > 0$$.
+Oba czynniki musz¹ byæ tego samego znaku, wiêc $$x \in (-\infty, 1) \cup (2, \infty)$$.
+Rozwi¹zuj¹c dalej otrzymujemy:
+$$x^2 - 3x + 2 = 2$$
+$$x^2 - 3x = 0$$
+$$x(x-3) = 0$$
+Rozwi¹zaniami s¹ liczby $$x = 0$$ i $$x = 3$$. Mieszcz¹ siê one w naszych przedzia³ach.
+
+II. $$x^2 -3x + 2 <= 0$$, czyli $$(x-1)(x-2) <= 0$$.
+Oba czynniki musz¹ byæ ró¿nego znaku, wiêc $$x \in \langle 1, 2 \rangle$$
+Rozwi¹zuj¹c dalej otrzymujemy:
+$$-x^2 + 3x - 2 = 2$$
+$$-x^2 + 3x  - 4 = 0$$
+Równanie to nie ma rozwi¹zañ.
+
+Jedynymi rozwi¹zaniami s¹ wiêc liczby z przypadku I.

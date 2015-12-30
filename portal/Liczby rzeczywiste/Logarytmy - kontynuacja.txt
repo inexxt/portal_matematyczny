@@ -1,0 +1,34 @@
+Logarytmy - kontynuacja
+
+Matura rozszerzona w zakresie logarytmów nie wymaga tak naprawdê wiêcej ni¿ dwóch dodatkowych rzeczy w odniesieniu do matury podstawowej.
+
+Pierwsz¹ z nich jest wy³¹czenie przed logarytm wyk³adnika. Z poprzedniego tekstu o logarytmach, wiecie ju¿, ¿e $$\log_{a} b^c = c \log_{a} b$$
+
+Co jednak, jeœli mamy sytuacjê $$\log_{(a^b) c$$.
+Okazuje siê, ¿e coœ takiego jest równe po prostu $$\frac{1}{b} \log_{a} c$$. Dlaczego?
+
+Dowód jest ca³kiem prosty:
+Najpierw korzystamy z w³asnoœci, ¿e $$\log_{a} b = \frac{1}{{\log_{b}} a$$ i otrzymujemy $$\log_{(a^b) c = \frac{1}{\log_{c}} (a^b)$$. PóŸniej wy³¹czamy wyk³adnik przed logarytm i znowu odwracamy u³amek, w efekcie otrzymuj¹c
+faktycznie $$\frac{1}{b} \log_{a} c$$
+
+Sk³adaj¹c to z poprzednim wzorem w ogólnoœci otrzymujemy:
+$$\log_{(a^b) c^d = \frac{d}{b} \log_{a} c$$
+(£atwo zapamiêtaæ: górny wyk³adnik wchodzi na górê u³amka, dolny - na dó³).
+
+Przyk³ady:
+$$\log_{2}^4 3^3 = 3/4 \log_{2} 3$$
+$$\log_{8} 32 = \log_{2}^3 2^5 = 5/3 \log_{2} 2 = 5/3$$
+
+Drugi nowy wzór jest nieco bardziej skomplikowany i s³u¿y do zamiany podstawy logarytmu. Mo¿emy u¿yæ go do zamiany niewygodnej dla nas podstawy na tak¹, któr¹ ³atwiej operowaæ: w szczególnoœi mo¿emy na przyk³ad zamieniæ ka¿dy logarym na logarytm dziesiêtny lub naturalny. Wygl¹da on tak:
+$$\log_{a} b = \log_{c} b / \log_{c} a$$
+
+Jego dowód:
+$$ \log_{a} b = \log_{c} b / \log_{c} a
+\log_{a} b *\log_{c} a= \log_{c} b
+$$Korzystamy ze wzoru na w³¹czenie potêgi:$$
+\log_{c} a^(\log_{a} b) = \log_{c} b
+$$Oczywiœcie a^(\log_{a} b) jest równe b (podnosimy a do tej potêgi, do jakiej nale¿y podnieœæ a, ¿eby otrzymaæ b) i w efekcie dostajemy:
+$$\log_{c} b = \log_{c} b$$
+Czyli wzór rzeczywiœcie dzia³a.
+
+Widaæ z niego, ¿e dowolne dwa logarytmy o ustalonych podstawach: na przyk³ad $$\log_{2} x$$ i $$\log_{100} x$$ ró¿ni¹ siê jedynie o pomno¿enie przez sta³¹ $$\frac{1}{\log_{2} 1000}$$.

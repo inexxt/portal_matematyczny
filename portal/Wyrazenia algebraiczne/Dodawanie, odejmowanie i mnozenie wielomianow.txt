@@ -1,0 +1,11 @@
+\textbf{Dodawanie, odejmowanie i mno¿enie wielomianów}
+
+W tym temacie zajmiemy siê prostymi dzia³aniami na wielomianach. Jest to tak naprawdê bardzo proste.
+
+Dodawanie jest raczej oczywiste: Maj¹c dwa wielomiany, które chcemy dodaæ, dodajemy po prostu ka¿dy z ich sk³adników (czyli sumujemy wspó³czynniki przy tych samych potêgach zmiennej). Jeœli s¹ zapisane w postaci iloczynowej, mo¿emy albo wymno¿yæ oba i wtedy je dodaæ, albo zauwa¿yæ (chocia¿ nie zawsze jest to mo¿liwe), ¿e da siê coœ wy³¹czyæ przed nawias i w ten sposób oszczêdziæ sobie pracy.
+Pierwsza sytuacja: dodajemy wielomiany $$2x^3+5x+3$$ i $$4x^5-x^3+2x-10$$. Wynikiem jest oczywiœcie $$4x^5+x^3+7x-7$$.
+
+Drugi przypadek: $$(x-2)(x^2+4x+5) + (2x-4)(x+6) = (x-2)(x^2+4x+5) + 2(x-2)(x+6) = (x-2)(x^2+4x+5 + 2(x+6)) = (x-2)(x^2+6x+17)$$
+Odejmowanie wykonujemy zupe³nie analogicznie.
+
+Mno¿enie wielomianów jest zwyk³ym wymna¿aniem nawiasów, z czym stykaliœmy siê w ka¿dym niemal temacie. Po prostu ka¿dy czynnik jednego nawiasu wymna¿amy przez wszystkie sk³adniki drugiego.

@@ -1,0 +1,63 @@
+Dzielenie wielomianu przez dwumian
+
+W rozdziale dotycz¹cym wyra¿eñ algebraicznych pojawi³o siê ju¿ dzielenie wielomianów przez dwumiany. W tym rozdziale poznamy nowe i niezwykle u¿yteczne twierdzenie pozwalaj¹ce szybko obliczaæ resztê z dzielenia wielomianu przez dwumian postaci $$(x-a)$$.
+
+Twierdzenie o dzieleniu wielomianu $$W(x)$$ przez dwumian $$(x-a)$$ mówi, ze reszta z tego dzielenia jest równa $$W(a)$$. Od razu widaæ, ¿e jeœli reszta jest równa zero, to twierdzenie rzeczywiœcie dzia³a - $$a$$ jest wtedy pierwiastkiem wielomianu. SprawdŸmy je na przyk³adzie.
+
+WeŸmy wielomian $$W(x) = x^4 - 3x^3 - 3x + 1$$ i podzielmy go znanym ju¿ sposobem przez dwumian $$(x-3)$$ (schemat Hornera).
+
+\\\RYSUNEK - schemat Hornera
+
+Jak widaæ, reszta z dzielenia to $$(-8)$$. Obliczaj¹c teraz $$W(3)$$ wynik tak¿e wychodzi $$(-8)$$. 
+
+Pierwiastki wymierne wielomianu
+
+Gdy mamy obliczyæ pierwiastki równania kwadratowego, nie sprawia to ¿adnego problemu - s¹ na to gotowe wzory. Przy równaniu stopnia trzeciego pojawia siê ju¿ problem, ale istniej¹ wzory tak¿e na równania szeœcienne - i na równania stopnia czwartego tak¿e. S¹ one wprawdzie doœæ skomplikowane, ale przy du¿ej dozie samozaparcia da siê dojœæ do wyniku.
+Pytanie wiêc, co dzieje siê w przypadku wielomianów stopnia wy¿szego ni¿ 4? Wzory po prostu nie istniej¹ - i to w takim sensie, ¿e zosta³a matematycznie udowodniona niemo¿liwoœæ ich znalezienia. 
+Istniej¹ jednak pewne techniki umo¿liwiaj¹ce szukanie pierwiastków takich wielomianów.
+
+Twierdzenie o pierwiastkach wymiernych wielomianów mówi, ¿e je¿eli wielomian ma wszystkie wspó³czynniki ca³kowite, to jego pierwiastki wymierne (postaci $$\frac{p}{q}$$, oczywiœcie u³amek jest nieskracalny) spe³niaj¹ warunki:
+1) Wyraz wolny wielomianu jest podzielny przez $$p$$.
+2) Wspó³czynnik przy najwy¿szej potêdze $$x^n$$ jest podzielny przez $$q$$.
+
+Dowód tego faktu opiera siê na zapisaniu wielomianu w postaci 
+$$a_n(\frac{p}{q})^n + a_(n-1)(\frac{p}{q})^(n-1) + ... + a_1\frac{p}{q} +  a_0 = 0$$
+Jeœli pomno¿ymy teaz obie strony przez $$q^n$$:
+$$a_np^n + a_(n-1)p^(n-1)q + ... + a_1pq^(n-1) + aq^n = 0$$
+I przeniesiemy ostatni sk³adnik na drug¹ stronê:
+$$a_np^n + a_(n-1)p^(n-1)q + ... + a_1pq^(n-1) = -aq^n$$
+to skoro lewa strona jest podzielna przez p - prawa tak¿e musi byæ. Ale liczby $$p$$ i $$q$$ nie mia³y wspólnych dzielników (u³amek by³ nieskracalny) - wynika z tego, ¿e w³aœnie $$a$$ musi dzieliæ siê przez $$p$$.
+
+Dowód czêœci drugiej jest zupe³nie analogiczny, wymaga jedynie zrobienia kroku zerowego: przemno¿enia obu stron przez $$(\frac{q}{p})^n$$.
+
+Nasze twierdzenie pozwala nam wiêc znajdowaæ wszystkie pierwiastki wymierne wielomianu poprzez proste sprawdzenie wszystkich mo¿liwych kombinacji dzielników wyrazu wolnego i wyrazu stoj¹cego przy najwy¿szej potêdze $$x$$-a.
+Nale¿y jednak zaznaczyæ, ¿e nie ka¿dy taki u³amek bêdzie pierwiastkiem.
+
+Przyk³ad: znaleŸæ wszystkie wymierne pierwiastki wielomianu $$W(x) = 6x^4-11x^3-13x^2+16x+12$$.
+Naszym pierwszym krokiem jest wypisanie wszystkich dzielników pierwszego i ostatniego wyrazu:
+a) Dzielniki 6 to: 1, 2, 3, -1, -2, -3.
+b) Dzielniki 12 to: 1, 2, 3, 4, 6, 12, -1, -2, -3, -4, -6, -12.
+Teraz mo¿emy sprawdziæ, czy któraœ z liczb powsta³ych przez podzielenie jednego dzielnika przez drugi jest pierwiastkiem.
+SprawdŸmy po kolei:
+$$W(\frac{1}{1}) = 10$$ - nie jest pierwiastkiem
+$$W(\frac{2}{1}) = 0$$ - znaleŸliœmy pierwiastek
+Skoro mamy jeden pierwiastek, mo¿emy podzieliæ nasz wielomian przez dwumian $$(x-2)$$ u¿ywaj¹c schematu Hornera - dziêki temu zmniejszymy o jeden stopieñ wielomianu i bêdzie nam ³atwiej podstawiaæ kolejne liczby; zmniejszy siê tak¿e wyraz wolny, a wiêc liczba potrzebnych do sprawdzenia dzielników.
+$$W(x) / (x-2) = 6x^3+x^2-11x-6
+Dzielniki 6 to: 1, 2, 3, -1, -2, -3.
+Sprawdzamy dalej:
+$$W(\frac{1}{2}) = -\frac{21}{2}$$ - nie jest pierwiastkiem
+$$W(-\frac{1}{2}) = -1$$ - nie jest pierwiastkiem
+$$W(\frac{3}{1}) = 132$$ - nie jest pierwiastkiem
+$$W(-\frac{3}{1}) = -126$$ - nie jest pierwiastkiem
+$$W(\frac{3}{2}) = 0$$ - znaleŸliœmy kolejny pierwiastek. Ponownie mo¿emy podzieliæ wielomian korzystaj¹c ze schematu Hornera otrzymuj¹c:
+$$(W(x) / (x-2))/(x-\frac{3}{2}) = 6x^2+10x+4$$
+Moglibyœmy dalej kontynuowaæ zgadywanie, ale jako ¿e doszliœmy ju¿ do równania kwadratowego, ³atwiej bêdzie po prostu obliczyæ deltê i rozwi¹zaæ je za pomoc¹ wzorów.
+$$\Delta = 4$$
+$$x_1 = -1$$
+$$x_2 = -\frac{2}{3}$$
+Jak widaæ akurat w tym przyk³adzie wszystkie pierwiastki by³y wymierne: nie musi tak jednak byæ i czasami, mimo ¿e wspó³czynniki wielomianu s¹ calkowite, jego pierwiastki s¹ na przyk³ad tylko niewymierne.
+
+Warto na koniec wspomnieæ o jednej rzeczy, która, jeœli siê jej nie zna, mo¿e mocno zaszkodziæ przy rozwi¹zywaniu zadania. Nale¿y zawsze sprawdzaæ pierwiastek drugi raz, ¿eby przekonaæ siê, czy nie by³ podwójnym. Jeœli tego nie zrobimy, to mo¿emy stwierdziæ, ¿e "przecie¿ wszystkie pozosta³e kombinacje zosta³y sprawdzone, wiêc nie ma ju¿ ¿adnych pierwiastków wymiernych" - co oka¿e siê póŸniej powa¿nym b³êdem.
+
+
+ 

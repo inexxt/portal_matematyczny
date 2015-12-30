@@ -1,0 +1,22 @@
+Suma i ró¿nica funkcji
+
+Drugim typem popularnych wzorów wymaganych do zrobienia zadañ maturalnych s¹ te pozwalaj¹ce zamieniæ sumê funkcji trygonometrycznych na ich iloczyn. Nie trzeba ich pamiêtaæ jakoœ bardzo dok³adnie, nale¿y jedynie znaæ ogólny schemat ich tworzenia - jeœli zauwa¿ymy w zadaniu coœ "podejrzanego", zawsze mo¿na siêgn¹æ do tablic i sprawdziæ detale.
+
+$$sin(x) + sin(y) = 2sin(\frac{x+y}{2})cos(\frac{x-y}{2})$$
+$$sin(x) - sin(y) = 2sin(\frac{x-y}{2})cos(\frac{x+y}{2})$$
+$$cos(x) + cos(y) = 2cos(\frac{x+y}{2})cos(\frac{x-y}{2})$$
+$$cos(x) - cos(y) = 2sin(\frac{x+y}{2})sin(\frac{x-y}{2})$$
+
+Jak sobie poradziæ w sytuacji, gdy mamy na przyk³ad dodaæ $$sin(x)$$ i $$cos(y)$$? Mo¿emy skorzystaæ z poznanych wzorów redukcyjnych zamieniaj¹c po prostu $$cos(y)$$ na $$sin(90-y)$$ i korzystaæ póŸniej normalnie ze wzoru na sumê sinusów.
+
+Nieco inaczej jest z tangensami i cotangensami - tutaj wzory na sumê i ró¿nicê dwóch ró¿nych funkcji nieco u³atwiaj¹ pracê. 
+$$tan(x) + tan(y) = \frac{sin(x+y)}{cos(x)cos(y)}$$
+$$tan(x) - tan(y) = \frac{sin(x-y)}{cos(x)cos(y)}$$
+$$ctg(x) + ctg(y) = \frac{sin(x+y)}{sin(x)sin(y)}$$
+$$ctg(x) - ctg(y) = \frac{sin(x-y)}{sin(x)sin(y)}$$
+
+Oraz:
+$$ctg(x) + tan(y) = \frac{cos(x-y)}{cos(x)sin(y)}$$
+$$ctg(x) - tan(y) = \frac{cos(x+y)}{sin(x)cos(y)}$$
+
+Aby przeæwiczyæ nowopoznane wzory, weŸmy siê do rozwi¹zywania równañ i nierównoœci (w nastêpnym rozdziale).

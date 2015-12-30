@@ -1,0 +1,39 @@
+\textbf{Przekszta³canie wykresu funkcji}
+
+W tym temacie zajmiemy siê kilkoma przekszta³ceniami wykresu dowolnych funkcji.
+Najpierw na podstawie wykresu $$y=f(x)$$ narysujmy wykres $$y = |f(x)|$$. Jak to zrobiæ?
+Zastanówmy siê, co tak naprawdê zrobiliœmy nak³adaj¹c wartoœæ bezwzglêdn¹ na \textbf{wartoœæ funkcji}. Jedyne punkty, które ulegaj¹ zmianie, to te, które znajduj¹ siê pod osi¹ x - s¹ one odbite symetrycznie wzglêdem tej prostej. 
+
+\\\RYSUNEK1 f1(x)  = (x-2)(x+3)(x-5)(x+10)
+\\\RYSUNEK2 |f1(x)|
+
+\\\RYSUNEK3 f1(x)  = (x-2)(x+2)/ (x+3)(x-5)
+\\\RYSUNEK4 |f1(x)|
+
+\\\RYSUNEK5 f1(x)  = 1/x + 5
+\\\RYSUNEK6 |f1(x)|
+
+Drugim przekszta³ceniem jest przemno¿enie \textbf{argumentu funkcji} przez jak¹œ sta³¹ $$C$$. Co siê wtedy dzieje? Mo¿na na to spojrzeæ w ten sposób: jeœli wczeœniej funkcja osi¹ga³a wartoœæ $$y$$ w punkcie $$x$$, to teraz osi¹ga tê wartoœæ w punkcie $$x/C$$, czyli w argumencie $$C$$ razy bli¿szym punktu $$(0,0)$$. Skoro dzieje siê tak z ka¿dym punktem wykresu, to ca³oœæ jest tak jakby "œciœniêta" $$C$$ razy (albo "rozci¹gniêta", bo jeœli $$C<1$$, to $$x/C$$ jest dalej ni¿ $$x$$.). 
+Ponadto jeœli mno¿ymy przez sta³¹ mniejsz¹ od zera, wykres odbija siê symetrycznie wzglêdem prostej $$y=0$$ - doœæ jasne, bo po ujemne argumenty staj¹ siê dodatnie, a dodatnie ujemne.
+
+\\\RYSUNEK7 f1(x)  = (x-2)(x+3)(x-5)(x+10)
+\\\RYSUNEK8 f1(4*x)
+
+\\\RYSUNEK9 f1(x)  = (x-2)(x+2)/ (x+3)(x-5)
+\\\RYSUNEK10 f1(\frac{1}{2}*x)
+
+\\\RYSUNEK11 f1(x)  = 1/x + 5
+\\\RYSUNEK12 f1(-3*x)
+
+Ostatnie przekszta³cenie, które omówimy, to przemno¿enie \textbf{wartoœci funkcji} przez sta³¹ $$C$$. Ka¿dy punkt idzie wiêc $$C$$ razy wy¿ej lub ni¿ej, a z tego wynika, ¿e ca³a funkcja jest "rozci¹gniêta" (albo œciœniêta - jak w poprzednim przyk³adzie) - tyle, ¿e pionowo, w osi y.
+Oczywiœcie jeœli mno¿ymy przez sta³¹ mniejsz¹ od zera, wykres odbija siê symetrycznie wzglêdem prostej $$x=0$$ - doœæ jasne, bo po ujemne wartoœci staj¹ siê dodatnie, a dodatnie ujemne.
+
+\\\RYSUNEK13 f1(x)  = (x-2)(x+3)(x-5)(x+10)
+\\\RYSUNEK14 4*f1(x)
+
+\\\RYSUNEK15 f1(x) = (x-2)(x+2) / (x+3)(x-5)
+\\\RYSUNEK16 0.5 * f1(x)
+
+\\\RYSUNEK17 f1(x)  = 1/x + 5
+\\\RYSUNEK18 (-2)*f1(x)
+

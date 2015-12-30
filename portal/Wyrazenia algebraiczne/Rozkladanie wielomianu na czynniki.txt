@@ -1,0 +1,17 @@
+\textbf{Rozk³adanie wielomianu na czynniki}
+
+Jak ju¿ wspomnieliœmy, ka¿dy wielomian mo¿na roz³o¿yæ na \"czynniki pierwsze\": wielomiany pierwszego lub drugiego stopnia. W tej lekcji nauczymy siê to robiæ.
+
+1) Pierwsz¹ metod¹, jak¹ mo¿na zastosowaæ, jest zauwa¿enie jakiegoœ wzoru skróconego mno¿enia (przypominam, ¿e poznaliœmy ju¿ wzory na ró¿nicê drugich potêg: $$a^2-b^2 = (a+b)(a-b)$$, sumê i ró¿nicê trzecich potêg: odpowiednio $$a^3-b^3 = (a-b)(a^2+ab+b^2)$$ oraz $$a^3+b^3 = (a+b)(a^2-ab+b^2)$$, a tak¿e rozwiniêcia drugich i trzecich potêg sum: $$(a+b)^2 = a^2 + 2ab + b^2$$, $$(a-b)^2 = a^2 - 2ab + b^2$$, $$(a+b)^3 = a^3 + 3ab^2 + 3a^2b + b^3$$, $$(a+b)^2 = a^2 - 3a^2b +3ab^2 - b^3$$.
+
+Przyk³ad takiego rozwi¹zania: roz³o¿yæ na czynniki wielomian $$27x^3 - 54x^2 + 36x - 8$$. Zauwa¿amy, ¿e jest to tak naprawdê ró¿nica $$(3x-2)^3$$. Jak na to wpaœæ? Có¿, nie ma uniwersalnej metody. Trzeba po prostu zrobiæ sporo zadañ, ¿eby siê w tym wyæwiczyæ. Istniej¹ jednak przes³anki, ¿e odnajdziemy tutaj taki wzór. Po pierwsze: pierwszy i ostatni sk³adnik s¹ szeœcianami pewnych liczb. Po drugie: drugi i trzeci dziel¹ siê przez trzy. Minusy tak¿e s¹ u³o¿one odpowiednio.
+
+Inny - ³atwiejszy tym razem przyk³ad - to $$100x^2-20x+4$$. Rozwi¹zaniem jest oczywiœcie $$(10x-2)^2$$. Dlaczego? Tutaj przes³anki s¹ ju¿ jaœniejsze: pierwszy i ostatni sk³adnik s¹ kwadratami, a dodatkowo œrodkowy dzieli siê przez 2.
+
+2) Drugim sposobem na rozk³adanie wielomianu jest wy³¹czanie wspólnego czynnika przed nawias. Kluczowym w tej metodzie jest odpowiednie pogrupowanie wyra¿eñ (czasami nawet rozbicie niektórych), tak, by w ogóle dostrzec ten wspólny czynnik.
+Przyk³ad: roz³o¿yæ na czynniki wielomian $$x^3-2x^2 + 5x -10$$. Widzimy, ¿e mo¿emy to zapisaæ jako $$x^2(x-2) + 5(x-2)$$. Teraz oczywistym jest ju¿ wy³¹czenie wspólnego czynnika $$(x-2)$$ przed nawias: w efekcie otrzymujemy $$(x-2)(x^2+5)$$, co jest ju¿ nierozk³adalne (poniewa¿ wielomianu liniowego nie da siê ju¿ roz³o¿yæ, a wielomian kwadratowy, aby móc go roz³o¿yæ, musi mieæ pierwiastek: ten go nie mia).
+
+Du¿o trudniejsze jest jednak na przyk³ad rozbicie wielomianu $$x^3-x^2-x-15$$. Aby to zrobiæ, trzeba zauwa¿yæ, ¿e $$x^2$$ mo¿emy rozbiæ na $$-3x^2 +2x^2$$ a $$-x$$ na $$-6x + 5x$$. Wtedy otrzymujemy $$x^3-3x^2 + 2x^2-6x + 5x -15$$, widzimy, ¿e z ka¿dych dwóch nastêpuj¹cych po sobie wyrazów mo¿emy wy³¹czyæ $$(x-3)$$, i w efekcie otrzymujemy $$(x-3)x^2 + (x-3)2x + (x-3)5 = (x-3)(x^2+2x+5)$$, co jest ju¿ nierozk³adalne. Jak mo¿na by³o na to wpaœæ? Nie ma jednej odpowiedzi. Trzeba po prostu sporo trenowaæ. Na pocieszenie dodam jednak, ¿e przyk³ad takiej trudnoœci raczej nie pojawi³by siê na maturze - chocia¿, kto wie, zawsze lepiej umieæ wiêcej ni¿ mniej.
+
+
+

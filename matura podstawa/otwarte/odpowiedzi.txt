@@ -1,0 +1,41 @@
+Matura podstawowa
+
+Zadania otwarte - odpowiedzi
+
+I. Pierwiastkami równania moga być liczby postaci $$\frac{p}{q}$$, gdzie $$q$$ jest dzielnikiem współczynnika stojącego przy najwyższej potędze $$x$$, a $$p$$ - współczynnikiem przy najniższej potędze $$x$$. 
+Sprawdzając po kolei takie ułamki ztwierdzamy, że pierwiastkiem wielomianu jest liczba 1. 
+Korzystając ze schematu Hornera dzielimy wielomian przez dwumian $$(x-1)$$ otrzymując równanie $$(x-1)(2 x^2+7 x-4) = 0$$. Drugi czynnik jest już zwykłą funkcją kwadratową - licząc deltę i rozwiązując je otrzymujemy pierwiastki $$x = -4$$ oraz $$x = \frac{1}{2}$$.
+
+II. Sinus równy $$\frac{\sqrt{2}}{2}$$ odpowiada kątowi $$135^{\circ}$$. Cosinus jest taki sam co do wartości, tylko z przeciwnym znakiem. 
+Otrzymujemy więc
+$$2\sin^2 \alpha + \cos^2 \alpha + 4 \cos^3 \alpha = 2(\frac{\sqrt{2}}{2})^2 + (-\frac{\sqrt{2}}{2})^2 + 4(-\frac{\sqrt{2}}{2})^3 = \frac{3}{2} - \sqrt{2}$$
+
+III. Podnosząc obie strony do kwadratu (możemy to zrobić, ponieważ są nieujemne) otrzymujemy:
+$$\frac{a^2 + 2ab+b^2}{4} >= ab$$
+$$a^2 + 2ab+b^2 >= 4ab$$
+$$a^2 - 2ab+b^2 >= 0$$
+$$(a-b)^2 >= 0$$
+Co jest prawdą, ponieważ kwadrat jest zawsze większy lub równy zero.
+
+IV. a) Rozwiązań jest cztery.
+b) Najmniej rozwiązań ma dla m=-1 - jest to tylko jedno rozwiązanie równe -1.
+
+V. Aby rozwiązać nierówność, należy rozłożyć wielomian na czynniki, czyli w tym przypadku znaleźć pierwiastki drugiego czynnika. Korzystając z delty obliczamy, że są one równe $$ x = 1$$ oraz $$x = 2$$. 
+Pozostaje nam rozwiązać nierówność 
+$$(x+1)(x-1)(x-2) >0$$. 
+Rysując wykres widzimy, że spełniają ją liczby z zakresu $$(-1, 1)$$ oraz $$(2, \infty)$$.
+\\W1
+
+VI. Wśród każdych czterech kolejnych liczb znajduje się przynajmniej jedna podzielna przez 3 i dokładnie dwie parzyste, w tym jedna podzielna przez 4. Ich iloczyn musi być zatem podzielny przez $$2*3*4 = 24$$.
+
+VIII. Jest to ostrosłup prawidłowy trójkątny, więc w jego podstawie znajduje się trójkąt równoboczny - z danego pola możemy więc obliczyć długość krawędzi podstawy.
+$$\frac{a^2\sqrt{3}}{4} = 16\sqrt{3}$$.
+$$a^2\sqrt{3} = 64$$
+$$a = 8$$
+Patrząc na trójkąt prostokątny złożony z krawędzi podstawy, krawędzi bocznej prostopadłej do podstawy oraz którejś z dwóch pozostałych krawędzi bocznych widzimy, że jest to połówka trójkąta równobocznego - jego wysokość, czyli krawędź prostopadła do podstawy, jest więc równa $$a\sqrt{3} = 8\sqrt{3}$$.
+Objętość ostrosłupa jest równa $$P_p*H = 16\sqrt{3} * 8\sqrt{3} = 384$$.
+
+IX. a) Prędkość średnia pociągu to całkowita droga przez całkowity czas. Nie znamy długości drogi, więc oznaczmy ją przez S. Całkowity czas będzie wtedy równy $$T = \frac{S}{2*30} + \frac{S}{2*50}$$. Teraz prędkość średnia to wynik dzielenia:
+$$V_s = \frac{S}{T} = \frac{S}{\frac{S}{2*30} + \frac{S}{2*50}} = 37.5$$.
+
+b) Jeśli droga wynosi 75km, to Pociąg 1 przebywa ją w 2h. Pociąg 2 musi więc przebyć ją w mniej niż 1h40min, czyli jechać z prędkością $$V = \frac{75}{10/6} = 45$$.

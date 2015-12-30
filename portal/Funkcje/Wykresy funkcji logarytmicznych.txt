@@ -1,0 +1,11 @@
+\textbf{Wykresy funkcji logarytmicznych}
+
+W tym rozdziale zajmiemy siê rysowaniem wykresów funkcji logarytmicznych dla ró¿nych podstaw logarytmu.
+
+Pierwsza obserwacja polega na tym, ¿e wykres \textbf{ka¿dej} takiej funkcji przechodzi przez punkt $$(1,0)$$, poniewa¿ jakakolwiek liczba podniesiona do potêgi zerowej da jeden.
+Drug¹ obserwacjê oprzemy na wzorze zamiany podstaw logarytmu. Przypomnijmy: $$\log_{a} b = $$\log_{c} b / $$\log_{c} a$$. Oczywiœcie zarówno $$a$$, jak i $$c$$ s¹ tutaj sta³ymi. Widaæ wiêc, ¿e ka¿dy logarytm mo¿emy zamieniæ na przyk³ad na dziesiêtny, mno¿¹c go przez jak¹œ sta³¹.
+Teraz wróæmy do poprzedniego tematu, który omawia³ przekszta³canie wykresów funkcji. Powiedzieliœmy tam, ¿e jeœli mno¿ymy funkcjê przez jak¹œ sta³¹, to tak naprawdê rozci¹gamy albo œciskamy jej wykres w osi y. Stosuj¹c to prawo tutaj: wykres ka¿dej funkcji logarytmicznej jest identyczny, a ró¿ni siê jedynie tym "rozci¹gniêciem" albo "œciœniêciem". W pewnych przypadkach mo¿e siê te¿ okazaæ, ¿e wartoœæ, przez któr¹ musimy pomno¿yæ, jest ujemna - dzieje siê to wtedy, gdy przechodzimy z podstawy mniejszej od jedynki do podstawy wiêkszej od jedynki.
+
+Przyk³ad kilku wykresów:
+
+///kilka obrazków

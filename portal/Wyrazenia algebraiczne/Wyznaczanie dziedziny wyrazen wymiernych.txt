@@ -1,0 +1,10 @@
+\textbf{Wyznaczanie dziedziny wyra¿eñ wymiernych}
+
+W tym temacie zajmiemy siê prostymi wyra¿eniami wymiernymi. Nazwa doœæ obco brzmi, ale tak naprawdê temat jest doœæ prosty.
+Czym wiêc jest to "wyra¿enie wymierne"? Jest to funkcja, która jest wynikiem dzielenia dwóch wielomianów. Proste przyk³ady:
+$$\frac{1}{x}$$, $$\frac{x-2}{x+5}$$, $$\frac{x^3+5}{x^2+10x+2}$$, $$\frac{x^100}{x+1}$$.
+Bêdziemy siê nimi g³êbiej zajmowali w nastêpnym temacie: na razie postaramy siê jednynie odpowiedzieæ na pytanie o dziedzinê takiej funkcji. Wielomiany mia³y oczywiœcie w dziedzinie wszystkie liczby rzeczywiste, bo sk³ada³y siê tylko z dodawania, mno¿enia i podnoszenia do potêgi (czyli tak naprawdê tylko dodawania). Tutaj chodzi nam tak¿e dzielenie, które podlega jednemu obostrzeniu: nie mo¿na dzieliæ przez 0. Ca³y problem sprowadza siê wiêc do tego, ¿eby w mianowniku takiego wyra¿enia nie by³o zera, czyli z dziedziny musimy wy³¹czyæ pierwiastki wielomianów bêd¹cych w mianowniku.
+Przyk³ad: dziedzin¹ $$\frac{1}{x}$$ jest zbiór wszystkich liczb rzeczywistych bez zera, bo zero jest w³aœnie pierwsiastkiem wielomianu bêd¹cego w mianowniku.
+Inny przyk³ad: $$\frac{x^3+5}{x^2-10x+25}. Tutaj mo¿emy podstawiæ wszystko oprócz 5, bo w³aœnie 5 jest pierwiastkiem funkcji kwadratowej bêd¹cej w mianowniku.
+Ostatni przyk³ad: $$\frac{1}{(x-3)(x+2)(x+10)}. Tutaj ju¿ z górki: wyraŸnie widaæ, ¿e pierwiastkami mianownika s¹ liczby 3, -2 i -10, wiêc dziedzin¹ jest zbiór liczb rzeczywistych bez tych trzech liczb.
+

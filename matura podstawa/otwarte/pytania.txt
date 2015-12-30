@@ -1,0 +1,29 @@
+Matura podstawowa
+
+Zadania otwarte - pytania
+
+I. Rozwiąż równanie $$2x^3 + 5x^2-11x+4 = 0$$.
+
+II. Kąt $$\alpha$$ jest rozwarty i wiadomo, że $$\sin \alpha = \frac{\sqrt{2}}{2}$$. Oblicz warość wyrażenia $$2\sin^2 \alpha + \cos^2 \alpha + 4 \cos^3 \alpha$$.
+
+III. Udowodnij, że dla dowolnych dodatnich $$a, b, c$$ prawdziwa jest nierówność 
+$$\frac{a+b}{2} >= sqrt{ab}$$. 
+
+IV. //WYKRES
+Odczytaj z wykresu:
+a) Zbiór rozwiązań równania $$f(x) = 3$$
+b) Dla jakiej wartości $$m$$ równanie $$f(x) = m$$ ma najmniej rozwiązań?
+
+V. Rozwiąż nierówność $$(x+1)(x^2-3x + 2) > 0$$.
+
+VI. Wykaż, że iloczyn każdych czterech kolejnych liczb jest podzielny przez 24.
+
+VII. \\RYSUNEK GEO
+
+VIII. Jedna z krawędzi ostrosłupa prawidłowego trójkątnego jest prostopadła do podstawy, zaś dwie pozostałe krawędzie boczne są dwukrotnie dłuższe od krawędzi podstawy. Oblicz objętość ostrosłupa wiedząc, że jego pole podstawy wynosi $$16\sqrt{3}$$.
+
+IX. Pociąg 1 przebył pierwszą połowę drogi z miasta A do miasta B z prędkością 30km/h, a drugą - z prędkością 50 km/h. 
+a) Jaka była jego prędkość średnia?
+b) Pociąg 2 wyruszył z miasta A 20 minut po odjeździe Pociągu 1. Z jaką minimalną prędkością musi jechać, przybyć do miasta B wcześniej od Pociągu 1, jeśli odległość miedzy miastami to 75km?
+
+

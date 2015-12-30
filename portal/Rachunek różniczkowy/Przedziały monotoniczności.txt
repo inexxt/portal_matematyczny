@@ -1,0 +1,61 @@
+Przedzia³y monotonicznoœci
+
+Skoro pochodna funkcji mówi o tym, czy funkcja roœnie, czy maleje, to mo¿na na jej podstawie powiedzieæ, w jakich przedzia³ach funkcja jest monotoniczna. Zasada jest oczywista: jeœli pochodna jest dodatnia, to funkcja roœnie - jeœli ujemna, maleje.
+
+Zobaczmy to na przyk³adzie funkcji
+$$f(x) = x^3 + 2x^2 - 3x + 1$$
+
+Na pierwszy rzut oka niezbyt widaæ, ja mo¿na sprawdziæ jej monotnicznoœæ: mo¿na co prawda wyliczyæ jej pierwiastki, ale by³oby to doœæ skomplikowane z uwagi na jej 3 stopieñ.
+U¿ywaj¹c pochodnej sprawa staje siê prostsza:
+$$f'(x) = 3x^2 + 4x - 3$$
+Skoro mamy ju¿ funkcjê kwadratow¹, mo¿emy obliczyæ jej pierwiastki:
+$$x_1 = \frac{-2-\sqrt{13}}{3}$$
+$$x_2 = \frac{-2+\sqrt{13}}{3}$$
+Skoro wiemy te¿, ¿e przy najwiêkszej potêdze $$x$$-a jest znak dodatni, to mo¿emy powiedzieæ, ¿e w przedziale $$(-\infty, x_1)$$ funkcja roœnie, w przedziale $$\langle x_1, x_2 \rangle$$ - maleje i w przedziale $$(x_2, \infty)$$ - znowu roœnie.
+
+Ekstrema lokalne
+
+Ekstremum lokalne to "wierzcho³ek" na wykresie funkcji. Precyzyjnie mówi¹c: jest to miejsce, gdzie funkcja zmienia znak pochodnej, czyli zaczyna maleæ, jeœli wczeœniej ros³a lub rosn¹æ, jeœli mala³a. 
+Geometryczna interpretacja ekstremum - to miejsce, gdzie styczna do wykresu jest równoleg³a do osi $$X$$.
+
+\\\RYSUNEK - ekstrema
+
+Znajdowanie ekstremów polega po prostu na znalezieniu pierwiastków pochodnej.
+
+Przyk³ad: znaleŸæ ekstrema lokalne funkcji $$f(x) = (x-2)(x+3)(x+2)$$
+1) Wymna¿aj¹c wszystkie nawiasy doprowadzamy do sumy funkcji potêgowych:
+$$f(x) = x^3+3 x^2-4 x-12$$
+2) Liczymy pochodn¹:
+$$f'(x) = 3x^2+6x-4$$
+3) Znajdujemy pierwiastki pochodnej: s¹ to w³aœnie ekstrema lokalne:
+$$x_1 = -1-\sqrt{\frac{7}{3}}$$
+$$x_2 = -1+\sqrt{\frac{7}{3}}$$
+
+Drugi przyk³ad bêdzie bardziej skomplikowany: znaleŸæ ekstrema funkcji $$f(x) = \frac{(x-2)^2(x-3)^2(x+1)}{5}$$
+1) Jak widaæ wymno¿enie wszystkich nawiasów nic nie pomo¿e, poniewa¿ maj¹c wielomian pi¹tego stopnia jego pochodna bêdzie stopnia czwartego, a nie znamy wzorów umo¿liwiaj¹cych obliczenie pierwiastków wielomianu tak wysokiego stopnia.
+Zobaczmy wiêc, jak wygl¹da wykres takiej funkcji:
+
+\\\RYSUNEK - wykres tej funkcji
+
+2) Jak widaæ, ma ona dwa podwójne pierwiastki - s¹ tam lokalne ekstrema, wiêc pochodna tak¿e na pewno ma tam pierwiastki. Jej wzór wygl¹da wiêc jakoœ tak:
+$$f'(x) = (x-2)(x-3)*W$$
+gdzie $$W$$ jest nieznanym nam sk³adnikiem kwadratowym (poniewa¿ pochodna ma byæ stopnia czwartego).
+$$W = A(x^2 + Bx + C)$$
+3) Mo¿emy od razu stwierdziæ, ile jest równe $$A$$ - licz¹c wspó³czynnik przy pochodnej funkcji $$f(x)$$ dostajemy $$1$$ - poniewa¿ funkcja wygl¹da tak: $$f(x) = \frac{x^5 + ...}{5}$$, to $$f'(x) = \frac{5x^4 + ...}{5} = x^4 + ...$$.
+4) Pozostaje nam wyliczyæ $$B$$ i $$C$$. Robimy to wymna¿aj¹c po prostu wzór funkcji i licz¹c pochodn¹, a póŸniej przyrównuj¹c odpowiednie wspó³czynniki.
+$$f'(x) = (\frac{x^5-9 x^4+27 x^3-23 x^2-24 x+36}{5})' =  x^4-(36 x^3)/5+(81 x^2)/5-(46 x)/5-24/5$$
+5) Widaæ, ¿e $$C*(-2)*(-3)$$ musi byæ równe $$(\frac{-24}{5})$$ - dostajemy wiêc $$C = \frac{-4}{5}$$.
+6) Teraz mo¿emy obliczyæ $$B$$ - skupmy siê na wspó³czynniku przy $$x$$. Mo¿emy go uzyskaæ poprzez "wziêcie" x-a z pierwszego, drugiego lub trzeciego nawiasu, z reszty bior¹c wyraz wolny - jest on wiêc równy:
+$$\frac{-46}{5} = B(-2)(-3) + (-3)C + (-2)C$$
+7) Podstawiaj¹c za $$C \frac{4}{5}$$ i wymna¿aj¹c otrzymujemy w koñcu:
+$$B = \frac{-11}{5}$$
+8) Uda³o siê wiêc doœæ do funkcji kwadratowej:
+$$W = x^2 - \frac{11}{5}x - \frac{4}{5}$$
+której pierwiastkami s¹ 
+$$x_1 = \frac{1}{10}(11+\sqrt{201})$$
+$$x_2 = \frac{1}{10}(11-\sqrt{201})$$
+9) Ostatecznie: wiemy, gdzie funkcja pochodna ma pierwiastki - s¹ to liczby $$-2, -3, x_1, x_3$$, wiêc wiemy, ¿e tam w³aœnie nasza wyjœciowa funkcja ma ekstrema lokalne.
+
+
+
+

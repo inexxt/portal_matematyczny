@@ -1,0 +1,13 @@
+Wyznaczanie równania prostej
+
+Jeœli znamy ju¿ warunki prostopad³oœci i równoleg³oœci prostych, mo¿emy zadaæ pytanie: w jaki sposób mo¿na wyznazyæ równanie prostej równoleg³ej albo prostopad³ej do prostej nam danej?
+
+1) Równoleg³oœæ
+Jeœli mamy dan¹ prost¹ $$y_1 = a_1x + b_1$$, to (z poprzedniego rozdzia³u) ka¿da prosta o równaniu $$y = a_1x + b$$ bêdzie do niej równoleg³a (czyli wspó³czynnik $$b$$ mo¿e byæ dowolny).
+
+2) Prostopad³oœæ
+Maj¹c nasz¹ prost¹ $$y_1 = a_1x + b_1$$ i chc¹c wyznaczyæ prost¹ do niej prostopad³¹, musimy po prostu skorzystaæ z warunku $$a_1*a_2 = -1$$. Wyliczamy z niego wspó³czynnik $$a_2 = -\frac{1}{a_1}$$. Okazuje siê wiêc, ¿e ka¿da prosta o równaniu $$y = -\frac{1}{a_1}x + b$$ bêdzie prostopad³a do prostej $$y$$ - wspó³czynnik $$b$$ mo¿e byæ dowolny.
+
+Jednak je¿eli chcemy, aby dana prosta przechodzi³a przez konkretny punkt, musimy wyznaczyæ konkretn¹ wartoœæ $$b$$. Za³ó¿my, ¿e interesuj¹cy nas punkt ma wspó³rzêdne $$(x_p, y_p)$$.
+Pierwsza (równoleg³a) prosta musi wtedy spe³niaæ równanie $$y_p = a_1x_p+b$$, czyli wspó³czynnik $$b$$ jest równy $$b = y_p - a_1x_p$$.
+W przypadku drugiej (prostopad³ej) prostej postêpujemy analogicznie, otrzymuj¹c $$b = y_p + \frac{1}{a_1}x_p$$.

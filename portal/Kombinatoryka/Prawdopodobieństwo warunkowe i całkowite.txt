@@ -1,0 +1,56 @@
+Prawdopodobieñstwo warunkowe
+
+W zadaniach wymagaj¹cych obliczenia prawdopodobieñstwa czêsto zdarza siê, ¿e wyst¹pienie jednego zdarzenia w jakiœ sposób wp³ywa na prawdopodobieñstwo drugiego. Przyk³adem mo¿e byæ sytuacja, w której losujemy kulkê z jednej z dziesiêciu urn. 
+W urnach nieparzystych znajduje siê po piêc kul bia³ych i dwie zielone, w parzystych zaœ po trzy bia³e i osiem zielonych. Pytanie brzmi: wiedz¹c, ¿e nasza urna mia³a numer nieparzysty, jak¹ mamy szansê na wylosowanie kuli zielonej?
+
+Od razu widaæ, ¿e nasz wybór urny determinuje prawdopodobieñstwo wylosowania okreœlonego koloru kuli - w przypadku wybrania urny nieparzystej nich mamy du¿o wiêksz¹ szansê wyci¹gn¹æ kulê bia³¹ (szansa wynosi $$\frac{5}{7}$$), w przypadku nieparzystej - prawdopodobnie wyci¹gniemy zielon¹ (z prawdopodobieñstwem równym $$\frac{8}{11}$$).
+
+Uk³ad taki nazywa siê prawdopodobieñstwem warunkowym - pierwszy wybór (urny) wp³ywa na prawdopodobieñstwo drugiego (koloru kuli).
+
+Do obliczenia tego prawdopodobieñstwa pos³u¿ymy siê wzorem:
+$$P(A|B) = \frac{P(A \cup B)}{P(B)}$$
+
+$$P(A \cup B)$$ to prawdopodobieñstwo wyci¹gniêcia kuli zielonej z urny nieparzstej - czyli $$\frac{8}{22}$$.
+$$P(B)$$ oznacza szansê na wylosowanie urny nieparzystej - jest to po prostu $$\frac{1}{2}$$.
+
+Jak widaæ, prawdopodobieñstwo warunkowe wynosi w tym przypadku $$\frac{\frac{8}{22}}{\frac{1}{2}} = \frac{8}{11}$$
+
+Prawdopodobieñstwo ca³kowite
+
+Twierdzenie o prawdopodobieñstwie ca³kowitym to sposób na obliczanie sytuacji, które mog¹ zdarzaæ siê na ró¿ne sposoby. Wróæmy do poprzedniego zadania: taki sam rozk³ad kul w urnach parzystych i nieparzystych, jednak tym razem pytamy, jakie jest w ogóle prawdopodobieñstwo wyci¹gniêcia zielonej kuli.
+
+Do obliczenia tego pos³u¿y nam wzór:
+$$P(A) = \sum_{i = 1}^{n} P(A|H_i)P(H_i)$$
+
+Mówi on tyle, ¿e jeœli jest $$n$$ sposobów zajœcia zdarzenia i ka¿dy sposób ma prawdopodobieñstwo zajœcia $$P(H_i)$$, to prawdopodobieñstwo zajœcia zdarzenia jest równe sumie prawdopodobieñstw warunkowch przemno¿onych przez prawdopodobieñstwa sposobów.
+
+Stosuj¹c wzór na prawdopodobieñstwo warunkowe mo¿emy przekszta³ciæ równanie otrzymuj¹c:
+$$P(A) = \sum_{i = 1}^{n} P(A \cup H_i)$$
+
+Zawile to brzmi, jednak na przyk³adzie mo¿na przekonaæ siê, ¿e jest ca³kiem proste.
+W naszym zadaniu istniej¹ dwie "drogi" wybrania kuli zielonej zale¿ne od tego, czy najpierw wylosujemy urnê parzyst¹, czy nieparzyst¹.
+Ka¿de z tych zdarzeñ ma prawdopodobieñstwo zajœcia równe $$\frac{1}{2}$$.
+Prawdopodobieñstwo wylosowania zielonej kuli w przypadku urn parzystych wynosi $$$$\frac{2}{7}$$, w przypadku nieparzystych - $$\frac{8}{11}$$.
+Sumuj¹c otrzymujemy:
+
+$$P(A) = \frac{2}{7} * \frac{1}{2} + \frac{8}{11} * \frac{1}{2} = \frac{39}{77}$$
+
+\\\ZADANIE
+Oblicz prawdopodobieñstwo wyrzucenia szóstki przynajmniej raz rzucaj¹c koœci¹ do gry wedle zasad:
+1) Rzucamy pierwszy raz - jeœli wypad³a szóstka, koñczymy grê.
+2) Jeœli nie by³o szóstki, ale by³a liczba parzysta, to rzucamy dwoma koœciami i koñczymy grê.
+3) Je¿eli wypad³a liczba nieparzysta, rzucamy jedn¹ koœci¹ jeszcze raz.
+
+\\\ROZWI¥ZANIE
+Nasze zdarzenie mo¿e zajœæ na kilka sposobów:
+1) Z prawdopodobieñstwem $$\frac{1}{6}$$ wyrzucimy j¹ za pierwszym razem.
+2) Z prawdopodobieñstwem $$\frac{2}{6}$$ dojdzie do sytuacji, gdy bêdziemy rzucali dwiema koœciami - szansa na wyrzucenie chocia¿ jednej szóstki wzrasta wtedy do $$\frac{11}{36}$$, poniewa¿ wszystkich mo¿liwych kombinacji rzutów jest 36, a mo¿liwych kombinacji bez 6 - 25.
+3) Z prawdopodobieñstwem $$\frac{3}{6}$$ dojdzie do sytuacji, gdy bêdziemy rzucali jeszcze raz jedn¹ koœci¹ - szansa wylosowania szóstki wynosi wtedy oczywiœcie $$\frac{1}{6}$$.
+
+Korzytaj¹c z poznanego wzoru mo¿emy obliczyæ prawdopodobieñstwo ca³kowite - jest ono równe prawdopodobieñstwu wyst¹pienia ka¿dej z sytuacji pomno¿onemu przez prawdopodobieñstwo wyrzucenia w tej sytuacji szóstki.
+
+Mamy wiêc:
+$$P(6) = \frac{1}{6}*1 + \frac{2}{6}*\frac{11}{36} + \frac{3}{6}*\frac{1}{6}$$
+$$P(6) = \frac{19}{54}$$
+
+ 

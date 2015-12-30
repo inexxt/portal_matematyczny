@@ -1,0 +1,19 @@
+Równania i nierównoœci z parametrem
+
+Maj¹c równanie z parametrem zwykle odpowiedzieæ na pytanie, ile ma ono rozwi¹¿añ - w zale¿noœci od parametru. WeŸmy równanie
+$$mx + 1 = 4$$
+Przekszta³caj¹c je do postaci
+$$x = \frac{3}{m}$$ 
+widzimy, ¿e jeœli tylko $$m \neq 0$$, równanie ma jedno rozwi¹zanie. Jeœli natomiast $$m = 0$$ - równanie sprowadza siê do sprzecznoœci $$1 = 4$$ i nie ma rozwi¹zañ.
+
+W przypadku równañ kwadratowych postêpujemy dok³adnie tak samo. 
+Przyk³ad: kiedy równanie $$x^2 + mx + 2 = m$$ ma dwa pierwiastki rzeczywiste (w zale¿noœci od parametru m)? Przekszta³caj¹c dochodzimy do postaci:
+$$x^2 + mx + (2+m) = 0$$
+z której mo¿emy wyliczyæ deltê:
+$$\Delta = m^2 - 4m - 8$$
+Równanie ma dwa rozwi¹zania, jeœli $$\Delta > 0$$. Pytamy wiêc, kiedy funkcja kwadratowa $$f(m) = m^2 - 4m - 8$$ jest wiêksza od 0.
+Rozwi¹zuj¹c j¹ dochodzimy do pierwiastków:
+$$m_1 = 2 - 2\sqrt{3}$$
+$$m_2 = 2 + 2\sqrt{3}$$
+Wspó³czynnik przy $$m^2$$ jest dodatni, wiêc funkcja ta jest dodatnia w przedziale $$(-\infty, m_1)$$ oraz $$(m_2, \infty)$$ - i to w³aœnie s¹ przedzia³y, dla których pocz¹tkowe równanie ma dwa pierwiastki rzeczywiste.
+

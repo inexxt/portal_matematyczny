@@ -1,0 +1,18 @@
+Jednok³adnoœæ
+
+Jednok³adnoœæ jest przekszta³ceniem geometrycznym, które opisuje siê symbolem $$J^k_O$$. Litera $$J$$ znaczy, ¿e mamy do czynienia w³aœnie z jednok³adnoœci¹, $$k$$ - to skala jednok³adnoœci, a $$O$$ - to punkt, wzglêdem którego j¹ stosujemy. 
+
+
+Ale na czym w³aœciwie polega jednok³adnoœæ? W skrócie - oddala ka¿dy punkt p³aszczyzny od œrodka jednok³adnoœci dok³adnie $$k$$ razy. Jeœli jednok³adnoœæ przekszta³ca jakiœ punkt X, to zostaje on przeniesiony na taki punkt X', ¿e odleg³oœæ $$OX' = OX*k$$. Punkt X' le¿y oczywiœcie na prostej OX. Byæ mo¿e ³atwiej bêdzie zobaczyæ to na przyk³adach:
+
+\\\RYSUNEK 1 - k=2, kilka punktów
+\\\RYSUNEK 2 - k=0.4, okr¹g
+\\\RYSUNEK 3 - k=-1, odcinek
+\\\RYSUNEK 4 - k=2, czwork¹t
+
+Jak widaæ, jednok³adnoœæ zachowuje kszta³t figur - s¹ one tylko wiêksze (mniejsze) i przesuniête w odpowiedni¹ stronê. 
+Trzeba jeszcze wspomnieæ, na czym polega jednok³adnoœæ o skali ujemnej i u³amkowej. Jak wiadaæ na rysunku - u³amek to po prostu zbli¿enie punktu, liczba ujemna: przeniesienie go na "drug¹ stronê".
+
+Dodatkowo:
+Pole figrury zmienia siê $$k^$$ razy.
+Obwód figury zmienia siê $$k$$ razy.

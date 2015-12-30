@@ -1,0 +1,30 @@
+Granice funkcji
+
+Przy okazji ci¹gów poznaliœmy definicjê "granicy". W ramach przypomnienia: by³a to liczba, do jakiej d¹¿y³ ci¹g - od pewnego miejsca kolejne wyrazy ci¹gu coraz bardziej zbli¿a³y siê do niej.
+
+Granica funkcji jest pojêciem rozwijaj¹cym granicê ci¹gu. Istniej¹ dwie definicje. Funkcja ma granicê w punkcie $$x_0$$, jeœli:
+I. (Definicja Heinego)
+dla ka¿dego ci¹gu ($$x_n$$) takiego ¿e $$\lim{n \to \infty} x_n = x_0$$ zachodzi $$\lim{n \to \infty} f(x_n) = g$$. (inaczej mówi¹c: jeœli wybierzemy dowolny ci¹g zbie¿ny do $$x_0$$ i ci¹g $$f(x_n) bêdzie d¹¿y³ do $$g$$, to funkcja ma w punkcie $$x_0$$ granicê równ¹ $$g$$).
+II. (Definicja Cauchego)
+dla ka¿dej liczby $$\epsilon > 0$$ istnieje liczba $$\delta > 0$$ taka, ¿e jeœli $$0<|x - x_0| < \delta$$, to $$|f(x) - g| < \epsilon$$
+
+\\\RYSUNEK - geometryczna ilustracja II
+
+Definicja Cauchego mo¿e wydawaæ siê skomplikowana, ale tak naprawdê jest œcis³ym zapisem tego, ¿e jeœli weŸmiemy dowoln¹ "wysokoœæ" $$\epsilon$$, to znajdziemy tak¹ liczbê $$\delta$$, ¿e dowolne dwa punkty na wykresie le¿¹ce bli¿ej (w poziomie) ni¿ $$\delta$$ bêd¹ mia³y odleg³oœæ w pionie mniejsz¹ ni¿ $$\epsilon$$.
+
+Kolejne pojêcie: granica jesdnostronna - oznacza po prostu, ¿e "zbli¿amy siê" do punktu $$x_0$$ tylko z jednej strony.
+
+Dzia³ania na granicach
+
+Analogicznie do granic ci¹gów, na granicach funkcji tak¿e mo¿emy wykonywaæ dzia³ania artytmetyczne - na przyk³ad jeœli granic¹ funkcji $$f(x)$$ jest $$A$$, a granic¹ $$g(x)$$ - $$B$$, to granic¹ funckcji $$h(x) = f(x) + g(x)$$ bêdzie po prostu $$A+B$$.
+
+Funkcja ci¹g³a
+
+Funkcja ci¹g³a to intuicyjnie taka funkcja, któr¹ mo¿na narysowaæ bez odrywania o³ówka od kartki - nie ma ¿adnych nag³ych "przeskoków". Jednak ta definicja, poza tym, ¿e jest ma³o precyzyjna, zawiera b³¹d. Na przyk³ad funkcjê $$f(x) = \frac{1}{x}$$ nazywamy funkcj¹ ci¹g³¹, mimo, ¿e przecie¿ nie da siê narysowaæ jej wykresu od $$-1$$ do $$1$$ bez odrywania o³ówka. Dzieje siê tak, poniewa¿ funkcja mo¿e byæ ci¹g³a tylko w swojej dziedzinie - poza dziedzin¹ przecie¿ "nie istnieje", wiêcn nie mo¿na nic o niej powiedzieæ.
+
+Precyzyjn¹ definicj¹ ci¹g³oœci jest to, czy dla ka¿dego $$x f(x)$$ jest równe granicy w tym punkcie. Intuicyjnie wydaje siê to poprawne: jeœli coraz bardziej zbli¿amy siê do punktu $$x_0$$ i jesteœmy coraz bli¿ej jego wartoœci, to jeœli w koñcu dotrzemy w $$x_0$$, to powinniœmy tam znaleŸæ wartoœæ w³aœnie $$f(x_0)$$.
+
+Funkcje ci¹g³e maj¹ tê ciekaw¹ w³aœciwoœæ, ¿e na przedziale przyjmuj¹ wszystkie wartoœci poœrednie. To znaczy, ¿e jeœli na przyk³ad w punkcie $$x = 0 f(x) = 2$$, a w punkcie $$x = 1 f(x) = -2$$, to wiemy, ¿e w tym przedziale na pewno znajdzie siê taki punkt $$a$$, ¿e $$f(a) = 0$$. (Oczywiœcie funkcja musi byæ okreœlona na ca³ym tym przedziale)
+
+Wa¿ne jest to, ¿e wykonuj¹c operacje arytmetyczne oraz sk³adaj¹c funkcje ci¹g³e otrzymujemy zawsze funkcje ci¹g³e - dlatego wszystkie "normalne", tzn okreœlone "prostym" wzorem (jak na przyk³ad wielomiany lub funkcje trygonometryczne) bêd¹ ci¹g³e.
+

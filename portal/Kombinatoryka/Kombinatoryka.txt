@@ -1,0 +1,37 @@
+Kombinatoryka
+
+W zadaniach z rachunku prawdopodobieñstwa czêsto zdarza siê, ¿e musimy policzyæ iloœæ przypadków, w jakich mo¿e wystêpowaæ zdarzenie. S³u¿y do tego kombinatoryka - w tym rozdziale omówimy podstawowe jej pojêcia, takie jak permutacja, kombinacja, wariacja i wariacja z powtórzeniem.
+
+Permutacje
+
+Za³ó¿my, ¿e mamy ci¹g $$n$$ liczb, od $$0$$ do $$n-1$$. Chcielibyœmy wiedzieæ, na ile sposobów da siê postawiæ te liczby w ci¹gu, czyli poznaæ liczbê wszystkich jego permutacji.
+Zauwa¿my, ¿e pierwszy element mo¿emy wybraæ na $$n$$ sposobów. Drugi element: na $$n-1$$, trzeci: na $$n-2$$ i tak dalej. Wymna¿aj¹c wszystkie te liczby otrzymujemy iloczyn $$1*2*3*4*...*(n-1)*n$$, który oznacza siê symbolem $$n!$$ i nazywamy "silni¹". Warto wspomnieæ, ¿e mo¿emy j¹ tak¿e zdefiniowaæ rekurencyjnie, jako ci¹g $$n! = (n-1)!*n$$ i $$0! = 1$$.
+
+Kombinacje (bez powtórzeñ)
+
+Zacznijmy od pytania: na ile sposobów jesteœmy w stanie wybraæ trzy pi³ki ze zbioru 10 ponumerowanych pi³ek?
+Pierwsz¹ mo¿emy wybraæ na 10 sposobów. Drug¹ - na 9, trzeci¹ na 8. Wydawa³oby siê, ¿e odpowiedzi¹ bêdzie wiêc $$10*9*8$$. Jednak sytuacjê, kiedy wybraliœmy pi³ki o numerach 0, 1 i 2 policzyliœmy kilka razy - na przyk³ad w kolejnoœci 0,1,2 i 0,2,1. Musimy wiêc podzieliæ otrzyman¹ liczbê przez iloœæ permutacji wybranego zbioru, czyli przez $$3! = 1*2*3 = 6$$. Ostatecznie dostajemy $$\frac{8*9*10}{3!}$$. 
+Jednak jeœli zamiast 10 pi³ek mielibyœmy ich 1000, a zamiast wybieraæ 3 kazanoby nam wybraæ 100, zapisanie tego w postaci takiego u³amka by³oby doœæ czasoch³onne. Mo¿emy jednak zauwa¿yæ, ¿e zamiast pisaæ $$1000*(1000-1)*(1000-2)*...*(1000-99)$$, mo¿emy po prostu napisaæ $$\frac{1000!}{(1000-100)!}$$. 
+W ogólnoœci wzór na iloœæ kombinacji bêdzie wiêc wygl¹da³ tak:
+$$\frac{n!}{(n-k)!} * \frac{1}{k!} = \frac{n!}{(n-k)!k!}$$
+Aby jeszcze bardziej uproœciæ zapis, taki u³amek bêdziemy oznaczali jako $$(n \choose k)$$.
+
+Kombinacje (z powtórzeniami)
+
+Teraz czas na pytanie innego rodzaju: na ile sposobów jesteœmy w stanie wybraæ dwie pi³ki spoœród czterech, przy czym po wybraniu pierwszej wrzucamy j¹ spowrotem do worka?
+Rozpisuj¹c wszystkie kombinacje mo¿na siê przekonaæ, ¿e isnieje ich dok³adnie 10 - do "standardowych", które policzylibyœmy korzystaj¹c z poprzedniego podpunktu $$(4 \choose 2) = 6$$ nale¿y dodaæ jeszcze cztery zawieraj¹ce dwa takie same elementy: $$(0,0), (1,1), (2,2)$$ i $$(3,3)$$.
+Jednak takie podejœcie nie zadzia³a w ogólnoœci, poniewa¿ przy wybieraniu wiêkszej iloœci pi³ek mo¿emy mieæ kombinacje sk³adaj¹ce siê na przyk³ad z trzech takich samych i dwóch innych.
+
+Rozwi¹zanie zadania opiera siê na pomyœle, aby ka¿dej kombinacji przyporz¹dkowaæ pewien ci¹g zer i jedynek. Liczba zer w ci¹gu bêdzie wynosi³a $$n-1$$, jedynek - $$k$$. 
+Ci¹g przyporz¹dkowywujemy w ten sposób, ¿e ka¿da jedynka odpowiada elementowi o numerze równym iloœci zer przed jedynk¹. Inaczej mówi¹c: jeœli przed trzeci¹ jedynk¹ jest na przyk³ad 5 zer, to znaczy to, ¿e w kombinacji znajduje siê pi¹tka. Jako ¿e iloœæ sposobów rozmieszczenia k jedynek na n+k-1 miejscach wynosi $$(n+k-1 \choose k)$$, a ka¿dy taki sposób odpowiada jednej kombinacji z powtórzeniami, to w³aœnie tyle jest kombinacji z powtórzeniami.
+Przyk³ad:
+Za³ó¿my ¿e $$n=5, k=3$$. Wtedy kombinacji $$(1,2,3)$$ odpowiada ci¹g $$(0,1,0,1,0,1,0)$$. Kombinacji $$(0,2,2)$$ odpowiada zaœ ci¹g $$(1,0,0,1,1,0,0)$$.
+
+Wariacje
+
+Wariacje, w odró¿nieniu od kombinacji, s¹ ci¹gami, a nie zbiorami. Oznacza to, ¿e kolejnoœæ ma w nich znaczenie: jedyn¹ zmian¹, jak¹ w takim razie wprowadzamy we wzorze jest usuniêcie sk³adnika $$k!$$. Iloœæ wariacji bez powtórzeñ jest wiêc równa
+$$\frac{n!}{(n-k)!}$$
+zaœ z powtórzeniami:
+$$n^k$$, poniewa¿ na pierwsze miejsce mo¿na ka¿dy z $$n$$ elementów, na drugi - tak¿e, itd.
+
+

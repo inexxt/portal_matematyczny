@@ -1,0 +1,36 @@
+\\\ÆWICZENIE
+
+Rozwi¹zaæ uk³ad równañ:
+$y^2 = 5x + 2$
+$3z = 2y - x$
+$z = -2x + y$
+
+\\\ROZWI¥ZANIE
+
+Zaczynamy od podstawienia do równania drugiego $z$ z równania trzeciego:
+$3(-2x + y) = 2y -x$
+$6x - x = 3y - 2y$
+$5x = y$
+
+Mo¿emy teraz wstawiæ otrzymanego $y$-a do równania pierwszego obliczaj¹c $x$:
+$(5x)^2 = 5x + 2$
+$25x^2 - 5x - 2= 0$
+
+U¿ywaj¹c wzorów Viete'a mo¿emy roz³o¿yæ tê funkcjê na iloczyn:
+$(5x - 2)(5x + 1) = 0$
+
+Rozpatujemy teraz dwa przypadki:
+a) $5x - 2 = 0$
+$5x = 2$
+$x = \frac{2}{5}$
+
+Wtedy $y = 5x = 2$ oraz $z = -2x + y = -\frac{4}{5} + 2 = \frac{6}{5}$
+
+b) $5x + 1 = 0$
+$5x = -1$
+$x = -\frac{1}{5}$
+
+Wtedy $y = 5x = -1$ oraz $z = -2(-\frac{1}{5}) -1 = -\frac{3}{5}$
+
+
+

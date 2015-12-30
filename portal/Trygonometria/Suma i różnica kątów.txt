@@ -1,0 +1,30 @@
+Sumy i ró¿nice k¹tów
+
+W rozwi¹zywaniu zadañ czêsto przydaj¹ siê wzory pozwalaj¹ce rozbiæ funkcjê sumy k¹tów na wyra¿enie zawieraj¹ce te k¹ty oddzielnie.
+ 
+$$sin(x+y) = sin(x)cos(y) + sin(y)cos(x)$$
+$$sin(x-y) = sin(x)cos(y) - sin(y)cos(x)$$
+
+$$cos(x+y) = cos(x)cos(y) - sin(y)sin(x)$$
+$$cos(x+y) = cos(x)cos(y) + sin(y)sin(x)$$
+
+Mimo ¿e znajduj¹ siê one w tablicach, mocno polecam ich zapamiêtanie. Dlaczego? Poniewa¿ mo¿emy potrzebowaæ u¿yæ ich "odwrotnie" - to znaczy zamiast mieæ wyra¿enie i rozwijaæ je z tego wzoru mo¿emy mieæ za zadanie dostrzec wzór i "zwin¹æ" go do wyra¿enia.
+
+Pozostaje jeszcze wspomnieæ o przypadkach szczególnych, gdy $$x=y$$.
+Wtedy wzory przyjmuj¹ postaæ:
+
+$$sin(2x) = 2sin(x)cos(x)$$
+$$cos(2x) = cos(x)^2 - sin(x)^2$$ i korzystaj¹c z jedynki trygonometrycznej:
+$$cos(2x) = 1 - 2sin(x)^2$$ 
+$$cos(2x) = 2cos(x)^2 - 1$$ 
+
+Te wzory ju¿ obowi¹zkowo trzeba umieæ na pamiêæ: w zadaniach równie czêsto trzeba przechodziæ z lewej na praw¹ jak z prawej na lew¹ stronê równania.
+
+Teraz kolej na tangens i cotangens:
+$$tan(x+y) = \frac{tan(x) + tan(y)}{1-tan(x)tan(y)}$$ 
+$$tan(x-y) = \frac{tan(x) - tan(y)}{1+tan(x)tan(y)}$$
+
+$$ctg(x+y) = \frac{ctg(x)ctg(y) - 1}{ctg(x) + ctg(y)}$$ 
+$$ctg(x+y) = \frac{ctg(x)ctg(y) + 1}{ctg(x) - ctg(y)}$$ 
+
+Jak widaæ wzory te s¹ bardzo do siebie podobne i skoro na maturze dostêpne s¹ tablice, to nie trzeba tak naprawdê zapamiêtywaæ tego, gdzie jest + a gdzie -, poniewa¿ zawsze mo¿emy to sprawdziæ. Nale¿y natopmiast trzymaæ w pamiêci ogóln¹ postaæ takiego wzoru, abyœmy mogli zauwa¿yæ odwrotnoœæ tego wzoru - jeœli j¹ znajdziemy, szczegó³ów mo¿emy poszukaæ na karcie wzorów.

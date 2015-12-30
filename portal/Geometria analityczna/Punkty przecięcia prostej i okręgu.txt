@@ -1,0 +1,32 @@
+Punkty przeciêcia prostej i okrêgu
+
+Znaj¹c ju¿ równania prostych i okrêgów mo¿emy zabraæ siê za sprawdzanie, czy dane nam figury maj¹ punkty wspólne - a jeœli tak, to gdzie one le¿¹.
+
+Za³ó¿my, ¿e prost¹ okreœla równanie $$y = a_px + b_p$$, zaœ okr¹g: $$r^2 = (x-a_o)^2 + (y-b_o)^2$$. Jest to nic innego jak uk³ad równañ z dwoma niewiadomymi. 
+Bior¹c z pierwszego z nich $$y$$ i podstawiaj¹c go do drugiego otrzymujemy równanie kwadratowe, z którego wyliczamy $$x$$. To podejœcie od razu sprawdza tak¿e, czy prosta i okr¹g w ogóle siê przecinaj¹ (jeœli nie - delta równania kwadratowego wyjdzie ujemna) lub s¹ prostopad³e (jest tylko jeden punkt przeciêcia, wiêc delta wyjdzie równa 0).
+Podstawiaj¹c:
+$$y = a_px + b_p$$
+$$r^2 = (x-a_o)^2 + (a_px + b_p-b_o)^2$$
+$$-a_o^2 - b^2 + 2bq - q^2 + r^2 + 2a_ox + 2ba_px - 2a_pqx - x^2 - a_p^2x^2 = 0$$
+Otrzymujemy wiêc rozwi¹zania:
+$$x_1 = \frac{-\sqrt{-a_o^2a_p^2+2a_ob_oa_p-2a_oa_pb_p-b_o^2+2b_ob_p+a_p^2r^2-b_p^2+r^2}+a_o+b_oa_p-a_pb_p}{a_p^2+1}$$
+$$x_2 = \frac{\sqrt{-a_o^2a_p^2+2a_ob_oa_p-2a_oa_pb_p-b_o^2+2b_ob_p+a_p^2r^2-b_p^2+r^2}+a_o+b_oa_p-a_pb_p}{a_p^2+1}$$
+Wstawiaj¹c $$x_1$$ i $$x_2$$ do spowrotem do równania prostej wyliczamy $$y$$:
+$$y_1 = a_px_1 + b_p$$
+$$y_2 = a_px_2 + b_p$$
+
+Równania wydaj¹ siê bardzo skomplikowane, ale tak naprawdê nie ma tutaj nic bardzo zaawansowanego. Byæ mo¿e ³atwiej bêdzie sprawdziæ tê metodê na przyk³adzie:
+ZnaleŸæ miejca przeciêcia prostej $$y = -x + 1$$ z okrêgiem o równaniu $$6^2 = (x-1)^2+(y-2)^2$$.
+Podstawiaj¹c do równania okrêgu $$y$$ z równania prostej dostajemy:
+$$6^2 = (x-1)^2 +(-x + 1 - 2)$$
+$$36 = (x-1)^2 +(-x - 1)$$
+$$36 = 2x^2 + 2$$
+$$17 = x^2$$
+$$x_1 = \sqrt{17}$$
+$$x_2 = -\sqrt{17}$$
+
+Teraz mo¿emy obliczyæ $$y$$:
+$$y_1 = -\sqrt{17} + 1$$
+$$y_2 = \sqrt{17} + 1$$
+
+Jak widaæ, podana prosta przecina siê z okrêgiem w punktach $$(\sqrt{17}, -\sqrt{17} + 1)$$ oraz $$(-\sqrt{17}, \sqrt{17} + 1)$$.

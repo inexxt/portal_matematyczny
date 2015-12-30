@@ -1,0 +1,50 @@
+Teraz, gdy ju¿ nauczyliœmy siê liczyæ granice ró¿nych ci¹gów, mo¿emy zaj¹æ siê szeregami. Po wyjaœnieniu co to w ogóle jest przejdziemy do pytania, czy dany szereg jest zbie¿ny - i jeœli jest, to policzymy jego sumê.
+
+Przed przejœciem do rozwi¹zywania zadañ trzeba wprowadziæ trochê teorii:
+
+Za³ó¿my, ¿e mamy dany ci¹g liczbowy $$(a_n)$$. 
+$$N$$-t¹ sum¹ czêœciow¹ bêdziemy nazywali liczbê równ¹ $$a_1+a_2+..+a_n = sum_1^n a_i$$.
+Szeregiem nazwiemy ci¹g, którego wyrazami s¹ kolejne sumy czêœciowe, tzn:
+$$S_0 = a_0$$
+$$S_1 = a_0 + a_1$$
+$$S_2 = a_0 + a_1+a_2$$
+$$S_2 = a_0 + a_1+a_2+a_3$$
+$$S_2 = a_0 + a_1+a_2+a_3+a_4$$
+i tak dalej.
+
+
+Sumê szeregu oznaczymy jako $$sum_1^(\infty) a_i$$. Je¿eli ta suma istnieje (tzn. nie jest 'nieskoñczona), nazywamy j¹ zwykle $$S$$ i jest ona równa $$\lim_{n \to \infty} S_n$$.
+
+W tym rozdziale bêdziemy zajmowali siê jedynie szeregami geometrycznymi, które dziêki doœæ prostej strukturze mo¿na doœæ ³atwo przekszta³caæ, ustalaæ, czy s¹ zbie¿ne i liczyæ ich sumy.
+
+Szereg geometryczny to nic innego jak zwyk³y szereg (opisany powy¿ej), tyle tylko, ¿e ci¹g $$(a_n)$$ jest ci¹giem geometrycznym. Szereg wygl¹da wiêc w ten sposób:
+$$sum_1^(\infty) S_i = a + qa + q^2a + q^3a ...$$
+Z ci¹gami geometrycznymi spotkaliœmy siê ju¿ wczeœniej, wiêc jasne jest, jak powstaj¹: kolejny wyraz jest po prostu poprzednim przemno¿onym przez wspó³czynnik $$q$$.
+
+Przyk³adem takiego ci¹gu mo¿e byæ na przyk³ad:
+$$a_n = (\frac{1}{2})^n$$
+Podajmy kilka jego pierwszych wyrazów:
+$$a_0 = (\frac{1}{2})^0 = 1$$
+$$a_1 = (\frac{1}{2})^1 = \frac{1}{2}$$
+$$a_2 = (\frac{1}{2})^2 = \frac{1}{4}$$
+$$a_3 = (\frac{1}{2})^3 = \frac{1}{8}$$
+
+Jego sumy czêœciowe bêd¹ wiêc równe:
+$$S_0 = 1$$
+$$S_1 = 1 + \frac{1}{2}$$
+$$S_2 = 1 + \frac{1}{2} + \frac{1}{4}$$
+$$S_3 = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}$$
+$$S_4 = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16}$$
+
+Skoro wiemy ju¿, czym jest szereg geometryczny, pozostaje odpowiedzieæ na pytanie: kiedy jest on zbie¿ny? Warunek jest prosty: wtedy, kiedy wartoœæ bezwzglêdna ilorazu $$q$$ jest < 1. Jest to raczej logiczne: jeœli by³aby wiêksza, to ka¿dy nastêpny sk³adnik by³by wiêkszy, wiêc suma mog³aby byæ nieskoñczenie du¿a.
+
+Pozosta³o jedynie przedstawiæ wzór na sumê takiego szeregu. Jak pamiêtamy z rozdzia³u o ci¹gach geometrycznych ich suma wynosi³a $$S = a\frac{1-q^n}{1-q}$$. Tutaj, poniewa¿ przechodzimy po prostu przez granicê  n d¹¿¹cego do nieskoñczonoœæi a $$|q| < 1$$, to oczywiœcie $$\lim_{n \to \infty} q^n = 0$$ 
+(Ka¿dy kolejny wyraz jest $$q$$ razy mniejszy). We wzorze na sumê znika nam wiêc sk³adnik $$q^n$$ i otrzymujemy:
+$$S = \frac{1}{1-q}$$
+
+Nasz przyk³adowy ci¹g $$a_n$$ ma wiêc sumê równ¹:
+$$S = \frac{1}{1-\frac{1}{2}} = 2$$
+
+Ciekawostka: zagadnienie skoñczonej sumy nieskoñczonego ci¹gu by³o jednym z najwiêkszych problemów matematyki staro¿ytnej Grecji - istnieje znany paradoks ¿ó³wia i Achillesa mówi¹cy o tym zagadnieniu. Aby przekonaæ siê, ¿e suma rzeczywiœcie jest skonczona, mo¿na to sprawdziæ na rysunku:
+
+\\\RYSUNEK4 - Ÿród³o Wiki

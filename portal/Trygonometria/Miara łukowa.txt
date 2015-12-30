@@ -1,0 +1,35 @@
+Wstêp
+
+Trygonometria to dzia³ matematyki poœwiêcony badaniom zwi¹zków miêdzy pewnymi k¹tami i odpowiadaj¹cymi im d³ugoœciami, funkcjom zale¿nym od k¹tów itp. Jednak ¿eby w ogóle zacz¹æ mówiæ o trygonometrii musimy wprowadziæ pewne podstawowe w tej dziedzinie pojêcie zwane miar¹ ³ukow¹ k¹ta.
+Dotychczas jedyn¹ miar¹ k¹tow¹ wystêpuj¹c¹ w szkole by³y stopnie. K¹t pe³ny by³ równy 360*, k¹t pó³pe³ny: 180* itd. Miara k¹towa mia³a jednak spor¹ wadê: wyznaczenie d³ugoœci ³uku na okrêgu odpowiadaj¹cego okreœlonemu k¹towi by³o doœæ problematyczne. Dla przypomnienia: ¿eby wyznaczyæ d³ugoœæ ³uku odpowiadaj¹cego k¹towi 10* w okrêgu o promieniu 3 trzeba podzieliæ $$ \frac{10}{360} $$ (jest to stosunek naszego "wycinka" do ca³ego okrêgu) i przemno¿yæ to przez obwód równy $$ 2*pi*3 $$. 
+W efekcie otrzymujemy $$ l = \frac{10*2*3*pi}{360} =  \frac{pi}{6}$$.
+
+Miara k¹towa to po prostu stosunek d³ugoœci ³uku do promienia. Zapisuj¹c wzorem: 
+$$ \alpha = \frac{l}{r} $$. 
+
+\\\RYSUNEK1 - ³uk i promieñ
+
+Widaæ, ¿e teraz ³atwo mo¿emy obliczyæ d³ugoœæ ³uku: wystarczy przemno¿yæ k¹t przez d³ugoœæ promienia: $$ l = \alpha * r $$.
+
+Widaæ, ¿e w tym rozumieniu k¹t jest po prostu liczb¹ i tak jak na zwyk³ych liczbach mo¿emy je dodawaæ i odejmowaæ. Ponadto pozwala to na wprowadzenie funkcji trygonometrycznych: liczby na osi traktujemy jako miary k¹tów.
+
+Pozostaje jeszcze tylko wspomnieæ, ¿e w zastosowaniach analitycznych (w uk³adzie wspó³rzêdnych) d³ugoœæ ³uku jest dodatnia, jeœli obracamy siê w kierunku odwrotnym do wskazówek zegara, a ujemna, jeœli w kierunku zgodnym.
+
+\\\RYSUNEK2 - G. Analityczna
+
+Przeliczanie k¹tów
+
+Czasami musimy przeliczyæ k¹t z jednej miary na drug¹. Robimy to korzystaj¹c z dwóch wzorów na d³ugoœæ ³uku:
+$$l = 2*pi*R*\frac{\alpha}{360}$$
+$$l = \beta*R$$
+gdzie $$\alpha$$ to miara wielkoœæ k¹ta w stopniach, a $$\beta$$ - w radianach.
+Jeœli przyrównamy te dwa wzory do siebie (lewe strony s¹ takie same, wiêc prawe te¿ musz¹ byæ równe) otrzymujemy:
+$$2*pi*R*\frac{\alpha}{360} = \beta*R$$
+$$2*pi\frac{\alpha}{360} = \beta$$
+oraz
+$$\alpha = \frac{\beta * 360}{2*pi}$$
+
+Ciekawostka
+
+Miara ³ukowa jest u¿ywana w fizyce i wielu zadaniach technicznych, poniewa¿ dla ma³ych k¹tów k¹t w radianach jest równy sinusowi tego k¹ta: mo¿na wiêc pozbyæ siê z równania k³opotliwych funkcji trygonometrycznych uzyskuj¹c ca³kiem dobre przybli¿enie wyniku. Np. w równaniu $$ sin \alpha = 0,087156$$ mo¿emy spokojnie opuœciæ sinus i powiedzieæ, ¿ê k¹t $$\alpha$$ jest w przybli¿eniu równy w³aœnie $$0,087156$$ radianów.
+

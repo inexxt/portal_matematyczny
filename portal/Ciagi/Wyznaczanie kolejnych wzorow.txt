@@ -1,0 +1,24 @@
+W tym rozdziale zajmiemy siê ci¹gami rekurencyjnymi, czyli ci¹gami, których kolejne wyrazy s¹ zdefiniowane przez poprzedzaj¹ce je. To oczywiœcie znaczy, ¿e jeœli chcemy poznaæ wartoœæ $$n$$-tego wyrazu, to w wielu przypadkach musimy po prostu obliczyæ wszystkie $$n-1$$ poprzedzaj¹cych go.
+
+Jednym z najczêœciej spotykanych ci¹gów rekurencyjnych jest $$\textsl{ Ci¹g Fibonacciego}$$. Jego wzór to $$$$ F_(n+2) = F_(n+1) + F_(n)$$$$. Mówi¹c wprost, ka¿dy wyraz jest sum¹ dwóch poprzednich.
+Oczywiœcie sam wzór nie wystarczy do zdefiniowania ci¹gu rekurencyjnego - skoro pojawiaj¹ siê w nim odwo³ania do wczeœniejszych wyrazów, to nigdy nie moglibyœmy zacz¹æ ich liczyæ. 
+Pe³na definicja ci¹gu musi wiêc zawieraæ tak¿e $$k$$ pierwszych wyrazów, gdzie $$k$$ to stopieñ równania rekurencyjnego. Stopieñ równania to po prostu najdalszy wyraz, który wystêpuje w równaniu. Przyk³ad: równanie opisuj¹ce ci¹g Fibonacciego ma stopieñ 2, poniewa¿ najdalszy wyraz, który musimy znaæ, aby obliczyæ aktualny, jest oddalony o 2. 
+///Æwiczenie: jaki stopieñ ma równanie $$a_(i+4) = 4a_i + 9a_(i+2)$$?
+///OdpowiedŸ: Cztery, poniewa¿ ¿eby obliczyæ sk³adnik $$i+4$$ musimy znaæ sk³adnik $$i$$, który jest oddalony w³aœnie o 4.
+
+Pe³na definicja ci¹gu Fibonacciego wygl¹da wiêc w ten sposób:
+$$$$
+ F_(n+2) = F_(n+1) + F_(n) dla n \in \mathbb{N}
+ F_0 = 0
+ F_1 = 1
+$$$$
+
+Aby obliczyæ kolejne wyrazy ci¹gu podstawiamy po prostu do równania rekurencyjnego odpowiednie poprzedzaj¹ce wyrazy.
+Powiedzmy, ¿e chcemy obliczyæ pi¹ty wyraz. Potrzebujemy do tego czwartego i trzeciego, z kolei do policzenia czwartego potrzebujemy trzeciego i drugiego itd. Musimy zatem zacz¹æ od odbliczenia wyrazu drugiego.
+$$ n+2 = 2 $$, wiêc oczywiœcie $$n+1 = 1$$ i $$n = 0$$. Podstawiaj¹c pod $$ F_0 = 0$$ i $$F_1 = 1$$ otrzymujemy $$F_2 = 1+0 = 1$$. Postêpuj¹c tak samo z trzecim otrzymujemy $$F_3 = F_2 + F_1 = 1+1 = 2$$. Kontynuuj¹c:
+$$F_4 = F_3 + F_2 = 1+2 = 3$$ i wreszcie $$F_5 = F_4 + F_3 = 3+2 = 5$$.
+
+
+
+
+

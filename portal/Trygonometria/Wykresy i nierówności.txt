@@ -1,0 +1,25 @@
+Wykresy i nierównoœci
+
+Przy okazji funkcji trygonometrycznych nie sposób nie wspomnieæ o nierównoœciach z ich udzia³em. Rozwi¹zywanie ich opiera siê jednak g³ównie na metodzie graficznej: maj¹c narysowany wykres mo¿emy ³atwo okreœliæ, jakie liczby spe³niaj¹ dan¹ nierównoœæ.
+Jako ¿e nie ma tu jakiejœ dodatkowej teorii, mo¿emy przejœæ od razu do rozwi¹zywania przyk³adów.
+
+WeŸmy nierównoœæ $$sin x > \frac{1}{2}$$.
+1) Narysujmy wykres.
+
+\\\RYSUNEK1 nierównoœæ
+
+2) Zastanówmy siê, dla jakich argumentów nierównoœæ zamienia siê w równoœæ, tzn. dla jakich k¹tów ich sinus jest równy $$4\frac{1}{2}$$. £atwo dostrzec, ¿e jest tak na przyk³ad dla k¹ta $$\frac{\pi}{6} = 30*$$. Dalej, korzystaj¹c z wykresu, mo¿emy sprawdziæ, ¿e musi tak byæ tak¿e dla x-a le¿¹cego symetrycznie "po drugiej stronie" wzniesienia sinusa - czyli dla k¹ta $$\frac{5\pi}{6}$$ (punkty A i B na wykresie).
+3) Z punktu 2 i wykresu wynika, ¿e naszym rozwi¹zaniem jest przedzia³ miêdzy $$\frac{\pi}{6}$$ a $$\frac{5\pi}{6}$$.
+4) Funkcja jest okresowa, wiêc musimy wzi¹æ pod uwagê wszystkie rozwi¹zania: jako ¿e powtarzaj¹ siê one co $$2\pi$$, to ogólna postaæ rozwi¹zania to przedia³ od $$\frac{\pi}{6} + k*2\pi$$ do $$\frac{5\pi}{6} + k*2\pi$$, gdzie $$k$$ jest dowoln¹ liczb¹ ca³kowit¹.
+
+Te cztery punkty powinny nam umo¿liwiæ rozwi¹zanie dowolnej nierównoœci tego typu.
+
+WeŸmy inny przyk³ad: $$tan (\frac{\pi}{2} - x) > 1$$.
+1) Jako ¿e funkcja nie jest ³adnie okreœlona, najpierw spróbujemy doprowadziæ j¹ do czystej postaci. Korzystaj¹c z poznanych ju¿ wzorów redukcyjnych mo¿emy stwierdziæ, ¿e $$tan (\frac{\pi}{2} - x) = ctg x$$. 
+(Przypomnienie: zmieniliœmy funkcjê, poniewa¿ w k¹cie nie mieœci siê $$\pi$$, nie zmieniliœmy znaku, poniewa¿ k¹t le¿a³ w I æwiartce, w której tangens jest dodatni).
+2) Rysujemy wykres.
+
+\\\WYKRES cotangens
+
+3) Dla jakiego k¹ta cotangens jest równy 1?  Oczywiœcie dla k¹ta prostego = $$\frac{\pi}{4}$$. Jako ¿e cotangens jest funkcj¹ ró¿nowartoœciow¹ (w obrêbie jednego okresu), to naszym rozwi¹zaniem jest przedzia³ od 0 do $$\frac{\pi}{4}$$.
+4) Bior¹c pod uwagê okresowoœæ cotangensa trzeba dodaæ do rozwi¹zañ okres: w wyniku powstaje przedzia³ od $$k*\pi$$ do $$k*\pi + \frac{\pi}{4}$$ dla $$k$$ bêd¹cego dowoln¹ liczb¹ ca³kowit¹.

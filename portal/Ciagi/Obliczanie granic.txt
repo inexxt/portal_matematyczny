@@ -1,0 +1,23 @@
+W niniejszej sekcji zajmiemy siê obliczaniem granic ci¹gów korzystaj¹c z twierdzeñ o granicach ci¹gów i granic znanych nam ze wczeœniejszych lekcji.
+Krótkie przypomnienie: 
+Fakt 1: granica ci¹gu w nieskoñczonoœci $$a_n = \frac{1}{n}$$ to $$0$$. 
+Fakt 2: Twierdzenie o granicach ci¹gów mówi, ¿e jeœli mamy trzy ci¹gi: na przyk³ad $$(a_n)$$, $$(b_n)$$ i $$(c_n)$$ i $$c_n= a_n + b_n$$, a $$\lim_{n \to \infty} a_n = A$$ i $$\lim_{n \to \infty} b_n = B$$, to $$\lim_{n \to \infty} c_n = A+B$$. Oczywiœcie nie musi byæ tam dodawania: równie dobrze mo¿e byæ odejmowanie, mno¿enie lub dzielenie.
+To niepozorne i w miarê logiczne twierdzenie (skoro dodajemy ka¿de dwa wyrazy dwóch ci¹gów i tworzymy z tych sum trzeci ci¹g, a poprzednie zbiega³y do jakichœtam granic, to ten bêd¹cy sum¹ zbiega do granicy bêd¹cej sum¹ tamtych), to bardzo przydaje siê w normalnych zastosowaniach: nie trzeba wtedy liczyæ wszystkiego z definicji, a wystarczy po prostu skorzystaæ z granic znanych ci¹gów. 
+Inaczej mówi¹c: jeœli mamy ci¹g, którego wyrazy mo¿emy w prosty sposób otrzymaæ z wyrazów znanych nam ju¿ ci¹gów (dodaj¹c je, mno¿¹c itp), to mo¿emy próbowaæ obliczyæ granicê nowego ci¹gu korzystaj¹c jedynie z granic tamtych.
+
+Dla przyk³adu obliczmy granicê w nieskoñczonoœci ci¹gu 
+$$b_n = \frac{1}{n^2}$$. 
+Zauwa¿my, ¿e $$b_n = \frac{1}{n^2} = \frac{1}{n} * \frac{1}{n}$$. Skoro $$\lim_{n \to \infty} b_n = a_n*a_n$$, to korzystaj¹c z twierdzenia o granicach ci¹gów otrzymujemy $$\lim_{n \to \infty} b_n = \lim_{n \to \infty} b_n = a_n * \lim_{n \to \infty} a_n = 0*0 = 0$$
+
+Obliczmy granicê innego ci¹gu:
+$$p_n = \frac{n^3 - 3n^2 + 2}{2n^3 + 100n - 10}$$
+Jest to bardzo czêsto spotykany typ ci¹gów.
+Poniewa¿ na razie zarówno mianownik, jak i licznik d¹¿¹ do nieskoñczonoœci i nie da siê tego stwierdziæ od razu, musimy doprowadziæ wzór do postaci, z której bêdziemy mogli wyodrêbniæ ci¹gi, których granice ju¿ znamy.
+Podzielnmy wiêc obie strony u³amka przez $$n^3$$ - najwiêksz¹ potêgê $$n$$ wystêpuj¹c¹ we wzorze. Otrzymujemy:
+$$p_n = \frac{1 - 3\frac{1}{n} + 2\frac{1}{n^3}}{2 + 100\frac{1}{n^2} + 10\frac{1}{n^3}}$$
+Z tej postaci mo¿emy ju¿ powiedzieæ, do czego d¹¿y ka¿dy sk³adnik:
+1) Granic¹ $$1$$ i $$2$$ s¹ po prostu $$1$$ i $$2$$.
+2) Granicami wszystkich pozosta³ych u³amków s¹ zera - dla $$\frac{1}{n^2}$$ pokazywaliœmy to w poprzednim przyk³adzie.
+
+Z twierdzenia o dzia³aniach artytmetycznych na granicach mo¿emy wiêc powiedzieæ, ¿e:
+$$\lim{n \to \infty} p_n = \lim{n \to \infty} \frac{1 - 3\frac{1}{n} + 2\frac{1}{n^3}}{2 + 100\frac{1}{n^2} + 10\frac{1}{n^3}} = \frac{(\lim{n \to \infty} 1) - (\lim{n \to \infty} 3\frac{1}{n}) + (\lim{n \to \infty} 2\frac{1}{n^3})}{(\lim{n \to \infty} 2) + (\lim{n \to \infty} 100\frac{1}{n^2}) + \lim{n \to \infty} (10\frac{1}{n^3})} = \frac{1 - 3*0 + 2*0}{2 + 100*0 + 10*0} = \frac{1}{2}$$

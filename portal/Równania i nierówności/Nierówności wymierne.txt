@@ -1,0 +1,34 @@
+Nierównoœci wymierne
+
+Skoro zg³êbiliœmy ju¿ temat nierównoœci wielomianowych, mo¿emy zabraæ siê za ich rozwiniêcie - nierównoœci wymierne. Tak naprawdê wymagaj¹ one jedynie jednego "kroku" wiêcej i wszystko dalej sprowadza siê do rozwi¹zywania nierównoœci wielomianowych.
+
+Najproœciej bêdzie zobaczyæ to na przyk³adzie:
+$$\frac{3x-2}{4x-7} > \frac{1-3x}{5-4x}$$
+1) Pierwsz¹ rzecz¹, któr¹ robimy po zobaczeniu takiej nierównoœci, jest przeniesienie wszystkich sk³adników na jedn¹ stronê. 
+$$\frac{3x-2}{4x-7} - \frac{1-3x}{5-4x} > 0$$
+2) Sprowadzamy oba u³amki do wspólnego mianownika:
+$$\frac{(3x-2)(5-4x)}{(4x-7)(5-4x)} - \frac{(1-3x)(4x-7)}{(4x-7)(5-4x)} > 0$$
+3) Dodajemy u³amki i rozpisujemy ich liczniki
+$$\frac{(3x-2)(5-4x) - (1-3x)(4x-7)}{(4x-7)(5-4x)} > 0$$
+$$\frac{-2x-3}{(4x-7)(5-4x)} > 0$$
+4) Teraz nastêpuje najwa¿niejszy krok: zamieniamy iloraz wielomianów na ich iloczyn. Mo¿emy to zrobiæ, poniewa¿ taka operacja nie zmienia znaku lewej strony. Otrzymujemy wiêc nierównoœæ:
+$$(-2x-3)(4x-7)(5-4x) > 0$$
+5) Nastêpnym krokiem jest wyznaczenie miejsc zerowych ka¿dego z czynników oraz sprawdzenie, czy przy najwy¿szej potêdze $$x$$-a jest znak dodatni, czy ujemny:
+$$-2x-3 = 0$$
+$$x = -\frac{3}{2}$$
+$$4x-7 = 0$$
+$$x = -\frac{7}{4}$$
+$$-4x+5 = 0$$
+$$x = -\frac{5}{4}$$
+Teraz sprawdzenie znaku:
+$$(-2)*4*(-4) = 32 > 0$$
+6) Maj¹c miejsca zerowe i znaj¹c znak wspó³czynnika mo¿emy narysowaæ schematyczny wykres wielomianu i odczytaæ z niego przedzia³y, gdzie jest on dodatni:
+
+\\\RYSUNEK1 - wykres
+
+Jak widaæ nierównoœæ jest prawdziwa dla $$x$$-ów le¿¹cych w przedzia³ach $$(-\frac{3}{2}, \frac{5}{4})$$ oraz $$(\frac{7}{4}, \infty)$$.
+ 
+Metoda ta powinna zadzia³aæ we wszystkich zadaniach z nierównoœci wymiernych, które mog³yby pojawiæ siê na maturze.
+Warto jeszcze tylko dodaæ, ¿e krok 3 móg³ rozwin¹æ licznik do wielomianu wy¿szego stopnia - na przyk³ad funkcji kwadratowej. Nale¿a³oby wtedy po prostu znaleŸæ jej pierwiastki i zapisaæ w postaci iloczynu - dalsze kroki by³yby takie same.
+
+

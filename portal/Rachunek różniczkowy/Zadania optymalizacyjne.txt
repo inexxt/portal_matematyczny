@@ -1,0 +1,42 @@
+Zadania optymalizacyjne
+
+Rachunek ró¿niczkowy przydaje siê tak¿e w zadaniach optymalizacyjnych, czyli takich, w których mamy znaleŸæ obiekt, w którym interesuj¹ca w³asnoœæ jest najwiêksza albo najmniejsza. 
+Cech¹ t¹ mo¿e byæ przaktycznie wszystko: pole (wielok¹ta), objêtoœæ (bry³y), prêdkoœæ (pojazdu), op³acalnoœæ (systemu) itp. 
+Zadania optymalizacyjne rozwi¹zujemy uk³adaj¹c funkcjê opisuj¹c¹ zale¿noœæ interesuj¹cej nas w³aœciwoœci od warunków w jakich jest obiekt i licz¹c pochodn¹ tej funkcji. Najwiêksza lub najmniejsza wartoœæ mo¿e
+a) znajdowaæ siê w którymœ z ekstremów lokalnych
+b) znajdowaæ siê na krañcach interesuj¹cego nas przedzia³u
+c) w ogóle nie istnieæ (wtedy, gdy przedzia³ jest otwarty i w miarê zbli¿ania siê do krawêdzi uzyskujemy coraz lepszy wynik: np. najwiêksza wartoœæ funkcji $$\frac{1}{n}$$ w przedziale (0, 1).)
+Aby sprawdziæ, czy w ekstremum znajduje siê wartoœæ najmniejsza, czy najwiêksza, musimy obliczyæ znak drugiej pochodnej (czyli pochodnej pochodnej). Jeœli jest dodatnia - znajduje siê tam wartoœæ najmniejsza, jeœli ujemna - najwiêsksza. Dlaczego?
+
+\\\RYSUNEK - funkcja, pochodna, druga pochodna - ekstremum, nawiêksze lub najmniejsze
+
+Na rysunku widaæ, ¿e $$a$$ jest "ostatnim" punktem, gdzie funkcja jeszcze ros³a.
+
+Przyk³ad: ze wszystkich prostok¹tów o obwodzie 2 wybraæ taki o najwiêkszym polu.
+1) Najpierw musimy ustaliæ, co bêdzie nasz¹ zmienn¹ - tutaj przyjmijmy, ¿e funkcja pola bêdzie zale¿a³a od d³ugoœci jednego z boków - oznaczmy j¹ jako $$x$$. Drugi bok ma wtedy d³ugoœæ $$1-x$$. Pamiêtajmy, ¿e $$x \in (0,1)$$.
+2) Pole prostok¹ta jest równe $$f(x) = x*(1-x) = x - x^2$$
+3) Licz¹c pochodn¹ tej funkcji otrzymujemy $$f'(x) = 1-2x$$
+4) Pochodna ta ma pierwiastek w punkcie $$\frac{1}{2}.
+5) Dla ma³ych x-ów (zbiegaj¹cych do zera) pole zbiega do zera. Dla x-ów bliskich jedynki pole równie¿ zbiega do zera. (Granic¹ $$\lim(x \to 0) x(1-x)$$ jest 0, poniewa¿ pierwszy sk³adnik iloczynu d¹¿y do zera, a drugi jest ograniczony. Analogicznie w przypadku 1.)
+6) Najwiêksza (lub najmniejsza) wartoœæ znajduje siê zatem w ekstremum lokalnym równym  $$\frac{1}{2}$$. Musimy jeszcze wiedzieæ, czy jest to najwiêksza, czy najmniejsza wartoœæ - obliczamy drug¹ pochodn¹ równ¹ $$(-2x)' = -2. Okazuje siê, ¿e najwiêksze pole ma prostok¹t o bokach równych $$\frac{1}{2}, \frac{1}{2}$$, czyli po prostu kwadrat.
+
+Bardziej skomplikowane zadanie: znaleŸæ prostok¹t o najwiêkszym polu wpisany w okr¹g o promieniu 1.
+
+\\\RYSUNEK - ró¿ne prostok¹ty
+
+1) Nasz¹ zmienn¹ w tym zadaniu bêdzie odleg³oœæ ciêciwy $$AB$$ od œrodka okrêgu - nazwijmy tê d³ugoœæ $$h$$. Wa¿ne jest, ¿e $$h \in (0,1)$$.
+2) Zauwa¿my, ¿e prostok¹t mo¿na podzieliæ na 8 trójk¹tów prostok¹tnych, których pola ³atwo nam bêdzie obliczyæ.
+2) Funkcja $$f(h)$$ liczy pole prostok¹ta w zale¿noœci od odleg³oœci h.
+$$f(h) = 8*\frac{1}{2}*h*\sqrt{1^2 - h^2}$$
+3) Policzmy pochodn¹ tej funkcji (jest to funkcja z³o¿ona): 
+$$f'(h) = \frac{4-8 h^2}{\sqrt{1-h^2}}$$
+4) Pierwiastki pochodnej znajduj¹ siê w punktach
+$$x_1 =\frac{1}{\sqrt{2}}$$
+$$x_2 = - \frac{1}{\sqrt{2}}$$
+
+Interesuje nas jedynie pierwiastek le¿¹cy w przedziale $$(0,1)$$. Musimy jeszce sprawdziæ, czy 
+a) dla x-ów zbiegaj¹cych do 1 lub 0 pole nie roœnie - proste rachunki pokazuj¹, ¿e tak nie jest
+b) w ekstremum znajduje siê maksimum funkcji - tak rzezywiœcie jest, przekonujemy siê o tym licz¹c znak drugiej pochodnej w tym punkcie
+$$f''(x) = \frac{4 h (2 h^2-3)}{(1-h^2)^(3/2)}
+$$f''(x) = -16$$
+Jak widaæ maksymalne pole ma prostok¹t o jednym boku równym $$ 2h = \frac{2}{\sqrt{2}}$$ i drugim równym $$2*\sqrt{1^2+\frac{1}{\sqrt{2}}^2} = \frac{2}{\sqrt{2}}$$, czyli po prostu kwadrat.

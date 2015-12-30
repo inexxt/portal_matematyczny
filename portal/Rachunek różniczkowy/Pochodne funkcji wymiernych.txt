@@ -1,0 +1,55 @@
+Wprowadznie do pochodnych
+
+Badaj¹c funkcje matematycy uznali, ¿e przydatne by³oby jakieœ narzêdzie umo¿liwiaj¹ce sprawdzenie, jak szybko siê ona zmienia. Wprowadzili wiêc "pochodn¹" - pewn¹ wielkoœæ przypisywan¹ ka¿demu punktowi funkcji i okreœlaj¹c¹ szybkoœæ jej zmiany.
+
+Œcisle podchodz¹c do sprawy: pochodna to granica 
+$$\lim{\Delta x \to 0) \frac{f(x_0 + \Delta x) - f(\Delta x)}{\Delta x}}$$
+któr¹ zwykle zapisujemy symbolicznie jako
+$$\lim{\Delta x \to 0) \frac{\Delta y}{\Delta x}} =  \frac{dy}{dx} = f'(x)$$
+
+Podchodz¹c do tego geometrycznie:
+
+\\\RYSUNEK1 - coraz mniejsze ciêciwy
+
+Jak widaæ, robimy coraz bli¿sze sieczne - jeœli przejdziemy przez granicê, zbiegaj¹ one po prostu do stycznej do wykresu. W ujêciu geometrycznym pochodn¹ funkcji jest w³aœnie styczna do jej wykresu.
+
+Pochodne funkcji wymiernych
+
+Oczywiœcie obliczanie pochodnej ka¿dej funkcji z definicji by³oby doœæ k³opotliwe. Tak jak przy okazji granic, tak tutaj te¿ istniej¹ wzory okreœlaj¹ce pochodn¹ sumy, ró¿nicy, iloczynu i ilorazu, z których zwykle korzysta siê przy obliczaniu pochodnych. 
+Pochodna sumy i ró¿nicy jest po prostu sum¹ i ró¿nic¹ pochodnych - nie ma w tym nic skomplikowanego. Trudniej zaczyna siê robiæ, gdy mamy do czynienia z iloczynem albo ilorazem funkcji. 
+Suma: $$(f(x) + g(x))' = f'(x) + g'(x)$$
+Ró¿nica: $$(f(x) - g(x))' = f'(x) - g'(x)$$
+Iloczyn: $$(f(x)*g(x))' = f'(x)*g(x) + g'(x)*f(x)$$
+Iloraz:  $$(\frac{f(x)}{g(x)})' = \frac{f'(x)*g(x) + g'(x)*f(x)}{(g(x))^2}$$
+Warto tak¿e znaæ wzór na pochodn¹ funkcji z³o¿onej: $$(f(g(x)))' = f'(g(x))g'(x)$$.
+Oczywiœcie funkcja sta³a ma pochodn¹ równ¹ 0 - w ogóle nie roœnie.
+Ponadto trzeba zapamiêtaæ pochodn¹ funkcji potêgowej:
+$$(x^n)' = nx^(n-1)$$
+Tylko to i powy¿sze cztery wzory pozwalaj¹ nam obliczyæ pochodn¹ dowolnej funkcji wymiernej.
+
+Przyk³ad: obliczyæ pochodn¹ 
+$$f(x) = x^4 + 3x - 1$$
+1) Jest to suma funkcji potêgowych, wiêc mo¿emy skorzystaæ z tego, ¿e pochodna sumy jest równa sumie pochodnych:
+$$(x^4 + 3x - 1)' = (x^4)' + (3x)' - (1)'$$
+2) Teraz pozostaje tylko obliczyæ ka¿dy ze sk³adników korzystaj¹c ze wzoru na pochodn¹ funkcji potêgowej:
+$$f'(x) = 4x^3 + 12 - 0$$
+
+WeŸmy inn¹ funkcjê, tym razem bardziej skomplikowan¹:
+$$f(x) = \frac{(x-1)(x-2)}{x^2 - 1}$$
+1) Na pocz¹tek roz³ó¿my mianownik na iloczyn ze wzoru skróconego mno¿enia i skróæmy u³amek:
+$$f(x) = \frac{(x-1)(x-2)}{(x-1)(x+1)}$$
+$$f(x) = \frac{x-2}{x+1}$$
+2) Dostaliœmy prost¹ funkcjê wymiern¹: korzystaj¹c ze wzoru na pochodn¹ ilorazu dostajemy:
+$$f'(x) = \frac{(x-2)'(x+1) + (x-2)(x+1)'}{(x+1)^2}$$
+3) Pochodn¹ funkcji liniowej jest oczywiœcie 1, wiêc w wyniku dostajemy:
+$$f'(x) = \frac{x+1+x-2}{(x+1)^2}$$
+$$f'(x) = \frac{2x-1}{(x+1)^2}$$
+
+Trzeci przyk³ad - obliczanie pochodnej funkcji z³o¿onej. 
+WeŸmy funkcjê $$f(x) = \sqrt{x^2 + x} = (x^2 + x)^(\frac{1}{2})$$.
+Oznaczmy sobie $$g(x) = \sqrt{x} = x^(\frac{1}{2})$$ oraz $$h(x) = x^2 + x$$. Wtedy funkcja $$f(x)$$ jest po prostu z³o¿eniem dwóch funkcji $$g(h(x))$$. 
+Jej pochodna jest w takim razie równa $$f'(x) = \frac{1}{2}(x^2+x)^(\frac{1}{2}-1)*(x^2 + x)' = \frac{1}{2}(x^2+x)^(\frac{-1}{2})*(2x + 1)$$
+
+
+
+

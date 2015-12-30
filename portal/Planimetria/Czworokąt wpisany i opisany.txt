@@ -1,0 +1,26 @@
+Wstêp 
+
+Planimetria jest dzia³em matematyki, który wymaga chyba najwiêkszej wyobraŸni. Twierdzenia, które poznamy w tym dziale, s¹ jednymi z najbardziej podstawowych, ale liczba kombinacji, w których mog¹ wystêpowaæ, jest nieograniczona. 
+
+Czworok¹ty wpisane w okr¹g
+
+Pierwszym zagadnieniem, którym siê zajmiemy, bêd¹ warunki wpisywalnoœci i opisywalnoœci okrêgów na czworok¹tach. Trzeba bowiem wspomnieæ, ¿e w przeciwieñstwie do trójk¹tów - mog¹ istnieæ czworok¹ty, na których nie da siê opisaæ lub wpisaæ w nie okrêgu.
+
+Warunkiem wystarczaj¹cym i koniecznym do opisania okrêgu na czworok¹cie jest to, czy naprzeciwleg³e k¹ty sumuj¹ siê do $$180\degree$$. 
+
+Zaznaczmy na rysunku trzy punkty le¿¹ce na okrêgu i zastanówmy siê, gdzie mo¿e le¿eæ czwarty wierzcho³ek.
+\\\RYSUNEK1 - zaznaczone mniejsze i wiêksze
+
+1) Suma k¹tów jest mniejsza od 180 - czwarty wierzcho³ek bêdzie le¿a³ poza okrêgiem.
+2) Suma k¹tów jest wiêksza od 180 - czwarty wierzcho³ek bêdzie le¿a³ w okrêgu.
+3) Suma k¹tów jest równa 80 - czwarty wierzcho³ek bêdzie le¿a³ dok³adnie na okrêgu, poniewa¿ suma k¹tów (a wiêc ³uków) na ca³ym okrêgu musi byæ równa $$180\degrees$$ (a wiêc $$2\pi$$).
+
+Okr¹g wpisany w czworok¹t
+
+W przypadku okrêgów wpisanych w czowork¹ty warunek zale¿y od d³ugoœci odpowiednich boków: musi zachodziæ
+$$AB + CD = BC + AD$$
+
+\\\RYSUNEK2 - zaznaczone promienie
+
+Dlaczego? Jeœli poprowadzimy cztery promienie (tak jak na rysunku) - przekonamy siê, ¿e zaznaczone trójk¹ty s¹ podobne, wiêc sumuj¹c odpowiednie odcinki otrzymjemy
+$$AW + CD = AW + WB + CY + YD = AZ + BX + CX + DZ = BC + AD$$

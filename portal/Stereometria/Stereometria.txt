@@ -1,0 +1,18 @@
+Stereometria
+
+Stereometria jest wa¿nym i doœæ trudnym (wymaga jeszcze wiêcej wyobraŸni ni¿ geometria) dzia³em matematyki. Na kursie podstawowym by³y przedstawione podstawowe wzory opisuj¹ce pole powierzchni i objêtoœæ niektórych figur przestrzennych, wiêc tutaj tylko przypomnê, ¿e jeœli mamy do czynienia z graniastos³upem lub walcem, to jego objêtoœæ jest równa $$V = P_p*H$$, natomiast w przypadku ostros³upa lub sto¿ka musimy wynik mno¿enia podzieliæ przez 3.
+
+Zajmiemy siê teraz czymœ bardziej zaawansowanym - okreœlaniem kszta³tu przekroju sfery, graniastos³upa i ostros³upa p³aszczyzn¹.
+
+Ka¿dy przekrój sfery p³aszczyzn¹ jest okrêgiem. Mo¿na siê o tym przekonaæ obliczaj¹c po prostu odleg³oœæ miêdzy jakimœ punktem przeciêcia i œrodkiem sfery. 
+Im mniejsza jest odleg³oœæ miêdzy œrodkiem sfery a p³aszczyzn¹, tym wiêkszy okr¹g otrzymujemy, co jest raczej zrozumia³e. Jeœli zaœ nasza p³aszczyzna zawiera œrodek (czyli odleg³oœæ jest równa zeru) mamy do czynienia z okrêgiem wielkim, którego promieñ jest równy promieniowi sfery.
+
+\\\RYSUNEK - dwie sytuacje sfery i p³aszczyzny
+
+W przypadku graniasto- i ostros³upów sprawa siê komplikuje. W wyniku przeciêcia mo¿emy otrzymaæ praktycznie dowolny wielok¹t. 
+Jeœli przecinamy tak¹ bry³ê p³aszczyzn¹ równoleg³¹ do podstawy, kszta³t przekroju jest taki sam, jak kszta³t podstawy.
+Jeœli przecinamy to jak¹œ inn¹ p³aszczyzn¹, mo¿emy uzyskaæ nieskoñczenie wiele ró¿nych kszta³tów: niektóre bêd¹ trójk¹tami, inne czworok¹tami lub wielok¹tami. 
+Aby rozpoznaæ kszta³t najproœciej po prostu naryswowaæ rysunek w przestrzeni i zaznaczyæ przerywan¹ kresk¹ linie przeciêcia. Jeœli wydaje nam siê, ¿e kszta³t mo¿e byæ np. kwadratem, wykonujemy odpowiednie rachunki jak na przyk³ad obliczenie wszystkich boków, aby siê o tym przekonaæ.
+
+\\\RYSUNEK - linie przerywane
+

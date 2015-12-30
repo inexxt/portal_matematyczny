@@ -1,0 +1,27 @@
+Twierdzenie Talesa
+
+Twierdzenia Talesa to tak naprawdê skorzystanie z podobieñstwa pewnych trójk¹tów.
+
+\\\RYSUNEK1 - tw. Talesa
+
+Jeœli mamy sytuajcê tak¹ jak na rysunku (odcinki $$DE$$ i $$BC$$ s¹ równoleg³e), to prawdziwe s¹ równoœci
+$$\frac{AB}{AD} = \frac{BC}{DE}$$
+$$\frac{AB}{AC} = \frac{AD}{AE}$$
+i wszystkie z nich wynikaj¹ce. Ogólnie jeœli mamy stosunek dwóch odcinków w pierwszym trójk¹cie $$ABC$$, to jest on równy stosunkowi odcinków w drugim trój¹cie $$ADE$$. 
+Wynika to z prostego podobieñstwa: jeœli odpowiednie odcinki s¹ równoleg³e, to k¹ty przy podstawach tak¿e s¹ równe (k¹ty odpowiadaj¹ce) - jest to cecha KKK.
+
+
+Twierdzenie odwrotne do twierdzenia Talesa mówi natomiast, ¿e jeœli zachodz¹ takie równoœci stosunków (czyli ¿e jeœli na przyk³ad wiemy, ¿e $$\frac{AB}{AD} = \frac{BC}{DE}$$), to na pewno odcinki $$BC$$ i $$DE$$ s¹ równoleg³e. To tak¿e wynika wprost z podobieñstwa - tym razem z cechy BKB.
+
+Na koniec warto wspomnieæ, ¿e twierdzenie Talesa dzia³a tak¿e wtedy, gdy odcinki $$BC$$ i $$DE$$ s¹ po "ró¿nych stronach" punktu $$A$$.
+
+\\\RYSUNEK2 - twierdzenie Talesa ró¿ne strony
+
+Zobaczmy, jak wygl¹da przyk³adowe rozwi¹zanie zadania korzystaj¹ce z twierdzenia Talesa:
+
+\\\RYSUNEK - tw. Talesa zadanie
+
+Na rysunku mamy podane d³ugoœci pewnych odcinków. Mamy obliczyæ d³ugoœæ odcinka $$DB$$. 
+Rozwi¹zanie:
+Z twierdzenia Talesa wiemy, ¿e prawdziwe jest równanie $$\frac{AE}{AC} = \frac{AD}{AB}$$ Podstawiaj¹c dane liczby otrzymujemy $$AD = \frac{2*4}{5}$$.
+Odcinek $$DB$$ jest po prostu równy sumie $$AD$$ i $$AB$$, czyli $$AD = 1.6 + 4 = 5.6$$.

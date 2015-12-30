@@ -1,0 +1,28 @@
+Okresowoœæ funkcji trygonometrycznych
+
+Z tego, co powiedzieliœmy przy okazji definicji funkcji trygonometrycznych i miary ³ukowej oczywiœcie wynika, ¿e funkcje te s¹ okresowe. Zauwa¿my, ¿e jeœli weŸmiemy na przyk³ad k¹t $$45\degree$$ i k¹t $$405\degree$$, to wartoœci wszystkich funkcji bêd¹ dla nich takie same: k¹ty te le¿¹ "w tym samym miejscu" na okrêgu.
+
+\\\RYSUNEK1 - Dwa k¹ty s¹ takie same
+
+Oczywiœcie wszystkie funkcje maj¹ okres równy $$2*\pi$$, czyli pe³nemu obrotowi. Wynikaj¹ z tego wzory:
+$$sin \alpha = sin (\alpha + k*2*\pi)$$
+$$cos \alpha = cos (\alpha + k*2*\pi)$$
+$$tan \alpha = tan (\alpha + k*2*\pi)$$
+$$ctg \alpha = ctg (\alpha + k*2*\pi)$$
+gdzie $$k \in \mathbb{N}$$, czyli inaczej mówi¹c: ¿e od wartoœci k¹ta mo¿emy odj¹æ $$2*\pi$$, a wartoœæ funkcji pozostanie taka sama.
+
+Teraz mo¿na zapytaæ, czy okres pe³nego obrotu jest okresem podstawowym, czyli czy nie da siê znaleŸæ innej, mniejszej liczby, po której wartoœci funkcji by siê powtarza³y.
+
+Okazuje siê, ¿e rzeczywiœcie dla funkcji tangens i cotangens istnieje mniejszy okres równy $$\pi$$. Wynikaj¹ z tego wzory:
+$$tan \alpha = tan(\alpha + k*\pi)$$
+$$ctg \alpha = ctg(\alpha + k*\pi)$$
+
+Okresowoœæ funkcji widaæ doœæ dobrze na ich wykresach:
+
+\\\RYSUNEK2abcd wykres sin, cos, tan, ctg
+
+Trzeba tak¿e wiedzieæ, ¿e funkcje $$tan(x)$$ oraz $$ctg(x)$$ posiadaj¹ asymptoty pionowe, czyli miejsca, gdzie nie maj¹ wartoœci (ich granice w tym miejscu s¹ rozbie¿ne do $$\infty$$.). 
+Wynika to bezpoœrednio z ich definicji - w przypadku $$tan(x)$$ miejsc, gdzie $$x = 0$$, czyli 
+$$\alpha = \frac{\pi}{2} + k*\pi$$ 
+(dzielenie przez zero, poniewa¿ $$tan(x)$$ = \frac{y}{x}$$).
+W przypadku $$ctg(x)$$ - miejsc, gdzie $$y = 0$$ czyli $$\alpha = \pi + k*\pi$$ , gdzy¿ $$ctg(x)$$ = \frac{x}{y}$$.

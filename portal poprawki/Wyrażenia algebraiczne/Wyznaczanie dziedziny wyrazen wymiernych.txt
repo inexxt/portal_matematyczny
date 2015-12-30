@@ -1,0 +1,18 @@
+\\\ÆWICZENIE
+
+ZnaleŸæ dziedzinê nastêpuj¹cych wyra¿eñ wymiernych:
+
+a) $\frac{x^5 + 10x^4 - 9x^3 + 2x - 2}{x^2 - 6x + 9}$
+b) $\frac{x^10}{(x-1)(x-2)(x-3)(x-4)(x-5)}$
+c) $\frac{x - 5}{(x-1)(x+2)} +  $\frac{x + 5}{(x+1)(x-2)}$
+
+\\\ROZWI¥ZANIA
+
+a) dziedzin¹ s¹ wszystkie liczby rzeczywiste oprócz tych miejsc, gdzie zeruje siê licznik u³amka - podójnym pierwiastkiem funkcji $x^2 - 6x + 9$ jest liczba $x = $ (poniewa¿ $x^2 - 6x + 9 = (x-3)^2$ - mo¿na to zauwa¿yæ korzystaj¹c ze wzorów Viete'a).
+Wynika z tego, ¿e dziedzin¹ s¹ wszystkie liczby rzeczywiste oprócz $3$.
+
+b) Ponownie, musimy zbadaæ, kiedy zeruje siê mianownik. W tym przypadku mamy podane od razu jego pierwiastki: s¹ to liczb $1,2,3,4,5$, wiêc dziedzin¹ wyra¿enia s¹ wszystkie liczby rzeczywiste bez tych piêciu.
+
+c) Tutaj jest ju¿ trudniej, poniewa¿ mamy dwa wyra¿enia. Mo¿emy oczywiœcie je dodaæ i otrzymaæ jedno, ale nie ma to wiêkszego sensu: wystarczy rozpatrzyæ miejsca zerowania siê mianowników obu u³amków osobno.
+W pierwszym z nich nastêpuje to w miejscach $x = 1$ i $x = -2$, w drugim: $x = -1$ i $x = 2$. Wiemy wiêc, ¿e dziedzin¹ tego wyra¿enia jest zbiór wszystkich liczb rzeczywistych wy³¹czaj¹c $-2, -1, 1, 2$.
+

@@ -1,0 +1,47 @@
+Wektory
+
+Wspó³rzêdne wektora
+
+Maj¹c dane wspó³rzêdne koñców wektora mo¿emy wyznaczyæ jego wspó³rzêdne: opisuj¹ one po prostu koniec wektora przy za³o¿eniu, ¿e jego pocz¹tek jest zaczepiony w punkcie $$(0,0)$$. 
+Jeœli pocz¹tek le¿y w punkcie $$A = (x_p,y_p)$$, a koniec to punkt $$B = (x_k, y_k)$$, to wspó³rzêdne wektora wyznacza wzór:
+$$\vec{AB} = [x_p-x_k, y_p-y_k]$$
+
+Dodawanie, odejmowanie i mno¿enie przez liczbê
+
+Dodawanie wektorów mo¿na interpretowaæ geometrycznie na równowa¿ne sobie sposoby:
+1) W koñcu jednego wektora zaczepiamy drugi - ich suma jest wtedy wektorem prowadz¹cym od pocz¹tku pierwszego do koñca drugiego.
+
+\\\RYSUNEK1 - dodawanie 1
+
+2) Jeœli oba wektory s¹ zaczepione w tym samym punkcie, ich suma to przek¹tna równoleg³oboku utworzonego przez nie (rysunek).
+
+\\\RYSUNEK2 - dodawanie 2
+
+Jeœli mamy natomiast dodaæ je analitycznie, wystarczy po prostu dodaæ ich odpowiednie wspó³rzêdne. Zak³adaj¹c, ze $$\vec{v} = [v_a, v_b]$$, a $$\vec{u} = [u_a, u_b]$$, wspó³rzêdne wektora bêd¹cego ich sum¹: $$\vec{t} = \vec{v} +\vec{u} $$ s¹ równe $$\vec{t} = [u_a + v_a,u_b + v_b]$$.
+
+Odejmowanie wektora to po prostu dodawanie wektora o przeciwnym zwrocie:
+maj¹c ró¿nicê $$\vec{t} = \vec{v} - \vec{u} $$ mo¿emy j¹ zapisaæ jako $$\vec{t} = \vec{v} + (-\vec{u}) $$. Wektor $$(-\vec{u})$$ to po prostu wektor $$\vec{u}$$ przeciwnie skierowany (przed obiema wspó³rzêdnymi dostawiamy minus).
+
+Mno¿enie wektora $$\vec{v}$$ przez liczbê $$a$$ to w ujêciu geometrycznym dodanie do siebie $$a$$ razy wektora $$\vec{v}$$, zaœ w ujêciu analitycznym - pomno¿enie przez liczbê $$a$$ obu jego wspó³rzêdnych.
+
+\\\RYSUNEK3 - mno¿enie wektora przez liczbê
+
+Rozk³adanie wektorów
+
+Ka¿dy wektor mo¿na roz³o¿yæ na sumê kilku wektorów. Najczêœciej, chocia¿ nie zawsze, op³aca siê braæ pod uwagê sumê wektorów równoleg³ych do osi wspó³rzêdnych. W ujêciu geometrycznym s¹ to boki prostok¹ta, którego przek¹tn¹ jest wektor; w ujêciu analitycznym: wektory o wspó³rzêdnych $$\vec{v_x} = [a, 0]$$ i $$\vec{v_y} = [0, b]$$ jeœli wektor $$\vec{v} = [a, b]$$.
+
+\\\RYSUNEK4 - rozk³adanie wektora
+
+Wektory jako przesuniêcie wykresu
+
+Wektor jest czêsto u¿ywany jako wielkoœæ opisuj¹ca przesuniêcie. Mo¿na mówiæ o przesuniêciu dowolnego obiektu le¿¹cego w przestrzeni: na przyk³ad wykresu funkcji.
+
+\\\RYSUNEK5 - przesuniêcie wykresu funkcji
+
+Widaæ, ¿e przesuniêcie wykresu nie zale¿y od tego, w którym miejscu zaczepimy wektor. Jak opisaæ takie przesuniêcie?
+
+Za³ó¿my, ¿e mamy funkcjê $$y = f(x)$$ i chcemy jej wykres przesun¹æ o wektor $$\vec{v} = [a,b]$$. Aby to zrobiæ, roz³ó¿my $$\vec{v}$$ na wektory sk³adowe równoleg³e do osi i przesuñmy wykres przez ka¿dy z nich oddzielnie (suma przesuniêæ bêdzie siê równa³a przesuniêciu przez wektor sumy).
+
+Przesuwaj¹c wykres w pionie zmieniamy tak naprawdê jedynie wyraz wolny: jeœli na przyk³ad $$\vec{v_y} = [0, b]$$, to nowa funkcja $$f_2(x)$$ bêdzie równa $$f_2(x) = f(x) + b$$. 
+Zastanówmy siê wiêc, co tak naprawdê robimy przesuwaj¹c wykres w poziomie - za³ó¿my, ¿e w prawo, czyli o wektor $$\vec{v_x} = [a, 0]$$ gdzie $$a > 0$$. Ka¿demu $$x$$-owi przyporz¹dkowujemy wtedy wartoœæ $$x$$-a le¿¹cego o $$a$$ bli¿ej, np. punkt $$x=3$$ dosta³ wartoœæ punktu $$x=3-a$$. Nowa funkcja bêdzie wiêc mia³a postaæ $$f_2(x) = f(x-a)$$.
+£¹cz¹c te dwie zmiany dowiadujemy siê, ¿e funkcja $$y = f(x)$$ przesuniêta o wektor $$\vec{v} = [a,b]$$ bêdzie mia³a postaæ $$y = f(x-a)+b$$.

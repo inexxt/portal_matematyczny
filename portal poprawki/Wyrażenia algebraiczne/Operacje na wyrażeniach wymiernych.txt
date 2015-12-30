@@ -1,0 +1,19 @@
+\\\ÆWICZENIE1
+
+Zsumowaæ:
+$\frac{x^2 + 1}{x - 2} + \frac{x - 1}{x - 3}$
+
+\\\ROZWI¥ZANIE
+Sprowadzamy do wspólnego mianownika, a potem dodajemy:
+$\frac{x^2 + 1}{x - 2} + \frac{x - 1}{x - 3} =  \frac{(x^2 + 1)(x-3)}{(x - 2)(x-3)} + \frac{(x - 1)(x - 2)}{(x - 2)(x-3)} = \frac{(x^2 + 1)(x-3) + (x - 1)(x - 2)}{(x - 2)(x - 3)} =  \frac{x^3-2 x^2-2 x-1}{x^2-5 x+6} $
+
+\\\ÆWICZENIE2
+
+Wymno¿yæ:
+$\frac{x^2 - 2x + 1}{x + 1} * \frac{x^2 - x - 2}{x - 1}$
+
+\\\ROZWI¥ZANIE
+$\frac{x^2 - 2x + 1}{x + 1} * \frac{x^2 - x - 2}{x - 1} = \frac{(x^2 - 2x + 1)(x^2 - x - 2)}{(x + 1)(x-1)}$
+
+Moglibyœmy wymna¿aæ to dalej i stopniowo upraszczaæ, ale mo¿emy tak¿e zauwa¿yæ, ¿e wyra¿enia kwadratowe w mianownikach daj¹ siê ³atwo roz³o¿yæ na iloczyn:
+$\frac{(x^2 - 2x + 1)(x^2 - x - 2)}{(x + 1)(x-1)} = \frac{(x - 1)^2(x-2)(x+1)}{(x + 1)(x-1)}$ = \frac{(x - 1)(x-2)}{1}$ = x^2 - 3x + 2$

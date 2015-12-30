@@ -1,0 +1,40 @@
+Zad. 3
+Wyznacz liczbê rozwi¹zañ równania $$|\frac{3^{x+1} - 1}{3^x}| = m$$ w zale¿noœci od parametru m.
+
+Rozwi¹zanie:
+Szkicuj¹c wykres funkcji $$f(x)$$ mo¿emy zobaczyæ, ¿e ma ona:
+1) Zero rozwi¹zañ dla $$m < 0$$
+2) Jedno rozwi¹zanie dla $$m = 0$$
+2) Dwa rozwi¹zania dla $$0 < m <= 3$$
+3) Jedno rozwi¹zanie dla $$3 < m$$
+
+
+Zad. 4
+Oblicz wartoœæ funkcji $$f(x) = |2^{x-1} - 3|$$ dla argumentu $$x_0 = \log_2 5 + \log_2 5 * \log_5 2$$.
+
+Rozwi¹zanie:
+$$x_0 = \log_2 5 + \log_2 5 * \log_5 2 = x_0 = \log_2 5 + \log_2 5* \frac{1}{\log_2 5} = x_0 = \log_2 5 + 1$$
+$$
+f(x) = |2^{x-1} - 3|  = |2^{\log_2 5 + 1 - 1} - 3| = |2^{\log_2 5} - 3| = |5 - 3| = 2
+$$
+Funkcja przyjmuje wartoœci wiêksze dla $$x<1$$ oraz dla $$x> x_0$$.
+
+Zad. 7
+Uzasadnij nierównoœæ $$\frac{1}{\log_3 4} + \log_8 4\sqrt{3} < 2$$
+
+Rozwi¹zanie:
+$$\frac{1}{\log_3 4} + \log_8 4\sqrt{3} = \log_4 3 + \log_8 4\sqrt{3} = 
+\log_2^2 3 + \log_2^3 4 + \log_2^3 3^{\frac{1}{2}} = 
+\frac{1}{2} \log_2 3 + \frac{2}{3} \log_2 2 + \frac{1}{6} \log_2 3 = 
+\frac{2}{3} + \frac{2}{3} \log_2 3$$
+$$
+Dzielimy obustronnie przez $$\frac{2}{3}$$.
+$$
+\frac{2}{3} + \frac{2}{3} \log_2 3 < 2
+1 + \log_2 3 < 3
+\log_2 3 < 2
+\log_2 3 < \log_2 4
+3 < 4
+$$
+
+

@@ -1,0 +1,66 @@
+Rozwi¹zywanie równañ i nierównoœci
+
+Jako ¿e poznaliœmy ju¿ wszystkie potrzebne wzory, mo¿emy zaj¹æ siê prac¹ nad zadaniami. Ten rozdzia³ nie bêdzie zawiera³ ju¿ ¿adnej nowej teorii, a jedynie pokazywa³ sposoby, jakich mo¿na u¿yæ przy rozwi¹zywaniu zadañ.
+
+Zacznijmy od podstawowego przyk³adu:
+$$sin 2x = \frac{1}{2}$$
+
+Widz¹c coœ takiego pierwsze, co powinno nam przyjœæ do g³owy, to zastanowienie siê k¹tami, dla których $$sin a = \frac{1}{2}$$. Zadanie jest wrêcz podstawowe: oczywiœcie dzieje siê tak dla k¹tów $$a = \frac{\pi}{6} + k*2\pi$$, $$a = \frac{5\pi}{6}+k*2\pi$$ (przypomnienie: poniewa¿ $$2\pi$$ to okres sinusa, rozwi¹zania powtarzaj¹ siê w³aœnie co $$2\pi$$).
+
+Skoro w argumencie mamy $$a = 2x$$, to podstawiaj¹c do naszych rozwi¹zañ $$2x$$ otrzymujemy:
+$$2x = \frac{\pi}{6} + k*2\pi$$
+$$x = \frac{\pi}{12} + k*\pi$$
+oraz
+$$2x = \frac{5\pi}{6} + k*2\pi$$
+$$x = \frac{5\pi}{12} + k*\pi$$
+Co koñczy zadanie.
+Oczywiœcie jeœli zamiast sinusa by³by cosinus albo zamiast $$2x$$ wystêpowa³oby $$5x$$ rozwi¹zanie wygl¹da³oby tak samo.
+
+PrzejdŸmy do bardziej zaawansowanych przyk³adów.
+WeŸmy na przyk³ad $$sinx + cosx = 1$$
+Rozwi¹zanie wygl¹da doœæ prosto:
+1) Najpierw podnosimy obie strony do kwadratu:
+$$sin^2x + 2*sinxcosx + cos^2x = 1$$
+2) PóŸniej zamieniamy praw¹ stronê z jedynki trygonometrycznej:
+$$sin^2x + 2*sinxcosx + cos^2x = sin^2x + cos^2x$$
+3) Skracamy:
+$$sinxcosx = 0$$
+4) Mamy iloczyn dwóch sk³adników przyrównany do zera. Musi byæ wiêc tak, ¿e albo 
+a)$$sinx = 0$$
+i wtedy $$x = k*\pi$$.
+b)albo $$cosx = 0$$
+i wtedy $$x = \frac{\pi}{2} + k*\pi$$.
+
+Jak mo¿na by³o wpaœæ na to, ¿e rozwi¹zanie bêdzie przebiega³o w³aœnie w ten sposób? Po pierwsze, widzimy jedynkê i sumê $$sin$$ i $$cos$$, wiêc przypomina siê nam wzór na jedynkê trygonometryczn¹. Potem uœwiadamiamy sobie, ¿e potrzebujemy sumy kwadratów, podnosimy wiêc obie strony do kwadratu. PóŸniej ju¿ samo idzie :).
+
+Inny przyk³ad: tym razez trzeba udowodniæ to¿samoœæ
+$$cos^4x - sin^4x = cos2x$$
+1) Najpierw roz³ó¿my praw¹ stronê, ¿eby w równaniu wystêpowa³y jedynie funkcje "proste" - $$sinx$$ i $$cosx$$. 
+$$cos^4x - sin^4x = cos^2x - sin^2x$$
+2) Teraz skorzystajmy ze wzoru skróconego mno¿enia i roz³ó¿my lew¹ stronê
+$$(cos^2x + sin^2x)(cos^2x - sin^2x) = cos^2x - sin^2x$$
+3) Widaæ, ¿e po lewej stronie pojawi³a siê suma kwadratów sinusa i cosinusa, wiêc zamieniaj¹c j¹ na jedynkê otrzymujemy rozwi¹¿anie:
+$$1*(cos^2x - sin^2x) = cos^2x - sin^2x$$
+
+Kolejny przyk³ad bêdzie wymaga³ skorzystania z bardziej zaawansowanego wzoru. Nale¿y udowodniæ nastêpuj¹c¹ to¿samoœæ:
+$$4sinxsin(\frac{\pi}{3} + x)(\frac{\pi}{3} - x) = sin(3x)$$
+1) Zacznijmy od roz³o¿enia sinusa sumy i ró¿nicy k¹tów
+$$4sinx(sin(\frac{\pi}{3})cosx + sinxcos(\frac{\pi}{3}))(sin(\frac{\pi}{3})cosx - sinxcos(\frac{\pi}{3})) = sin(3x)$$
+2) Teraz wymnó¿my nawiasy korzystaj¹c ze wzoru skróconego mno¿enia:
+$$4sinx((sin(\frac{\pi}{3})cosx)^2 - (sinxcos(\frac{\pi}{3}))^2 = sin(3x)$$
+3) Oczywiœcie $$sin(\frac{\pi}{3} = \frac{\sqrt{3}}{2}$$ i $$cos(\frac{\pi}{3} = \frac{1}{2}$$. Wstawiaj¹c te liczby do równania i podnosz¹c je do kwadratu dostajemy
+$$4sinx(\frac{3}{4}(cosx)^2 - \frac{1}{4}(sinx)^2) = sin(3x)$$
+4) Teraz mo¿emy wymno¿yæ lew¹ stronê oraz zamieniæ $$sin(3x)$$ na $$sin(2x+x)$$
+$$3sinx(cosx)^2 - (sinx)^3 = sin(2x + x)$$
+5) Zamieniaj¹c praw¹ stronê na iloczyn ze wzoru na $$sin(\alpha + \beta)$$ otrzymujemy równanie
+$$3sinx(cosx)^2 - (sinx)^3 = sin(2x)cosx + sinxcos(2x)$$
+6) Ostatni krok to pononwne skorzystanie ze wzoru na $$sin(2x)$$ i $$cos(2x)$$
+$$3sinx(cosx)^2 - (sinx)^3 = 2sinx(cosx)^2 + sinx(cosx^2 - sinx^2)$$
+Co po prostym wymno¿eniu jest równe
+$$3sinx(cosx)^2 - (sinx)^3 = 3sinx(cosx)^2 - (sinx)^3$$
+
+Ten przyk³ad wymaga³ ju¿ doœæ dobrej znajomoœci wzorów, ale trudnoœæ mog³a pojawiæ siê w miejscu, gdzie trzeba by³o rozbiæ $$3x$$ na $$2x + x$$. Sk¹d by³o wiadomo, ¿e nale¿y to zrobiæ? Nie ma prostej odpowiedzi. Równania trygonometryczne wymagaj¹ po prostu oswojenia siê z nimi i praktyki - po kilkunastu zrobionych przyk³adach po prostu zaczyna siê zauwa¿aæ takie rzeczy. Nie pozostaje zatem nic innego, jak po prostu æwiczyæ.
+
+
+
+

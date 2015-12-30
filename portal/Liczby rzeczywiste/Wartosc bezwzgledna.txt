@@ -1,0 +1,97 @@
+"Wartoœæ bezwzglêdna" to funkcja okreœlona na ca³ym przedziale liczb rzeczywistych oznaczana symbolem $$|x|$$ albo skrótem $$abs(x)$$ (z ang. absolute).
+Definiuje siê j¹ jako:
+
+\\\RYSUNEK2 - wzór
+
+Inaczej mówi¹c, przekszta³ca ka¿d¹ liczbê, któr¹ dostanie na liczbê nieujemn¹.
+
+Kilka przyk³adów, które mog¹ pomóc to zrozumieæ (ka¿dy z nich bezpoœrednio wynika ze wzoru):
+$$
+|-2| = 2
+|-1/3| = 1/3
+|4| = 4
+|0| = 0
+|5-9| = |-4| = 4
+$$
+
+Æwiczenie 1. Oblicz:
+$$
+a) |-5|
+b) |\frac{1}{2}|
+c) |a^2|
+$$
+
+\\\
+Æwiczenie 2. Narysuj wykres funkcji wartoœci bezwzglêdnej.
+Mo¿na zauwa¿yæ, ¿e $$|-x| = |x|$$, czyli wewn¹trz wartoœci bezwzglêdnej mo¿emy swobodnie zmieniæ znak ca³ego wyra¿enia na przeciwny. 
+Jeœli na przyk³ad mamy $$|5-9|$$, to jest to to samo, co $$|-(5-9)|$$, czyli $$|9-5|$$.
+
+
+Wartoœæ bezwzglêdna mo¿e tak¿e wystêpowaæ w równaniach i nierównoœciach. Rozwi¹zujemy je tak samo jak w przypadku innych takich zadañ, jednak gdy chcemy "opuœciæ" wartoœæ bezwzglêdn¹, musimy rozwa¿yæ dwa przypadki:
+1) wartoœæ pod ni¹ jest dodatnia
+2) wartoœæ pod ni¹ jest ujemna
+PóŸniej po prostu rozwi¹zujemy zadanie dwutorowo dochodz¹c do dwóch wyników.
+
+Na pocz¹tek spójrzmy na równanie $$|x| = 10$$. Aby je rozwi¹zaæ, musimy rozwa¿yæ dwa przypadki: $$x$$ mo¿e byæ albo dodatni, albo ujemny (oczywiœcie nie mo¿e byæ zerem).
+
+Jeœli $$x>0$$ to funkcja wartoœci bezwzglêdnej nie zmienia jego znaku i otrzymujemy $$x = 10$$.
+
+Jeœli x jest ujemny, to wartoœæ bezwzglêdna zmienia znak (czyli ‘wstawia minus’) i dostajemy $$–x = 10$$ czyli $$x=-10$$;
+
+Bardziej rozbudowany przyk³ad: mamy równanie $$|2x - 4| = 9$$.
+¯eby je rozwi¹zaæ, znowu trzeba zastanowiæ siê co tak naprawdê kryje siê pod wartoœci¹ bezwzglêdn¹ - jeœli jest to liczba ujemna, to zmieniamy jej znak.
+Przypadek 1: 
+$$2x - 4 > 0
+2x - 4 = 9
+2x = 13
+x = 6.5$$
+Przypadek 2:
+$$2x – 4 < 0
+|2x – 4| = -(2x - 4) = 4 - 2x
+4 – 2x = 9
+2x = -5$$
+
+Æwiczenia 3.
+Rozwi¹¿ równania:
+a) $$|x + 5| = 7$$
+b) $$|4x - 8| = 16$$
+c) $$|x^2 - 3x + 2| = 2$$
+
+
+Inna ciekawa interpretacja wartoœci bezwzglêdnej jest taka, ¿e okreœla ona odleg³oœæ dwóch liczb na osi liczbowej.
+
+\\\RYSUNEK1 osi liczbowej
+
+WeŸmy na przyk³ad $$|x - 4|$$ - jest to po prostu ró¿nica miêdzy tymi dwoma liczbami objêta „gwarancj¹ dodatnoœci”. Wiadomo, ¿e odleg³oœæ miêdzy dwoma miejscami nie mo¿e byæ liczb¹ ujemn¹, wiêc wartoœæ bezwzglêdna pozwala nam nie przejmowaæ siê, czy odejmujemy od wiêkszej liczby mniejsz¹, czy na odwrót – ona zawsze da nam liczbê dodatni¹.
+
+Warto tak¿e zanotowaæ, ¿e $$|x| = |x - 0|$$ - czyli jest to po prostu odleg³oœæ od $$0$$ do $$x$$ (nawet jeœli liczba jest ujemna, odleg³oœæ od zera jest na pewno dodatnia).
+
+Czas teraz na najbardziej zaawansowany aspekt tego dzia³u, czyli rozwi¹zywanie nierównoœci zawieraj¹cych wartoœæ bezwzglêdn¹.
+
+Generalnie rozwi¹zywanie nierównoœci nie ró¿ni siê zbytnio od rozwi¹zywania równañ: g³ówna ró¿nica pojawia siê w momencie opuszczania wartoœci bezwzglêdnej. O ile w przypadku równañ nie by³o mo¿liwoœci zmiany znaku, to w tutaj jak najbardziej siê to zdarza. 
+W momencie, kiedy pozbywamy siê wartoœci bezwzglêdnej i przechodzimy do rozwa¿ania dwóch przypadków, w ka¿dym z nich pojawia siê nierównoœæ w inn¹ stronê, tzn. jeœli wyjœciowo mieliœmy np $$|x| >3$$, to po zamianie mamy
+1) zamieniamy $$|x|$$ na $$x$$: $$x > 4$$
+2) zamieniamy $$|x|$$ na $$-x$$: $$-x > 4$$, czyli $$x < -4$$ (przy mno¿eniu obu stron nierównoœci przez liczbê ujemn¹ odwracamy jej znak)
+
+Przyk³ad: $$|3x - 2| > x$$
+1) $$3x - 2 > 0$$, czyli
+$$3x - 2 > x
+2x > 2
+x > 1$$
+2)1) $$3x - 2 < 0$$, czyli
+$$-(3x - 2) > x
+-3x + 2 > x
+-4x > -2
+x < 1/4$$
+
+Mo¿na tak¿e, zamiast mêczyæ siê z równaniami, po prostu postaraæ siê to "zrozumieæ", korzystaj¹c z pojêcia odleg³oœci.
+Zacznjmy od prostego przyk³adu: $$|x - 4|< 5$$. Jak mo¿emy zinterpretowaæ ten napis korzystaj¹c z nabytej wiedzy?
+
+Oznacza on tyle, ¿e odleg³oœæ miêdzy $$x$$ a $$4$$ jest $$<5$$, czyli ¿e $$x$$ jest oddalony od $$4$$ o nie wiêcej ni¿ $$5$$. £atwo stwierdziæ, ¿e w takim razie $$x<9$$ i $$x>1$$.
+
+\\\RYSUNEK3 - zaznaczenie na osi
+
+Przyk³ad 2: $$|100 - x| > 30$$. Interpretuj¹c: mamy znaleŸæ takie wszystkie $$x$$, ¿eby odleg³oœæ miêdzy ka¿dym z nich a liczb¹ $$100$$ by³a wiêksza od trzydziestu. Znowu ³atwo dostrzec, ¿e w takim razie $$x<70$$ i $$x>130$$.
+
+\\\RYSUNEK4 - zaznaczenie na osi
+

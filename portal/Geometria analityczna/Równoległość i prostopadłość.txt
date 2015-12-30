@@ -1,0 +1,19 @@
+Równoleg³oœæ i prostopad³oœæ prostych
+
+W geometrii analitycznej czêsto zachodzi potrzeba zbadania, czy dane dwie proste s¹ równoleg³e albo prostopad³e. Sposobem na sprawdzenie tego jest przyjrzenie siê ich równaniom w postaci $$y = ax+b$$.
+
+Aby dwie proste by³y równoleg³e, musz¹ byæ nachylone pod tym samym k¹em do osi $$x$$ (powstan¹ wtedy k¹ty odpowiadaj¹ce, co w³aœnie warunkuje równoleg³oœæ prostych).
+
+\\\RYSUNEK1 - równoleg³e proste
+
+Tym, co okreœla k¹t nachylenia, jest wspó³czynnik $$a$$, wiêc aby dwie proste, okreœlone równaniami $$y_1 = a_1x + b_1$$ i $$y_2 = a_2x + b_2$$ by³y równoleg³e, musi zachodziæ $$a_1 = a_2$$. Wspó³czynnik $$b$$ nie ma na to oczywiœcie ¿adnego wp³ywu, bo jedyne, co warunkuje, to odleg³oœæ miêdzy nimi.
+
+Badanie prostopad³oœci prostych jest równie ³atwe. Ponownie: wspó³czynnik $$b$$ nie ma tutaj ¿adnego znaczenia, liczy siê jedynie k¹t nachylenia do prostej X. 
+
+\\\RYSUNEK2 - proste prostopad³e
+
+Jeœli spojrzymy na rysunek z zaznaczonymi odpowiednimi k¹tami przekonamy siê, ¿e 
+$$a_1 = tan \alpha = \frac{m}{n} = \frac{1}{\frac{n}{m}} = \frac{1}{tan \alpha}$$ = ctg \alpha$$
+Ale przecie¿ $$\alpha = 180\degree - \beta$$, wiêc $$- ctg \alpha = ctg \beta = a_2$$
+Z jedynki trygonometrycznej: $$tan \alpha * (-ctg \alpha) = -1$$. Warunkiem prostopad³oœci jest wiêc $$a_1 * a_2 = -1$$.
+

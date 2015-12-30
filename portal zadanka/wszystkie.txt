@@ -1,0 +1,142 @@
+Zad 1
+Naszkicuj wykresy funkcji $$f(x) = 2^x$$ i $$g(x) = |f(x-3) - 4|$$. Podaj wartoœæ najmniejsz¹ i najwiêksz¹ w przedziale $$<3;6>$$.
+
+Rozwi¹zanie:
+//Obrazek1
+Wartoœæ najmniejsza to 0, wartoœæ najwiêksza to 4.
+
+Zad. 3
+Wyznacz liczbê rozwi¹zañ równania $$|\frac{3^{x+1} - 1}{3^x}| = m$$ w zale¿noœci od parametru m.
+
+Rozwi¹zanie:
+Szkicuj¹c wykres funkcji $$f(x)$$ mo¿emy zobaczyæ, ¿e ma ona:
+1) Zero rozwi¹zañ dla $$m < 0$$
+2) Jedno rozwi¹zanie dla $$m = 0$$
+2) Dwa rozwi¹zania dla $$0 < m <= 3$$
+3) Jedno rozwi¹zanie dla $$3 < m$$
+
+
+Zad. 4
+Oblicz wartoœæ funkcji $$f(x) = |2^{x-1} - 3|$$ dla argumentu $$x_0 = \log_2 5 + \log_2 5 * \log_5 2$$.
+
+Rozwi¹zanie:
+$$x_0 = \log_2 5 + \log_2 5 * \log_5 2 = x_0 = \log_2 5 + \log_2 5* \frac{1}{\log_2 5} = x_0 = \log_2 5 + 1$$
+$$
+f(x) = |2^{x-1} - 3|  = |2^{\log_2 5 + 1 - 1} - 3| = |2^{\log_2 5} - 3| = |5 - 3| = 2
+$$
+Funkcja przyjmuje wartoœci wiêksze dla $$x<1$$ oraz dla $$x> x_0$$.
+
+Zad 5
+Naszkicuj wykres funkcji $$f(x) = \log_3 (3x + 3)$$. Dla jakich argumentów funkcja przyjmuje wartoœci mniejsze od 2?
+
+//Obrazek5
+Dla $$x<2$$.
+
+Zad. 7
+Uzasadnij nierównoœæ $$\frac{1}{\log_3 4} + \log_8 4\sqrt{3} < 2$$
+
+Rozwi¹zanie:
+$$\frac{1}{\log_3 4} + \log_8 4\sqrt{3} = \log_4 3 + \log_8 4\sqrt{3} = 
+\log_2^2 3 + \log_2^3 4 + \log_2^3 3^{\frac{1}{2}} = 
+\frac{1}{2} \log_2 3 + \frac{2}{3} \log_2 2 + \frac{1}{6} \log_2 3 = 
+\frac{2}{3} + \frac{2}{3} \log_2 3$$
+$$
+Dzielimy obustronnie przez $$\frac{2}{3}$$.
+$$
+\frac{2}{3} + \frac{2}{3} \log_2 3 < 2
+1 + \log_2 3 < 3
+\log_2 3 < 2
+\log_2 3 < \log_2 4
+3 < 4
+$$
+
+Zad. 9
+Wyznacz dziedzinê oraz miejsca zerowe funkcji $$f(x) = \log_0,4 \frac{x+3}{6-x}$$
+
+Rozwi¹zanie:
+$$
+a = 0,4
+b = \frac{x+3}{6 -x}
+$$
+Musz¹ zachodziæ warunki
+$$
+1) a > 0 
+2) a \neq 1
+3) b > 0
+$$
+Sprawdzaj¹c po kolei:
+1) Jest spe³nione, poniewa¿ $$0,4 > 0$$
+2) Jest spe³nione, poniewa¿ $$0,4 \neq 0$$
+3) 
+$$
+\frac{x+3}{6 - x} > 0
+(x + 3)(x - 6) < 0
+$$
+Jest to funkcja kwadratowa o miejscach zerowch $$x_1 = -3$$ i $$x_2 = 6$$
+Ma byæ mniejsza od $$0$$, wiêc argumenty musz¹ nale¿eæ do zbioru $$(-3, 6)$$.
+Dziedzin¹ funkcji s¹ wiêc liczby $$x \in (-3, 6)$$.
+
+Miejsca zerowe
+$$
+\log_0,4 \frac{x_0+3}{6 -x_0} = 0
+\frac{x_0+3}{6-x_0} = 1
+x_0 + 3 = 6 - x_0
+2x_0 = 3
+x_0 = \frac{3}{2}
+$$
+
+Zad 11
+Zaznacz w uk³adzie wspó³rzêdnych zbiór tych par $$(x,y)$$, które spe³niaj¹ równanie $$\log_2|y| = 2 - \log_2 x$$
+
+Rozwi¹zanie:
+//Obrazek11
+$$\log_2|y| = 2 - \log_2 x
+\log_2|y| = \log_2 4 - \log_2 x
+\log_2|y| = \log_2 \frac{4}{x}
+y = \frac{4}{x}
+y = -\frac{4}{x}
+$$
+
+Zad. 14
+Dana jest funkcja $$f(x) = \log (\frac{1}{2} x^2 + (m+1)x - m - 1)$$. Dla jakich wartoœci parametru $$m$$ dziedzin¹ jest ca³y zbiór liczb rzeczywistych?
+
+Rozwi¹zanie:
+Aby dziedzin¹ by³ ca³y zbiór liczb rzeczywistych, funkcja kwadratowa bêd¹ca argumentem logarytmu musi byæ w ca³ej dziedzinie wiêksza od $$0$$, czyli $$\delta < 0$$.
+
+Rozpisuj¹c:
+$$
+\delta = b^2 - 4ac = (m+1)^2 + 4(\frac{1}{2}(m+1)) = (m+1)(m+3)
+(m+1)(m+3) > 0
+m \in (-\infty, -3) \cup (-1, \infty)
+$$
+
+
+Zad 18
+Na rysunku [//Obrazek18a] przedstawiono wykres funkcji wyk³adniczej $$f(x) = a^x$$.
+a) Oblicz $$a$$.
+b) Narysuj wykres funkcji $$(g)x) = |f(x) - 2| i podaj wszystkie wartoœci parametru $$m$$ dla którego równanie $$g(x) = m$$ ma dok³adnie jedno rozwi¹zanie.
+
+Rozwi¹zanie:
+a) Z rysunku widaæ, ¿e $$a^2 = 3$$, wiêc $$a = \sqrt{3}$$.
+b)
+//Obrazek18b
+Jedno rozwi¹zanie otrzymujemy dla $$m = 0$$ albo $$m > 2$$, poniewa¿ $$\lim_{\to -\infty} |\\sqrt{3}^x - 2|$$.
+
+Zad. 20
+Wyznacz dziedzinê i najmniejsz¹ wartoœæ funkcji $$f(x) = \log_{\frac{\sqrt{2}}{2}} (8x - x^2)$$.
+
+Rozwi¹zanie:
+1) Dziedzinê funkcji wyznaczamy standardowo przyrównuj¹c argument do $$0$$.
+$$
+-x^2 + 8x > 0
+x(x-8) < 0
+$$
+Pierwiastkami s¹ liczby $$x_1 = 0$$ oraz $$x_2 = 8$$, dziedzin¹ jest wiêc zbiór $$(0, 8)$$.
+Aby znaleŸæ najmniejsz¹ wartoœæ funkcji logarytmicznej musimy wiedzieæ, czy jest ona rosn¹ca, czy malej¹ca - funkcja jest rosn¹ca dla $$a > 1$$ i malej¹ca dla $$0 < a < 1$$. 
+$$
+\frac{\sqrt{2}}{2} = \frac{1}{\sqrt{2}} < 1
+$$
+Funkcja jest wiêc malej¹ca - najmniejsz¹ wartoœæ osi¹ga dla najwiêkszego argumentu. Najwiêkszym argumentem jest 16 (dla $$x = 4$$). 
+Teraz wystarczy obliczyæ $$\log_\frac{\sqrt{2}}{2} 16 = -8$$
+
+

@@ -1,0 +1,29 @@
+∆wiczenie 1:
+Narysuj wykres funkcji 
+
+\\\WZ”R2
+
+I okreúl jej pierwiastki.
+
+\\\ODPOWIEDè:
+Zadanie rozwiπzujemy obliczajπc pierwiastki wszystkich funkcji sk≥adajπcych siÍ na naszπ funckcjÍ $f(x)$, a pÛüniej sprawdzajπc, czy mieszczπ siÍ one w odpowiednim przedziale.
+Pierwiastkiem pierwszej funkcji (kwadratowej) jest liczba $\frac{1}{3}$ - to pierwiastek podwÛjny (poniewaø $x^2 - x + \frac{1}{4} = (x - \frac{1}{2})^2$). Nie mieúci siÍ ona jednak w przedziale, na ktÛrym funkcja $f(x)$ jest okreúlona tym wzorem.
+
+Pierwiastek drugiej funkcji to oczywiúcie $x = 3$ - w tym przypadku naleøy on do przedzia≥u, gdzie okreúlamy tak naszπ funkcjÍ.
+Pierwiastek trzeciego wzoru to $x = 10$ - on takøe naleøy do przedzia≥u, na jakim okreúlamy naszπ funkcjÍ w ten sposÛb.
+
+Pierwiastki znajdujπ siÍ zatem w punktach $$3, 10$$.
+
+∆wiczenie 2:
+Majπc funkcjÍ
+
+\\\WZ”R3
+
+Podaj przedzia≥y monotonicznoúci (gdzie roúnie, gdzie maleje, a gdzie jest sta≥a).
+\\\ODPOWIEDè : 
+funkcja maleje we wszystkich przedzia≥ach, w ktÛrych jest okreúlona, tzn. na przedziale $$(0, 1), (1,2) , (2, 3)$$, ale nie w ca≥ej dziedzinie, poniewaø:
+1) kaøda z jej funkcji sk≥adowych jest malejπca, wiÍc na tych przedzia≥ach $f(x)$ rzeczywiúcie maleje
+2) Przy przechodzeniu przez granicÍ przedzia≥u zwiÍkszamy wartoúÊ - kaødy ze sk≥adnikÛw zwiÍksza siÍ (sta≥a, licznik u≥amka zwiÍksza siÍ, mianownik maleje, wiÍc ca≥y u≥amek roúnie).
+
+
+

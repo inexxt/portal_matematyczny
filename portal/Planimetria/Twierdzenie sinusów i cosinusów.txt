@@ -1,0 +1,23 @@
+Twierdznie sinusów i cosinusów
+
+Poznaliœmy ju¿ czêœæ zwi¹zków trygonometrycznych, ale by³y one u¿ywane jedynie "na sucho" - bez odniesienia do konkretnych sytuacji geometrycznych. 
+Teraz czas na dwa twierdznia, które pozwol¹ nam na skorzystanie z trygonometrii w obliczaniu pewnych d³ugoœci i k¹tów w trój¹cie.
+
+Twierdzenie cosinusów
+
+W gimnazjum by³o wrowadzone twierdzenie Pitagorasa, które umo¿liwia³o obliczenie trzeciego boku w trójk¹cie prostok¹tnym, jeœli znaliœmy dwa pozosta³e. Twierdzenie cosinusów jest jego rozwiniêciem - nie ogarnicza siê tylko do trójk¹tów prostok¹tnych.
+Twierdzenie Pitagorasa wygl¹da³o w ten sposób:
+$$a^2 + b^2 = c^2$$
+Wzór twierdzenia cosinusów wygl¹da natomiast tak:
+$$a^2 + b^2 - 2abcos(\angle(a,b)) = c^2$$
+
+Jak widaæ twierdzenie Pitagorasa wynika wprost z twierdzenia cosinusów - wystarczy za k¹t podstawiæ $$\frac{\pi}{2}$$, ¿eby ostatni sk³adnik siê zredukowa³.
+
+Twierdznie sinusów
+
+Twierdzenie sinusów przydaje siê natomiast w sytuacjach, gdy mamy do czynienia z okrêgiem opisanym na trójk¹cie. Mówi ono, ¿e:
+$$\frac{a}{sin \alpha} = \frac{b}{sin \beta} = \frac{c}{sin \gamma} = 2R$$
+
+\\\RYSUNEK1 - tw. sin
+
+Inaczej mówi¹c, d³ugoœæ boku trójk¹ta jest odwrotnie proporcjonalna do sinusa k¹ta le¿¹cego naprzeciw niego (im wiêkszy k¹t, tym mniejszy sinus, czyli tym wiêkszy bok). Oprócz tego dostajemy informacjê, ¿e œrednica okrêgu opisanego na trójk¹cie mo¿e byæ obliczona przez podzielenie d³ugoœci boku przez odpowiadaj¹cy mu sinus k¹ta.

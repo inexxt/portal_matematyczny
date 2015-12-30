@@ -1,0 +1,30 @@
+\\\KOMENTARZ: ten rozdzia³ ma obrazki zamiast wzorów funkcji, bo ten 'latex' na stronie nie ma mo¿liwoœci dodawania ich normalnie
+
+Wykresy dziwnych funkcji
+
+Doœæ enigmatyczny tytu³ mia³ sugerowaæ, ¿e w tym rozdziale nie bêdziemy zajmowali siê dobrze poznanymi wczeœniej, typowymi funkcjami. Zamiast tego skupimy siê na funkcjach okreœlonych na ró¿nych przedzia³ach ca³kiem ró¿nymi wzorami.
+Funkcjê okreœlon¹ na ró¿nych przedzia³ach ró¿nymi wzorami zapisujemy na przyk³ad tak:
+
+\\\WZÓR1 f(x)
+
+Oznacza to, ¿e dla $$x$$ z przedzia³u $$(-\infty, 2)$$ przybiera ona wartoœæ $$x^2 -3x + 2$$, dla $$x$$ wiêkszych od dwóch i mniejszych od trzech staje siê funkcj¹ liniow¹, a dla $$x$$ wiêkszych od $$4$$ jest to $$\frac{1}{x}$$. 
+Jak widaæ jej dziedzin¹ nie jest ca³y zbiór liczb rzeczwistych: dla $$x$$ z przedzia³u $$\langle 3, 4 \rangle$$ funkcja nie przyjmuje ¿adnej wartoœci.
+
+\\\RYSUNEK1 - wykres
+
+Maj¹c wykres mo¿emy odczytaæ z niego wiele informacji: na przyk³ad przedzia³y monotonicznoœci. 
+Aby to zrobiæ, musimy jednak rozwi¹zaæ równanie funkcji kwadratowej, aby dowiedzieæ siê, w którym miejscu ma ona wierzcho³ek (w wierzcho³ku funkcja kwadratowa przestaje maleæ i zaczyna rosn¹æ):
+$$x^2 - 3x + 2 = 0$$
+$$\Delta = 1$$
+$$x_1 = -1$$
+$$x_2 = 2$$
+Wierzcho³ek le¿y w po³owie drogi miêdzy jej pierwiastkami:
+$$x_wierz = \frac{-1+2}{2} = \frac{1}{2}$$
+
+Mo¿emy teraz powiedzieæ, ¿e:
+1) Funkcja maleje na przedziale $$(-\infty, 2)$$
+2) Jest sta³a na przedziale $$(2, 3)$$
+3) Maleje na przedziale $$(4, \infty)$$.
+
+Jesteœmy tak¿e w stanie stwierdziæ, gdzie przecina ona oœ $$x$$ - jedyne miejsca to w³asnie pierwiastki funkcji kwadratowej, poniewa¿ wyra¿enie $$\frac{1}{x}$$ dla dodatnich $$x$$ jest zawsze wiêksze od $$0$$.
+

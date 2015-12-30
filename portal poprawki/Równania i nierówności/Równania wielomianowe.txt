@@ -1,0 +1,28 @@
+\\\ÆWICZENIE
+
+Rozwi¹¿ równanie:
+$2x^5 - 3x^4 + 2x^2 - 3x = 0$
+
+\\\ROZWI¥ZANIE
+Pierwsza obserwacja, jakiej dokonujemy, to to, ¿e $x = 0$ jest rozwi¹zaniem tego równania. Mo¿emy wiêc za³o¿yæ, ¿e szukamy innych i podzieliæ obustronnie przez $x$.
+$2x^4 - 3x^3 + 2x - 3 = 0$
+Teraz bêdziemy rozwi¹zywali to równanie metod¹ wy³¹czania przed nawias. Zauwa¿my, ¿e dziel¹c nasz wielomian na dwa sk³adniki mo¿emy ³atwo wy³¹czyæ pewien wspólny czynnik:
+$x^3(2x - 3) + (2x - 3) = 0$
+$(2x - 3)(x^3 + 1) = 0$
+Maj¹c ju¿ tak¹ postaæ mo¿emy odnaleŸæ kolejne rozwi¹zanie, gdy zeruje siê pierwszy czynnik:
+$2x - 3 = 0$
+$2x = 3$
+$x = \frac{3}{2}$
+Zak³adaj¹c teraz, ¿e $x \neq \frac{3}{2}$ podzielmy obustronnie przez $(2x - 3)$.
+
+Przechodzimy teraz wreszcie do ostatniej czêœci rozwi¹zania: 
+$x^3 + 1 = 0$ 
+$x ^3 = -1$
+Mo¿emy spierwiastkowaæ obie strony (pierwiastkiem trzeciego stopnia)
+$x = -1$
+otrzymuj¹c w ten sposób trzecie rozwi¹zanie.
+
+Doszliœmy wiêc do tego, ¿e rozwi¹zaniami wyjœciowego równania $2x^5 - 3x^4 + 2x^2 - 3x = 0$ s¹ liczby $0, \frac{3}{2}, -1$.
+
+
+

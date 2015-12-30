@@ -1,0 +1,7 @@
+\textbf{Zastosowanie praktyczne funkcji logarytmicznej}
+
+Funkcja logarytmiczna wydaje siê na pierwszy rzut oka doœæ abstrakcyjn¹ i nieintuicyjn¹. Powstaje pytanie: czy ma ona w ogóle jakieœ rzeczywiste zastosowanie?
+OdpowiedŸ brzmi: oczywiœcie ¿e tak :). Przyk³adowe zastosowania:
+1) Skala natê¿enia dŸwiêku korzysta z Belli, czyli jednostki logarytmicznej. Dok³adny wzór to $$\log_{10} I/I_0$$, gdzie I to moc, któr¹ mierzymy, a I_0 to moc bazowa, czyli granica s³yszalnoœci ludzkiego ucha. Tak naprawdê jeœli chcemy wyraziæ absolutn¹ ciszê, to jest ona równa minus nieskoñczonoœci Belli.
+2) W chemii stosuje siê logarytmy przy okazji liczenia pH, czyli stê¿enia jonów wodorowych w roztworze. Warto przypomnieæ, ¿e $$pH + pOH = 14$$, ale $$[H^{+}] + [OH^{-}] = 10^{-14}$$, poniewa¿ $$pH = \log_{10} [H^{+}]$$.
+3) Kiedyœ u¿ywano logarytmów do mno¿enia du¿ych liczb. Wszystko opiera³o siê o fakt, ¿e logarytm z iloczynu to suma logarytmów, czyli zamieniamy iloczyn na sporo prostsze do przeprowadzenia dodawanie. Jeœli uczony chcia³ pomno¿yæ dwie liczby, po prostu znajdowa³ w tablicach ich logarytmy, dodawa³ je, a póŸniej znowu dziêki tablicom zamienia³ wynik z logarytmu na wartoœæ. Dlaczego po prostu nie zapisano wyniku mno¿enia w tablicach? Có¿, tabliczka mno¿enia liczb do miliona zajmuje $$10^12$$ komórek, a tablice logarytmiczne: jedynie $$10^5$$. Mówi¹c obrazowo: jeœli tablica logarytmów zajmowa³a ksi¹¿kê, to tablica mno¿enia zajmowa³aby przestrzeñ piêciu bibliotek aleksandryjskich.

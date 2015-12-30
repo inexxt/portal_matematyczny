@@ -1,0 +1,88 @@
+Wartoœæ bezwzglêdna - równania i nierównoœci
+
+Ostatni temat w dziale równañ i nierównoœci poœwiêcony jest wartoœci bezwzglêdnej - funkcji, któr¹ poznaliœmy na samym pocz¹tku, omawiaj¹c liczby rzeczywiste.
+
+Aby zabraæ siê do rozwi¹zywania takiego równania musimy przypomnieæ sobie, czym w³aœciwie by³a wartoœæ bezwzglêdna. Dla przypomnienia: dostaj¹c liczbê dodatni¹ nic z ni¹ nie robi³a, dostaj¹c ujemn¹ - zamienia³a j¹ na dodatni¹ (czyli tak naprawdê "dostawia³a" minusa przed ni¹):
+$$|3| = 4$$ 
+$$|-4| = -(-4) = 4$$
+
+Równania z wartoœci¹ bezwzglêdn¹ mog¹ przybieraæ dwie postacie:
+a) wartoœci bezwzglêdne wystêpuj¹ obok siebie, np:
+$$|x+3| + |x-2| = 6$$
+b) wartoœæ bezwzglêdna jest "zagnie¿d¿ona" wewn¹trz wartoœci bezwzglêdnej, np:
+$$||x+1| - 2| = 3$$
+
+
+Oczywiœcie te dwa typy mog¹ siê ³¹czyæ w ró¿nych konfiguracjach, warto jednak na pocz¹tku omówiæ je na tych w³aœnie niezbyt zaawansowanych przyk³adach.
+
+Zacznijmy od typu a), czyli równania $$|x+3| + |x-2| = 6$$.
+Chc¹c opuœciæ wartoœæ bezwzglêdn¹ musimy wiedzieæ, jakiego znaku jest wyra¿enie pod ni¹. Jako ¿e musimy opuœciæ obie wartoœci bezwzglêdne naraz, musimy rozwi¹zywanie takiego równania rozbiæ na kilka przypadków.
+Najpierw nale¿y siê zastanowiæ, dla jakich $$x$$-ów pierwsza i druga wartoœæ bezwzglêdna bêd¹ dodatnie.
+Pierwsza bêdzie dodatnia dla $$x>-3$$, druga - dla $$x > 2$$. Obie bêd¹ wiêc dodatnie tylko wtedy, gdy $$x > 2$$.
+Teraz zastanówmy siê nad pozosta³ymi przypadkami. Jeœli $$2>=x>-3$$ - pierwsza bêdzie dodatnia, a druga ujemna. Je¿eli natomiast $$-3>=x$$ - obie bêd¹ ujemne.
+Opuœæmy zatem wartoœci bezwzglêdne dla przypadku 1 - obu dodatnich (jeœli liczba jest dodatnia, wartoœæ bezwzglêdna nie zmienia jej znaku).
+$$x+3 + x - 2 = 6$$
+$$2x = 5$$
+$$x = \frac{5}{2}$$
+Uzyskaliœmy wynik, ale koniecznie trzeba sprawdziæ, czy mieœci siê w naszym pierwszym przedziale. Nie wolno o tym zapominaæ - to bardzo czêsty b³¹d w tego typu zadanich.
+$$\frac{5}{2}$$ > 2$$
+Okazuje siê, ¿e wynik mieœci siê w przedziale - uzyskaliœmy jedno rozwi¹zanie.
+
+Czas na rozwa¿enie kolejnych dwóch przypadków. Jeœli $$2>=x>-3$$, nale¿y zmieniæ znak tylko drugiej wartoœci bezwzglêdnej, poniewa¿ kry³a siê pod ni¹ liczba ujemna:
+$$x+3 - x + 2 = 6$$
+$$5 = 6$$
+Jest to oczywista sprzecznoœæ.
+
+Trzeci przypadek $$-3>=x$$ oznacza zmianê znaku obu wyra¿eñ pod wartoœci¹ bezwzglêdn¹:
+$$-x-3-x+2 = 6$$
+$$-2x = 7$$
+$$x = -\frac{7}{2}$$
+Pozostaje jedynie sprawdziæ:
+$$-\frac{7}{2} <= -3$$
+Jest to prawda - uzyskaliœmy drugie rozwi¹zanie.
+
+Metoda ta dzia³a tak¿e w przypadku wiêkszej iloœci wartoœci bezwzglêdnych - rozpatrujemy wtedy po prostu wiêksz¹ liczbê przedzia³ów.
+
+Mo¿emy przejœæ zatem do drugiej czêœci: wartoœci bezwzglêdnej zagnie¿d¿onej wewn¹trz innej:
+$$||x+1| - 3| = 3$$
+
+Metoda rozwi¹zywania takiego typu równañ opiera siê opuszczaniu wartoœci bezwzglêdnej od tej bêd¹cej w samym œrodku do tej na wierzchu. W tym przypadku oznacza to, ¿e najpierw opuœcimy $$|x+1|$$.
+Rozbijamy to na dwa przypadki: 
+1) $$x > -1$$ i wartoœæ bezwzglêdna nie zmienia znaku
+$$|x+1 - 2| =3$$
+$$|x-2| =3$$
+Znowu musimy rozbiæ to na dwa przypadki, pamiêtaj¹c jednak, ¿e w tym momencie rozpatrujemy jedynie $$x$$-y wiêksze od $$-1$$.
+1.1) $$x>2$$ - wartoœæ bezwzglêdna nie zmienia znaku
+$$x-2 = 3$$
+$$x = 5$$
+Uzyskaliœmy rozwi¹zanie i mieœci siê ono w naszych przedzia³ach $$>-1$$ i $$>2$$.
+1.2) $$x<=2$$ - wartoœæ bezwzglêdna zmienia znak
+$$-x-2 = 3$$
+$$x = -1$$
+Uzyskaliœmy rozwi¹zanie, ale nie mieœci siê ono w naszych przedzia³ach - nie jest $$>-1$$. Odrzucamy je.
+
+2)$$x <= -1$$ i wartoœæ bezwzglêdna zmienia znak
+$$|-x-1-3| = 3$$
+$$|-x-4| = 3$$
+Ponownie rozbijamy na dwa przypadki:
+2.1) $$x<-4$$ - wartoœæ bezwzglêdna nie zmienia znaku
+$$-x-4 =3$$
+$$x = -7$$
+Rozwi¹zanie spe³nia oba kryteria.
+2.2) $$x>-4$$ - wartoœæ bezwzglêdna zmienia znak
+$$x + 4 = 3$$
+$$x = -1$$
+To rozwi¹zanie tak¿e spe³nia oba kryteria.
+
+To, co zrobiliœmy w rozwi¹zaniu, mo¿na czytelnie pokazaæ na schemacie:
+
+\\\RYSUNEK - schemat rozwi¹zaywania
+
+Warto jeszcze wspomnieæ, ¿e nie ma znaczenia to, w którym przypadku umieœcimy przypadek, gdy wartoœæ bezwzglêdna jest równa zero - zale¿y to jedynie od naszego wyboru. Dobrze jest jednak mieæ sta³y nawyk korzystania ze znaku "wiêkszy-równy" albo "mniejszy-równy" - bêdziemy wtedy mieli gwarancjê, ¿e nie zapomnimy uwzglêdniæ tego w rozwi¹zaniu.
+
+Rozwi¹zywanie bardziej z³o¿onych równañ z wartoœci¹ bezwzglêdn¹ to po prostu stosowanie tych dwóch metod - trzeba jedynie pamiêtaæ, aby 
+1) opusczaæ wszystkie wartoœci bezwzglêdne stoj¹ce "na tym samym poziomie" jednoczeœnie
+2) przed opuszczeniem wartoœci zewnêtrznej zaj¹æ siê wartoœci¹ wewn¹trz
+
+
+ 
